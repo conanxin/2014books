@@ -4,7 +4,7 @@ cp -rf ../template/* .
 cp -rf ../contents/img .
 #ls -al img
 pandoc -t latex ../contents/0-preface*.markdown -o preface.tex
-pandoc -t latex ../contents/1-chapter*.markdown -o chapters.tex
+pandoc -t latex $(ls ../contents/1-chapter*.markdown | sort -V) -o chapters.tex
 pandoc -t latex ../contents/2-appendix*.markdown -o appendix.tex
 if [ "X$OS" == "XWindows_NT" ]; then
 	echo "windows platform"
