@@ -22,7 +22,7 @@ phase/2014books-modernization-d
 
 ## IMPLEMENTATION_COMMIT
 
-(To be filled after implementation commit)
+4c94ec6a47bd7e1caaeab2e40da4d01861e9296f Phase D: add Pages deploy workflow and metadata framework
 
 ## FILES_CHANGED
 
