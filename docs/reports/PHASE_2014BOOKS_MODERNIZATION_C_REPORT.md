@@ -22,7 +22,7 @@ a54c08b Phase B docs hotfix: finalize report metadata
 
 ## FINAL_COMMIT
 
-(To be determined after commit)
+f6d6fcef7ed1f2968c2b7733e0ac56f288bb24d3 Phase C: add EPUB output and audit book count gap
 
 ## FILES_CHANGED
 
@@ -184,7 +184,7 @@ PASS (workflow file added, not yet triggered)
 
 ## PUSHED
 
-No (awaiting explicit confirmation)
+Yes — pushed to origin/phase/2014books-modernization-c
 
 ## RECOMMENDED_NEXT_PHASE
 
