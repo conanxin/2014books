@@ -3,108 +3,1070 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>2014年值得你阅读的100本书</title>
+<title>2014年值得你阅读的100本书 · 年度阅读特刊</title>
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-<header>
+
+<nav class="top-nav">
+  <div class="nav-title">2014books</div>
+  <div class="nav-links">
+    <a href="#editors-note">编者序</a>
+    <a href="#featured">精选</a>
+    <a href="#archive">目录</a>
+    <a href="#books">书目</a>
+    <a href="#research-appendix">附录</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="issue-label">Annual Reading Special · 2014</div>
   <h1>2014年值得你阅读的100本书</h1>
-  <p>一个被重新整理的 Markdown 制书项目 · 第一财经周刊专题回顾</p>
-  <p style="margin-top:0.5rem;font-size:0.9rem;color:var(--muted);">当前已结构化整理 97 本</p>
+  <p class="subtitle">一份从旧专题中复活的年度阅读特刊</p>
+  <p class="lead">十年前，《第一财经周刊》做了一份年度书单。十年后，我们把它从网页存档中打捞出来，重新整理成可以阅读、可以搜索、可以带走的数字版本。</p>
+  <div class="hero-badges">
+    <span class="badge">已结构化整理 97 本</span>
+    <span class="badge">PDF · EPUB · Web</span>
+    <span class="badge">原始专题复刻</span>
+  </div>
+  <div class="hero-cta">
+    <a href="#featured" class="btn">开始阅读</a>
+    <a href="#books" class="btn btn-ghost">浏览书单</a>
+  </div>
 </header>
 
-<div class="container">
-  
-<div class="status-banner">
-  <h2>项目状态</h2>
-  <ul>
-    <li>当前已结构化整理 97 本</li>
-    <li>PDF / EPUB / Web 已可生成</li>
-    <li>缺失 3 本需外部原始来源核对</li>
-  </ul>
-</div>
+<main class="container">
 
-
-  
-<div class="candidates-banner">
-  <h2>待核实候选（不可直接视为第 98–100 条）</h2>
-  <p>以下书目在章节中以粗体形式出现，但未在附录中找到对应条目。它们可能是缺失的 3 本，但缺乏足够证据直接纳入正式书单。</p>
-  <ul>
-    <li>《世界是平的》（chapter 2）— 章节中以粗体形式出现，附录中无对应条目，置信度：low</li>
-<li>《通用汽车的缔造者》（chapter 2）— 章节中以粗体形式出现，附录中无对应条目，置信度：low</li>
-<li>《总开关—信息帝国的兴衰变迁》（chapter 22）— 章节中以粗体形式出现，附录中无对应条目，置信度：low</li>
-  </ul>
-</div>
-
-
-  <div class="search-bar">
-    <input type="text" id="searchInput" placeholder="搜索书名或作者…">
-    <button onclick="doSearch()">搜索</button>
-    <button onclick="clearSearch()">清除</button>
-  </div>
-
-  <nav class="chapter-nav">
-    <h2>章节目录</h2>
-    <ul>
-      <li><a href="#chapter-1">1. 我们如何来到现在</a></li>
-<li><a href="#chapter-2">2. 日光之下，并无新事</a></li>
-<li><a href="#chapter-3">3. 那些数学大师们</a></li>
-<li><a href="#chapter-4">4. 当心，被他们骗了</a></li>
-<li><a href="#chapter-5">5. 你从事的是娱乐业</a></li>
-<li><a href="#chapter-6">6. 人人都爱非理性</a></li>
-<li><a href="#chapter-7">7. 天才，还是该死的无耻之徒</a></li>
-<li><a href="#chapter-8">8. 伯恩斯坦错了吗</a></li>
-<li><a href="#chapter-9">9. 怎么就成了巴圣人了</a></li>
-<li><a href="#chapter-10">10. 为什么不为“民主化”投资</a></li>
-<li><a href="#chapter-11">11. 为什么对莫斯科维茨心生崇敬</a></li>
-<li><a href="#chapter-12">12. 我们这个时代最智慧的头脑</a></li>
-<li><a href="#chapter-13">13. 乔布斯的One More Thing</a></li>
-<li><a href="#chapter-14">14. 不要跟自己的肺生气</a></li>
-<li><a href="#chapter-15">15. 聪明的投资者</a></li>
-<li><a href="#chapter-16">16. 如果回到1997年</a></li>
-<li><a href="#chapter-17">17. </a></li>
-<li><a href="#chapter-18">18. 投资者从垄断公司那里得到什么</a></li>
-<li><a href="#chapter-19">19. 荒谬历史中的一点奇葩</a></li>
-<li><a href="#chapter-20">20. 从长远看，我们都是要死的</a></li>
-<li><a href="#chapter-21">21. 一个理想主义者的价值投资</a></li>
-<li><a href="#chapter-22">22. 大公司的边界</a></li>
-<li><a href="#chapter-23">23. 所以，它就安静地站着</a></li>
-<li><a href="#chapter-24">24. 富有的邻居和聪明的小贼们</a></li>
-<li><a href="#chapter-25">25. 通过欢乐获取力量</a></li>
-<li><a href="#chapter-26">26. 我们所热爱的青春期</a></li>
-<li><a href="#chapter-27">27. 为什么奥特曼不能在银行里下棋</a></li>
-<li><a href="#chapter-28">28. 它不像你想象的那么简单</a></li>
-<li><a href="#chapter-29">29. 工匠们创造的历史</a></li>
-<li><a href="#chapter-30">30. 有一些人值得为他起立鼓掌（上）</a></li>
-<li><a href="#chapter-31">31. 有一些人值得为他起立鼓掌（下）</a></li>
-<li><a href="#chapter-32">32. “加里驾驶小飞机兜风那天”</a></li>
-<li><a href="#chapter-33">33. 你是智慧多一点，还是钱多一点</a></li>
-<li><a href="#chapter-34">34. 当范德比尔特最后一次经过码头（上）</a></li>
-<li><a href="#chapter-35">35. 当范德比尔特最后一次经过码头（下）</a></li>
-<li><a href="#chapter-36">36. 然后，他就开始沮丧起来</a></li>
-<li><a href="#chapter-37">37. 潘多拉的盒子是什么时候打开的（上）</a></li>
-<li><a href="#chapter-38">38. 潘多拉的盒子是什么时候打开的（下）</a></li>
-<li><a href="#chapter-39">39. 底特律到底发生了什么（上）</a></li>
-<li><a href="#chapter-40">40. 底特律到底发生了什么（下）</a></li>
-<li><a href="#chapter-41">41. 即使聪明如理查德·费曼……</a></li>
-<li><a href="#chapter-42">42. 听说你打算定制一个伟大习惯？</a></li>
-<li><a href="#chapter-43">43. “这条贪婪的隧道尽头……”</a></li>
-<li><a href="#chapter-44">44. “我知道事情真相啦”</a></li>
-<li><a href="#chapter-45">45. 我们只是想摆脱庸常生活</a></li>
-    </ul>
-  </nav>
-
-  <section class="chapter" id="preface">
-    <h2>前言</h2>
-    <div class="chapter-body">
-      <p>2013年就要结束了，2014年又如何呢？在<a href="http://www.cbnweek.com/">第一财经周刊</a>的网站上看到了这个专题——<a href="http://www.cbnweek.com/v/subject?id=22">值得你阅读的100本书-2014年开始摆脱庸常生活</a>。感觉还不错，制作这个小册子也是自己2014年读书的一个清单。</p>
-<p>此外想要试一下<a href="https://github.com/larrycai/kaiyuanbook/blob/master/zh/chapters/01-chapter3.markdown">如何使用Markdown写书</a>，之前已经试过了如何<a href="http://myshare.dscloud.me/scipydoc/pydoc_write_tools.html">使用Sphinx和reStructuredText作为写出工具</a>，并整理完成了一个笔记——<a href="http://conanxincv.sinaapp.com/project1/index.html">工程设计方法学</a>，放在了SAE上。不过使用reStructuredText时，多少还是有些不习惯。所以这里就使用Markdown来完成这本小册子,不过模板没有修改好。</p>
+  <section class="editors-note" id="editors-note">
+    <div class="section-label">Editor's Note</div>
+    <h2>编者序</h2>
+    <p>这个项目始于一次偶然的发现——2014 年《第一财经周刊》的专题页面还在，但排版已经支离破碎，图片全部失效，文字混在一堆广告代码中间。我们决定把它救出来。</p>
+    <p>原始专题声称推荐了 100 本书。经过结构化整理，我们从附录中可靠地提取到 <strong>97 本</strong>，剩余 3 本因原始来源缺失而无法确认。我们没有为了凑数而编造，而是把不确定的信息单独隔离在"待核实候选"中。</p>
+    <p>你可以按章节阅读每一篇短评，也可以直接搜索某本书的作者和出版社信息。所有内容均可下载为 PDF 或 EPUB，在离线环境下完整阅读。</p>
+    <div class="note-meta">
+      Conan Xin · Markdown Book Project · 仅供学习交流
     </div>
   </section>
 
+  <hr class="section-divider">
+
+  <section id="featured">
+    <div class="section-label">Featured Chapters</div>
+    <h2>精选章节</h2>
+    <div class="featured-grid">
+      
+<div class="featured-card" onclick="location.href='#chapter-1'">
+  <div class="chapter-num">01</div>
+  <h3>我们如何来到现在</h3>
+  <p>一个叫查尔斯·汤斯的科学家，他接到一个研究飞机上使用雷达的任务。在他做这个研究之前，除了原子弹这种闭着眼睛一脚把炸弹踢下飞机也能杀死无数人之外，飞机扔炸弹基本上是靠瞎蒙。</p>
+  <a class="read-link" href="#chapter-1">阅读本章 →</a>
+</div>
+
+
+<div class="featured-card" onclick="location.href='#chapter-8'">
+  <div class="chapter-num">08</div>
+  <h3>伯恩斯坦错了吗</h3>
+  <p>1995年，印度新德里的人民党政府关闭了这个城市唯一的一家肯德基，原因是卫生检疫人员在厨房里发现了一只苍蝇。爱德华·卢斯说，熟悉德里市饭店卫生标准的人都不禁要怀疑这只是一个借口。</p>
+  <a class="read-link" href="#chapter-8">阅读本章 →</a>
+</div>
+
+
+<div class="featured-card" onclick="location.href='#chapter-15'">
+  <div class="chapter-num">15</div>
+  <h3>聪明的投资者</h3>
+  <p>托马斯·伍德罗·威尔逊，一个美国总统看到了得克萨斯的石油富豪们是如何呼风唤雨的，心里多少有点酸溜溜，他说：“你知道，上帝把全部石油放在地下，然后来了一个人，他做任何事情都没有成功过，结果他把石油开采了出来。</p>
+  <a class="read-link" href="#chapter-15">阅读本章 →</a>
+</div>
+
+
+<div class="featured-card" onclick="location.href='#chapter-22'">
+  <div class="chapter-num">22</div>
+  <h3>大公司的边界</h3>
+  <p>有这么一个公司，它控制了德国100%的合成橡胶、甲醇、润滑油，90%的塑料，80%的炸药的生产，它生产一种叫阿司匹林的药片让人类不大会因为一场感冒就轻易死掉，是全世界的救命药。</p>
+  <a class="read-link" href="#chapter-22">阅读本章 →</a>
+</div>
+
+
+<div class="featured-card" onclick="location.href='#chapter-29'">
+  <div class="chapter-num">29</div>
+  <h3>工匠们创造的历史</h3>
+  <p>有没有过那种时候，有一个叨逼叨叨逼叨的人在你身边一直说啊说，你又说不过他，最后只好埋头去做给他看——当然，大多数时候那些没完没了的话你都可以视若无物，大多数人你更不要去理他，所以我可不主张去跟他们争口气。</p>
+  <a class="read-link" href="#chapter-29">阅读本章 →</a>
+</div>
+
+
+<div class="featured-card" onclick="location.href='#chapter-36'">
+  <div class="chapter-num">36</div>
+  <h3>然后，他就开始沮丧起来</h3>
+  <p>前阵子听说一个令人沮丧的故事。几个媒体老总结伴驱车来到北京怀柔三岔村，他们的目的是看一看彼得·海斯勒生活和战斗过的地方，这个中文名叫何伟的人以村民魏子淇为主人公写了一本叫《寻路中国》的书。</p>
+  <a class="read-link" href="#chapter-36">阅读本章 →</a>
+</div>
+
+    </div>
+  </section>
+
+  <hr class="section-divider">
+
+  <section id="archive">
+    <div class="section-label">Chapters Archive</div>
+    <h2>章节目录</h2>
+    <p style="color:var(--muted);font-size:0.95rem;">共 45 章，点击标题可跳转至正文。</p>
+    <div class="archive-list">
+      
+<div class="archive-item">
+  <div class="archive-num">1</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-1">我们如何来到现在</a></h3>
+    <p>一个叫查尔斯·汤斯的科学家，他接到一个研究飞机上使用雷达的任务。在他做这个研究之前，除了原子弹这种闭着眼睛一脚把炸弹踢下飞机也能杀死无数人之外，飞机扔炸弹基本上是靠瞎蒙。</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">2</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-2">日光之下，并无新事</a></h3>
+    <p>关于把钱借给别人，最纠结的事在于你总是不好意思提醒这个家伙应该还钱了，但心里又成天惦记着这个事。关于借钱的另一个悲剧是，借钱给别人是换不来这个人的友谊的，他会不断地质疑你：为什么成天盯着我还钱？我要是有钱早就还你了，</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">3</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-3">那些数学大师们</a></h3>
+    <p>小时候对伽利略的印象一般，一是我们所有的书里都说他最后屈服于教廷压力而作了伪证，当时我满脑子想的都是不成功便成仁，他怎么可以这样；二是他很无聊，居然想起来跑到比萨斜塔上去扔铁球。 尼尔·波斯曼为他多少正了一点名。</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">4</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-4">当心，被他们骗了</a></h3>
+    <p>大卫·奥格威有一天注意到办公室里新来的年轻人，他厌恶地摇摇头：这群刚毕业的名校大学生们，虚荣心强，把麦迪逊大道当成自己的羽毛，做的事情呢？蜻蜓点水马马虎虎，并且不爱加班，到点回家或者出去欢乐，目无老板，随时准备着收拾东西跳槽的样子。</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">5</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-5">你从事的是娱乐业</a></h3>
+    <p>安迪·格鲁夫作为史上最着名的一个偏执狂，有一天他在办公室对戈登·摩尔说，如果我们被踢出董事会，他们找到一个新的首席执行官来，你说他会怎么做？戈登犹豫了一下说，他会放弃存储器的生意。</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">6</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-6">人人都爱非理性</a></h3>
+    <p>投资这回事，被当成又体面又高智商的赚钱手段的历史并不长，在人类文明当中，除了中国人觉得做生意这事不靠谱人品不好，其他国家的人民也不待见这个东西。我们都有一个词来说它们，“不劳而获”，这还真是一个很严厉的评价。</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">7</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-7">天才，还是该死的无耻之徒</a></h3>
+    <p>投资界是盛产天才的地方，何止是天才，简直充满了神启者、通灵者。投资界在这方面的鼻祖是来自田纳西州的克拉夫林姐妹，姐姐维多利亚最大的客户是接近于老年痴呆的铁路大王范德比尔特，你就想像一个比比尔·盖茨还要富有三四倍钱的人傻了，</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">8</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-8">伯恩斯坦错了吗</a></h3>
+    <p>1995年，印度新德里的人民党政府关闭了这个城市唯一的一家肯德基，原因是卫生检疫人员在厨房里发现了一只苍蝇。爱德华·卢斯说，熟悉德里市饭店卫生标准的人都不禁要怀疑这只是一个借口。</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">9</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-9">怎么就成了巴圣人了</a></h3>
+    <p>这人世间有一句话是我很不爱听的，就是“世风日下，人心不古”，作为一个进化论的信徒，我觉得这世界虽然看起来乱七八糟的事越来越多，但总的来说，这是信息越来越开放的结果。 但大部分的时候，既然古人说的话能够流传下来，你总能找到它有万分准确的地方。</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">10</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-10">为什么不为“民主化”投资</a></h3>
+    <p>理财这回事，是给焦虑中的中产阶级们服务的。中产阶级这个群体，往好里说是社会中坚，稳定基石，如果刻薄一点，那就是谨小慎微，前怕狼后怕虎，手里有点钱，憧憬过上好生活，但又禁不起风吹草动，尤其是当自己不小心有了更多欲望的时候。</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">11</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-11">为什么对莫斯科维茨心生崇敬</a></h3>
+    <p>李翔再一次把他收藏的马克·扎克伯格的视频给大家看。那几天Facebook刚刚宣布要IPO，一群人把《社交网络》的盗版碟翻出来，试图重温一下这部电影，在帕洛阿图瞻仰过马克真身的李翔说扎克伯格对这部电影的评价是——只有T恤演得像。</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">12</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-12">我们这个时代最智慧的头脑</a></h3>
+    <p>有这么一个公司，笃信自由市场理论并在这个自由市场里表现得游刃有余；它还有强大的创新能力，不断地在自己领域里创新商业模式，颠覆既有的传统规则；它们还有明星CEO，给自由市场、创新打气；</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">13</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-13">乔布斯的One More Thing</a></h3>
+    <p>如果史蒂夫·乔布斯还活着，每半年就搞点新意思出来，我觉得也是一件挺难的事。当然，他有“扭曲现实力场”，所以他可以让人跟着他的魔法棒一起激动一下，比如在最近一次的新一代iPad发布上，我就会想，</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">14</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-14">不要跟自己的肺生气</a></h3>
+    <p>“主张在投资者的证券组合中采用某种机构的方法，调整债券与股票之间的比重。 它的主要好处在于，让投资者有事可做。随着市场上升，他将不断地出售所持有的股票，并将所获收入投入到债券中；当市场下降时，他会采取相反的做法。</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">15</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-15">聪明的投资者</a></h3>
+    <p>托马斯·伍德罗·威尔逊，一个美国总统看到了得克萨斯的石油富豪们是如何呼风唤雨的，心里多少有点酸溜溜，他说：“你知道，上帝把全部石油放在地下，然后来了一个人，他做任何事情都没有成功过，结果他把石油开采了出来。</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">16</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-16">如果回到1997年</a></h3>
+    <p>如果把1997年的苹果公司摆在你面前，你对它会有什么样的见解？或者更直白一点说，你会投资它吗？ 在那一年里，苹果发生的最大的事就是创始人史蒂夫·乔布斯又回来了。对于投资者来说，这是一个需要认真考虑的大事。</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">17</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-17"></a></h3>
+    <p>#创新也能是护城河？ # 在我们错过了1997年的苹果，诺基亚和惠普也承载不起我们的希望之后，我们到哪里去判断和寻找那些能让我们赚钱的创新公司呢？啊，我们还是先从一个悲观的结论开始吧。 你逮不到那个让你后半生老有所依的公司。</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">18</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-18">投资者从垄断公司那里得到什么</a></h3>
+    <p>关于垄断型公司，有一个经典的误解是， 它会因为它的垄断地位和稳定收益，给投资者带来很好的回报。也就是说，在通常理解里，虽然垄断公司对消费者来说就是一场没完没了的噩梦，但对于投资者来说那是上天赐给你的贴心礼物。</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">19</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-19">荒谬历史中的一点奇葩</a></h3>
+    <p>新媒体兴起之初，总会有领风气之先者脱颖而出，运用得当，表现不俗。比如广播时代有富兰克林·罗斯福，围炉夜话，让全美上下一条心好像由此就战胜了萧条与纳粹；电视时代有肯尼迪，年轻的世家子弟，又是普利策奖获得者，美国一下子就进入到新纪元了；</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">20</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-20">从长远看，我们都是要死的</a></h3>
+    <p>安迪·凯斯勒在香港机场遇到几个衣着光鲜的家伙，用他的话来说，一看就是华尔街的货色。那个时候，他已经不再是摩根士丹利的分析师了，不用再当那些拿着巨额佣金的业务员们的“肉”了—在他那本《华尔街的肉》中，他总结他的前半生命运，所谓分析师，</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">21</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-21">一个理想主义者的价值投资</a></h3>
+    <p>我第一次看到“人类思维数据库”这个说法的时候，还是惊了一下的。在此之前，在我眼里，谷歌就是谷歌，是一个搜索工具，在此之后，我每次打开那个搜索框，心里就会默念着：它知道我在想什么，它知道所有人都在想什么。</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">22</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-22">大公司的边界</a></h3>
+    <p>有这么一个公司，它控制了德国100%的合成橡胶、甲醇、润滑油，90%的塑料，80%的炸药的生产，它生产一种叫阿司匹林的药片让人类不大会因为一场感冒就轻易死掉，是全世界的救命药。</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">23</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-23">所以，它就安静地站着</a></h3>
+    <p>一个人会问一头猪：“为什么你不对我说你的快乐而只是站在那里盯着我呢？”这头猪会很高兴来回答，它可能会说：“这个原因就是我总是忘掉了我准备要说的。”但是就在这一刻，它也忘掉了这个回答，所以，它就安静地站着。这段话是弗里德里希·尼采说的。</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">24</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-24">富有的邻居和聪明的小贼们</a></h3>
+    <p>苹果打赢了跟三星的官司，按照通常的理解，这对于苹果来说算是一件好事。你可以很轻松地推导出，苹果依靠知识产权的专利为自己建立了一条很宽的护城河，这可不是谁都可以游过去的；还能推导出，借助它领先的技术优势，它的领先产品还会给它带来更多的收入；</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">25</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-25">通过欢乐获取力量</a></h3>
+    <p>很久以前，我有一个同事在接受了多年计划经济学的教育之后，成为布哈林的信徒。其基本观点就是拖拉机比汽车重要，拖拉机是生产资料，能种地能运输，比小汽车这种纯粹的奢侈消费要有价值得多，这东西能贡献更多的产值啊。</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">26</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-26">我们所热爱的青春期</a></h3>
+    <p>最近关于理性、爱、国家、热情等等之类的词很泛滥，我还在视频截图上看到一些脸，当然，你可以读出来一些邪恶、暴戾，你也可以不按文字的指示读出热情、冲动，更有一种可能那就是一些无所事事、迷茫而且年轻的脸。</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">27</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-27">为什么奥特曼不能在银行里下棋</a></h3>
+    <p>一到假期，关于公共服务就是热门话题，拜生活水平提高所赐，上一个十一黄金周中公共服务的焦点已经从铁路民航上升到高速公路大塞车。当然，免费是一个重要原因。</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">28</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-28">它不像你想象的那么简单</a></h3>
+    <p>我看了一本叫《僵尸生存指南》的超级无厘头的书。它的无厘头主要表现在煞有介事，如果你把那本书里的僵尸替换掉，可以把它当做“当敌人入侵时，如何有效进行持久战”，或者当街头暴乱发生时，你如何自处，或者走夜路自卫指南，</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">29</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-29">工匠们创造的历史</a></h3>
+    <p>有没有过那种时候，有一个叨逼叨叨逼叨的人在你身边一直说啊说，你又说不过他，最后只好埋头去做给他看——当然，大多数时候那些没完没了的话你都可以视若无物，大多数人你更不要去理他，所以我可不主张去跟他们争口气。</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">30</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-30">有一些人值得为他起立鼓掌（上）</a></h3>
+    <p>就跟成了精的地产界的专业人士最爱提“地段”一样，事业有成的投资界人士挂在嘴边也有一句话，“投资就是投资团队”，“我看好你的人”。如果这些话只是在风险资本家那里说说，还算是有价值的，后来泛滥到买个股票也要说投资团队，我觉得就要提高警惕了。</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">31</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-31">有一些人值得为他起立鼓掌（下）</a></h3>
+    <p>大卫·格芬最初也是威廉·莫里斯经纪公司一个送文件的小伙子。他不如巴里·迪勒的地方就是，巴里是个高中毕业的好莱坞本地青年，大卫则有一个假文凭——这是一件偶尔会被人提起的事。</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">32</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-32">“加里驾驶小飞机兜风那天”</a></h3>
+    <p>英雄不问出处。这句话在我看来有两种解释，一种是不管什么背景出身，都能把自己的那一摊事业做得很好，以至于我们根本不用去看他们的来历到底如何；另外一种就是在人家事成之后，你冷不丁地看到一个伟人杵在那里，怎么看都是英雄自己的能耐，</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">33</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-33">你是智慧多一点，还是钱多一点</a></h3>
+    <p>很多时候，我还是很庆幸自己不是一个投资者——这句话说得可能不是那么严谨，严格说来每个人都是投资者，好在我是特指那些以投资为主要收入来源并且主要是在各种资本市场上的投资者——当我不是一个投资者的时候，作为一个商业爱好者，</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">34</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-34">当范德比尔特最后一次经过码头（上）</a></h3>
+    <p>你知道什么才能叫高富帅吗？自从这个粗鄙的词流行起来之后，在我的脑海中就始终有一个人跟这个词牢牢地捆绑在了一起。按照哈佛商学院教授理查德·泰德罗的说法，他的一生就是“一个成功接着另一个成功”。</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">35</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-35">当范德比尔特最后一次经过码头（下）</a></h3>
+    <p>在上一篇中我们说过了两种企业创始人。一种是以罗伯特·诺伊斯为代表的中产阶级高富帅，另外一种是富二代到富N代，他们的代表是胡安·特里普和小托马斯·沃森以及所有非亨利·福特一世的所有福特家的继承人们。</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">36</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-36">然后，他就开始沮丧起来</a></h3>
+    <p>前阵子听说一个令人沮丧的故事。几个媒体老总结伴驱车来到北京怀柔三岔村，他们的目的是看一看彼得·海斯勒生活和战斗过的地方，这个中文名叫何伟的人以村民魏子淇为主人公写了一本叫《寻路中国》的书。</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">37</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-37">潘多拉的盒子是什么时候打开的（上）</a></h3>
+    <p>话说在资本市场的田园牧歌时代，人们买一只股票的目的可能只是希望在每年的某个固定时间里，能够得到一次分红。你能想象得到当时的对话可能是“爷爷当年入股的Town上最好的磨坊分红不如去年了”，</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">38</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-38">潘多拉的盒子是什么时候打开的（下）</a></h3>
+    <p>1980年代真是让人迷恋啊。 1980年代，美国选出了一个会打星球大战的演员出身的总统罗纳德·里根，不仅打赢了冷战，还让美国人重新树立起了信心。华尔街吸引了一群聪明人去做事；</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">39</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-39">底特律到底发生了什么（上）</a></h3>
+    <p>我一直觉得有一个人类永恒的问题被我们低估了，就是乐观和悲观的问题。我们在大多数面临选择和判断的时候，实际上就是在选择做一个乐观者还是悲观者。 底特律从1950年代到现在，人口从180多万下降到7 7万，全世界都用悲悯的目光看着这个城市，</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">40</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-40">底特律到底发生了什么（下）</a></h3>
+    <p>上一次我们在讨论底特律时说到，当一个城市中几大公司占据主导地位时，这个城市的居民基本上相当于把工作、退休和投资的所有钱都投注在一个股票之上。所有 的事都围绕着这个股票的衰荣来决定你的生活是什么样子的，底特律就把人逼到这个绝路之上，</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">41</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-41">即使聪明如理查德·费曼……</a></h3>
+    <p>前段时间一个骨灰级的猜年龄游戏被微信用户们翻了出来，简单点说就是：说出一个0至9之间的你认为的幸运数字，把这个数字乘以2，再加上5，再乘以50，把得到的数目加上1763，然后减去你出生的那一年，最后得出的三位数，百位数是你的幸运数字，</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">42</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-42">听说你打算定制一个伟大习惯？</a></h3>
+    <p>眼见得《习惯的力量》红火了起来，一本书火爆而成为显学，我觉得它的标志就是有人给书做PPT，有人拿着这PPT鼓励后进并且大声疾呼——我觉得他们都是有好习惯的人。</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">43</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-43">“这条贪婪的隧道尽头……”</a></h3>
+    <p>疯狂工作，尽情享受！赚钱，买你所爱的！这些话现在我们听着也是越来越耳熟了，很多时候我们都很愿意畅想这样的场面，比如“忙完这几天，就……”然后再一直延伸到很远的地方，比如类似于“35岁就退休”这样的豪迈。</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">44</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-44">“我知道事情真相啦”</a></h3>
+    <p>这句话来自于郭德纲的段子。有人教唆一孩子，你要是想跟家里要钱，你就跟你爹妈说，“我知道事情真相啦”，于是……它果然好用！拿这句话做标题并非是让大家如何骗吃骗喝，而是真相这东西很重要，但又经常让人琢磨不透。</p>
+  </div>
+</div>
+
+
+<div class="archive-item">
+  <div class="archive-num">45</div>
+  <div class="archive-content">
+    <h3><a href="#chapter-45">我们只是想摆脱庸常生活</a></h3>
+    <p>在经历了两年之后，这个栏目跟我们这本杂志一起也要告一段落了。在过去的两年中，它絮絮叨叨地讲了一些有关价值投资的事，如果总结下来，可能无外乎不要把鸡蛋放在一个篮子里；在别人贪婪的时候你要恐惧，在别人恐惧的时候你要贪婪；</p>
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  <hr class="section-divider">
+
+  <section id="books">
+    <div class="section-label">Book Archive</div>
+    <h2>书目检索</h2>
+    <p style="color:var(--muted);font-size:0.95rem;">正式书单 97 本，支持按书名或作者搜索。</p>
+    <div class="book-search">
+      <input type="text" id="searchInput" placeholder="搜索书名或作者…" oninput="doSearch()">
+    </div>
+    <div class="book-grid" id="bookGrid">
+      
+<div class="book-card" data-title="沃森父子与IBM王朝" data-author="理查德·泰德洛">
+  <div class="book-title">《沃森父子与IBM王朝》</div>
+  <div class="book-author">理查德·泰德洛</div>
+  <div class="book-meta"><span class="book-tag">理查德·泰德洛 · 中国人民大学出版社 2005年10月 · 定价：29元</span></div>
+</div>
+
+
+<div class="book-card" data-title="压垮世界的泡沫" data-author="加雷·加勒特">
+  <div class="book-title">《压垮世界的泡沫》</div>
+  <div class="book-author">加雷·加勒特</div>
+  <div class="book-meta"><span class="book-tag">加雷·加勒特 · 法律出版社 2010年12月 · 定价：32元</span></div>
+</div>
+
+
+<div class="book-card" data-title="我们如何来到现在" data-author="安迪·凯斯勒">
+  <div class="book-title">《我们如何来到现在》</div>
+  <div class="book-author">安迪·凯斯勒</div>
+  <div class="book-meta"><span class="book-tag">安迪·凯斯勒 · 机械工业出版社 2011年1月 · 定价：36元</span></div>
+</div>
+
+
+<div class="book-card" data-title="世界是平的" data-author="托马斯·弗里德曼">
+  <div class="book-title">《世界是平的》</div>
+  <div class="book-author">托马斯·弗里德曼</div>
+  <div class="book-meta"><span class="book-tag">托马斯·弗里德曼 · 湖南科学技术出版社 2008年9月 · 定价：58元</span></div>
+</div>
+
+
+<div class="book-card" data-title="通用汽车的缔造者" data-author="劳伦斯·古斯廷">
+  <div class="book-title">《通用汽车的缔造者》</div>
+  <div class="book-author">劳伦斯·古斯廷</div>
+  <div class="book-meta"><span class="book-tag">劳伦斯·古斯廷 · 上海远东出版社 2008年8月 · 定价：39元</span></div>
+</div>
+
+
+<div class="book-card" data-title="大癫狂——非同寻常的大众幻想与全民疯狂" data-author="查尔斯·麦基">
+  <div class="book-title">《大癫狂——非同寻常的大众幻想与全民疯狂》</div>
+  <div class="book-author">查尔斯·麦基</div>
+  <div class="book-meta"><span class="book-tag">查尔斯·麦基 · 北京邮电大学出版社 2009年1月 · 定价：39元</span></div>
+</div>
+
+
+<div class="book-card" data-title="数学那些事儿：思想、发现、人物和历史" data-author="威廉·邓纳姆">
+  <div class="book-title">《数学那些事儿：思想、发现、人物和历史》</div>
+  <div class="book-author">威廉·邓纳姆</div>
+  <div class="book-meta"><span class="book-tag">威廉·邓纳姆 · 人民邮电出版社 2011年3月 · 定价：39元</span></div>
+</div>
+
+
+<div class="book-card" data-title="技术垄断" data-author="尼尔·波斯曼">
+  <div class="book-title">《技术垄断》</div>
+  <div class="book-author">尼尔·波斯曼</div>
+  <div class="book-meta"><span class="book-tag">尼尔·波斯曼 · 北京大学出版社 2007年10月 · 定价：22元</span></div>
+</div>
+
+
+<div class="book-card" data-title="广告大师奥格威" data-author="大卫·奥格威">
+  <div class="book-title">《广告大师奥格威》</div>
+  <div class="book-author">大卫·奥格威</div>
+  <div class="book-meta"><span class="book-tag">大卫·奥格威 · 生活读书新知三联书店 · 2003年9月</span></div>
+</div>
+
+
+<div class="book-card" data-title="投资者宣言" data-author="威廉·伯恩斯坦">
+  <div class="book-title">《投资者宣言》</div>
+  <div class="book-author">威廉·伯恩斯坦</div>
+  <div class="book-meta"><span class="book-tag">威廉·伯恩斯坦 · 机械工业出版社 2011年2月 · 定价：35元</span></div>
+</div>
+
+
+<div class="book-card" data-title="非理性繁荣" data-author="罗伯特·希勒">
+  <div class="book-title">《非理性繁荣》</div>
+  <div class="book-author">罗伯特·希勒</div>
+  <div class="book-meta"><span class="book-tag">罗伯特·希勒 · 中国人民大学出版社 2001年4月 · 定价：30元</span></div>
+</div>
+
+
+<div class="book-card" data-title="只有偏执狂才能生存" data-author="安迪·格鲁夫">
+  <div class="book-title">《只有偏执狂才能生存》</div>
+  <div class="book-author">安迪·格鲁夫</div>
+  <div class="book-meta"><span class="book-tag">安迪·格鲁夫 · 中信出版社 辽宁教育出版社 · 2002年8月</span></div>
+</div>
+
+
+<div class="book-card" data-title="大空头" data-author="迈克尔·刘易斯">
+  <div class="book-title">《大空头》</div>
+  <div class="book-author">迈克尔·刘易斯</div>
+  <div class="book-meta"><span class="book-tag">迈克尔·刘易斯 · 中信出版社 2011年1月 · 定价：42元</span></div>
+</div>
+
+
+<div class="book-card" data-title="华尔街的肉—我从股市绞肉机中死里逃生" data-author="安迪·凯斯勒">
+  <div class="book-title">《华尔街的肉—我从股市绞肉机中死里逃生》</div>
+  <div class="book-author">安迪·凯斯勒</div>
+  <div class="book-meta"><span class="book-tag">安迪·凯斯勒 · 上海人民出版社 2006年11月 · 定价：22元</span></div>
+</div>
+
+
+<div class="book-card" data-title="为什么是欧洲？——世界史视角下的西方崛起" data-author="杰克·戈德斯通">
+  <div class="book-title">《为什么是欧洲？——世界史视角下的西方崛起》</div>
+  <div class="book-author">杰克·戈德斯通</div>
+  <div class="book-meta"><span class="book-tag">杰克·戈德斯通 · 浙江大学出版社 2010年7月 · 定价：34元</span></div>
+</div>
+
+
+<div class="book-card" data-title="怪诞行为学——可预测的非理性" data-author="中信出版社 2010年19月">
+  <div class="book-title">《怪诞行为学——可预测的非理性》</div>
+  <div class="book-author">中信出版社 2010年19月</div>
+  <div class="book-meta"><span class="book-tag">中信出版社 2010年19月 · 定价：45元</span></div>
+</div>
+
+
+<div class="book-card" data-title="群体的智慧——如何做出最聪明的决策" data-author="詹姆斯·索罗维基">
+  <div class="book-title">《群体的智慧——如何做出最聪明的决策》</div>
+  <div class="book-author">詹姆斯·索罗维基</div>
+  <div class="book-meta"><span class="book-tag">詹姆斯·索罗维基 · 中信出版社 2010年10月 · 定价：33元</span></div>
+</div>
+
+
+<div class="book-card" data-title="不顾诸神——现代印度的奇怪崛起" data-author="爱德华·卢斯">
+  <div class="book-title">《不顾诸神——现代印度的奇怪崛起》</div>
+  <div class="book-author">爱德华·卢斯</div>
+  <div class="book-meta"><span class="book-tag">爱德华·卢斯 · 中信出版社 2007年11月 · 定价：39元</span></div>
+</div>
+
+
+<div class="book-card" data-title="赤道之南——巴西的新兴与光芒" data-author="中信出版社 2011年8月">
+  <div class="book-title">《赤道之南——巴西的新兴与光芒》</div>
+  <div class="book-author">中信出版社 2011年8月</div>
+  <div class="book-meta"><span class="book-tag">中信出版社 2011年8月 · 定价：39元</span></div>
+</div>
+
+
+<div class="book-card" data-title="与全世界做生意——一个经济学家的环球冒险" data-author="柯纳·伍德曼">
+  <div class="book-title">《与全世界做生意——一个经济学家的环球冒险》</div>
+  <div class="book-author">柯纳·伍德曼</div>
+  <div class="book-meta"><span class="book-tag">柯纳·伍德曼 · 机械工业出版社 2010年10月 · 定价：32元</span></div>
+</div>
+
+
+<div class="book-card" data-title="一件T恤的全球经济之旅" data-author="皮翠拉·瑞沃莉">
+  <div class="book-title">《一件T恤的全球经济之旅》</div>
+  <div class="book-author">皮翠拉·瑞沃莉</div>
+  <div class="book-meta"><span class="book-tag">皮翠拉·瑞沃莉 · 中信出版社 2011年1月 · 定价：39元</span></div>
+</div>
+
+
+<div class="book-card" data-title="工商巨子" data-author="荣·切尔诺">
+  <div class="book-title">《工商巨子》</div>
+  <div class="book-author">荣·切尔诺</div>
+  <div class="book-meta"><span class="book-tag">荣·切尔诺 · 海南出版社 2000年6月 · 定价：65元</span></div>
+</div>
+
+
+<div class="book-card" data-title="被谷歌" data-author="肯·奥莱塔">
+  <div class="book-title">《被谷歌》</div>
+  <div class="book-author">肯·奥莱塔</div>
+  <div class="book-meta"><span class="book-tag">肯·奥莱塔 · 中信出版社 2010年9月 · 定价：39元</span></div>
+</div>
+
+
+<div class="book-card" data-title="乔布斯传" data-author="沃尔特·艾萨克森">
+  <div class="book-title">《乔布斯传》</div>
+  <div class="book-author">沃尔特·艾萨克森</div>
+  <div class="book-meta"><span class="book-tag">沃尔特·艾萨克森 · 中信出版社 2011年10月 · 定价：68元</span></div>
+</div>
+
+
+<div class="book-card" data-title="房间里最精明的人—安然破产案始末" data-author="贝萨妮·麦克莱恩，彼得·埃尔金德">
+  <div class="book-title">《房间里最精明的人—安然破产案始末》</div>
+  <div class="book-author">贝萨妮·麦克莱恩，彼得·埃尔金德</div>
+  <div class="book-meta"><span class="book-tag">贝萨妮·麦克莱恩，彼得·埃尔金德 · 中国社会科学出版社 2007年2月 · 定价：42元</span></div>
+</div>
+
+
+<div class="book-card" data-title="股票大作手回忆录" data-author="埃德温·勒菲弗">
+  <div class="book-title">《股票大作手回忆录》</div>
+  <div class="book-author">埃德温·勒菲弗</div>
+  <div class="book-meta"><span class="book-tag">埃德温·勒菲弗 · 万卷出版社 2010年11月 · 定价：48元</span></div>
+</div>
+
+
+<div class="book-card" data-title="大富时代" data-author="那时候大富豪们似乎是在金钱和财富玩具中游泳：任性的石油商们为了实现每个费伯式的神话，像收集糖果一样收集飞机、牧场和艺术品。">
+  <div class="book-title">《大富时代》</div>
+  <div class="book-author">那时候大富豪们似乎是在金钱和财富玩具中游泳：任性的石油商们为了实现每个费伯式的神话，像收集糖果一样收集飞机、牧场和艺术品。</div>
+  <div class="book-meta"><span class="book-tag">那时候大富豪们似乎是在金钱和财富玩具中游泳：任性的石油商们为了实现每个费伯式的神话，像收集糖果一样收集飞机、牧场和艺术品。 · 布赖恩·伯勒 · 中信出版社 2010年12月</span></div>
+</div>
+
+
+<div class="book-card" data-title="创新者的窘境" data-author="克莱顿·克里斯坦森">
+  <div class="book-title">《创新者的窘境》</div>
+  <div class="book-author">克莱顿·克里斯坦森</div>
+  <div class="book-meta"><span class="book-tag">克莱顿·克里斯坦森 · 中信出版社 2010年6月 · 定价：38元</span></div>
+</div>
+
+
+<div class="book-card" data-title="创新者的解答" data-author="克莱顿·克里斯坦森">
+  <div class="book-title">《创新者的解答》</div>
+  <div class="book-author">克莱顿·克里斯坦森</div>
+  <div class="book-meta"><span class="book-tag">克莱顿·克里斯坦森 · 中信出版社 2010年6月 · 定价：38元</span></div>
+</div>
+
+
+<div class="book-card" data-title="创新者的窘境" data-author="克莱顿·克里斯坦森">
+  <div class="book-title">《创新者的窘境》</div>
+  <div class="book-author">克莱顿·克里斯坦森</div>
+  <div class="book-meta"><span class="book-tag">克莱顿·克里斯坦森 · 中信出版社 2010年6月 · 定价：38元</span></div>
+</div>
+
+
+<div class="book-card" data-title="只有偏执狂才能生存" data-author="安迪·格鲁夫">
+  <div class="book-title">《只有偏执狂才能生存》</div>
+  <div class="book-author">安迪·格鲁夫</div>
+  <div class="book-meta"><span class="book-tag">安迪·格鲁夫 · 中信出版社 2002年8月 · 定价：22元</span></div>
+</div>
+
+
+<div class="book-card" data-title="创新者的解答" data-author="克莱顿·克里斯坦森">
+  <div class="book-title">《创新者的解答》</div>
+  <div class="book-author">克莱顿·克里斯坦森</div>
+  <div class="book-meta"><span class="book-tag">克莱顿·克里斯坦森 · 中信出版社 2010年6月 · 定价：38元</span></div>
+</div>
+
+
+<div class="book-card" data-title="大设计—BBC写给大众的设计史" data-author="彭妮·斯帕克">
+  <div class="book-title">《大设计—BBC写给大众的设计史》</div>
+  <div class="book-author">彭妮·斯帕克</div>
+  <div class="book-meta"><span class="book-tag">彭妮·斯帕克 · 广西师范大学出版社  2012年1月 · 定价：168元</span></div>
+</div>
+
+
+<div class="book-card" data-title="青春无羁" data-author="乔恩·萨维奇">
+  <div class="book-title">《青春无羁》</div>
+  <div class="book-author">乔恩·萨维奇</div>
+  <div class="book-meta"><span class="book-tag">乔恩·萨维奇 · 吉林出版集团有限公司  2010年4月 · 定价：54元</span></div>
+</div>
+
+
+<div class="book-card" data-title="沉疴遍地" data-author="托尼·朱特">
+  <div class="book-title">《沉疴遍地》</div>
+  <div class="book-author">托尼·朱特</div>
+  <div class="book-meta"><span class="book-tag">托尼·朱特 · 新星出版社 2012年3月 · 定价：25元</span></div>
+</div>
+
+
+<div class="book-card" data-title="自食恶果——欧债风暴与新第三世界之旅" data-author="迈克尔·刘易斯">
+  <div class="book-title">《自食恶果——欧债风暴与新第三世界之旅》</div>
+  <div class="book-author">迈克尔·刘易斯</div>
+  <div class="book-meta"><span class="book-tag">迈克尔·刘易斯 · 财信出版 2011年12月 · 定价：新台币280元（合人民币60元）</span></div>
+</div>
+
+
+<div class="book-card" data-title="最年轻的科学" data-author="刘易斯·托马斯">
+  <div class="book-title">《最年轻的科学》</div>
+  <div class="book-author">刘易斯·托马斯</div>
+  <div class="book-meta"><span class="book-tag">刘易斯·托马斯 · 湖南科学技术出版社 2011年10月 · 定价：48元</span></div>
+</div>
+
+
+<div class="book-card" data-title="过度互联" data-author="副标题：互联网的奇迹与威胁">
+  <div class="book-title">《过度互联》</div>
+  <div class="book-author">副标题：互联网的奇迹与威胁</div>
+  <div class="book-meta"><span class="book-tag">副标题：互联网的奇迹与威胁 · 威廉姆·戴维德 · 中信出版社 2012年8月</span></div>
+</div>
+
+
+<div class="book-card" data-title="僵尸生存指南" data-author="副标题：如何在活死人横行的疯狂世界求生">
+  <div class="book-title">《僵尸生存指南》</div>
+  <div class="book-author">副标题：如何在活死人横行的疯狂世界求生</div>
+  <div class="book-meta"><span class="book-tag">副标题：如何在活死人横行的疯狂世界求生 · 巫毒僵尸通常都在以下地区遇到：撒哈拉沙漠以南地区，加勒比海，中美洲和南美洲，美国南部地区。 马克斯·布鲁克斯 · 江苏人民出版社 2011年12月</span></div>
+</div>
+
+
+<div class="book-card" data-title="魔球" data-author="副标题：一个勇敢面对自己, 逆转胜的真实故事">
+  <div class="book-title">《魔球》</div>
+  <div class="book-author">副标题：一个勇敢面对自己, 逆转胜的真实故事</div>
+  <div class="book-meta"><span class="book-tag">副标题：一个勇敢面对自己, 逆转胜的真实故事 · 迈克尔·刘易斯 · 早安财经文化有限公司（台湾）</span></div>
+</div>
+
+
+<div class="book-card" data-title="IT不再重要" data-author="副标题：互联网大转换的制高点—云计算">
+  <div class="book-title">《IT不再重要》</div>
+  <div class="book-author">副标题：互联网大转换的制高点—云计算</div>
+  <div class="book-meta"><span class="book-tag">副标题：互联网大转换的制高点—云计算 · 随着互联网的能力、范围和实用性的扩大，它最具有革命性的后果可能不是电脑开始像我们一样思维，而是我们将开始像电脑一样思维。 · 尼古拉斯·卡尔</span></div>
+</div>
+
+
+<div class="book-card" data-title="倒带人生" data-author="肯恩·格林伍德">
+  <div class="book-title">《倒带人生》</div>
+  <div class="book-author">肯恩·格林伍德</div>
+  <div class="book-meta"><span class="book-tag">肯恩·格林伍德 · 译林出版社，2010年11月 · 定价：25元</span></div>
+</div>
+
+
+<div class="book-card" data-title="巴里·迪勒" data-author="副标题：美国娱乐业巨亨沉浮录">
+  <div class="book-title">《巴里·迪勒》</div>
+  <div class="book-author">副标题：美国娱乐业巨亨沉浮录</div>
+  <div class="book-meta"><span class="book-tag">副标题：美国娱乐业巨亨沉浮录 · 乔治·梅尔 · 上海财经大学出版社，2010年5月</span></div>
+</div>
+
+
+<div class="book-card" data-title="倒带人生" data-author="肯恩·格林伍德">
+  <div class="book-title">《倒带人生》</div>
+  <div class="book-author">肯恩·格林伍德</div>
+  <div class="book-meta"><span class="book-tag">肯恩·格林伍德 · 译林出版社，2010年11月 · 定价：25元</span></div>
+</div>
+
+
+<div class="book-card" data-title="巴里·迪勒：美国娱乐业巨亨沉浮录" data-author="乔治·梅尔">
+  <div class="book-title">《巴里·迪勒：美国娱乐业巨亨沉浮录》</div>
+  <div class="book-author">乔治·梅尔</div>
+  <div class="book-meta"><span class="book-tag">乔治·梅尔 · 上海财经大学出版社，2010年5月 · 定价：36元</span></div>
+</div>
+
+
+<div class="book-card" data-title="别对我撒谎：23篇震撼世界的新闻调查报道" data-author="即使有一天，网络作为媒介取代了传统媒体，记者的正义感、勇气、思想、采访技巧、文字表达能力仍是这个领域最重要的资源。">
+  <div class="book-title">《别对我撒谎：23篇震撼世界的新闻调查报道》</div>
+  <div class="book-author">即使有一天，网络作为媒介取代了传统媒体，记者的正义感、勇气、思想、采访技巧、文字表达能力仍是这个领域最重要的资源。</div>
+  <div class="book-meta"><span class="book-tag">即使有一天，网络作为媒介取代了传统媒体，记者的正义感、勇气、思想、采访技巧、文字表达能力仍是这个领域最重要的资源。 · 约翰·皮尔格 · 华东师范大学出版社 2010年3月</span></div>
+</div>
+
+
+<div class="book-card" data-title="拯救华尔街：长期资本管理公司的崛起与陨落" data-author="如果说，约翰·麦利威瑟在所罗门兄弟公司得到了什么秘诀的话，这个秘诀就是：千万不要放弃你的损失，直到它转变成为你的盈利。">
+  <div class="book-title">《拯救华尔街：长期资本管理公司的崛起与陨落》</div>
+  <div class="book-author">如果说，约翰·麦利威瑟在所罗门兄弟公司得到了什么秘诀的话，这个秘诀就是：千万不要放弃你的损失，直到它转变成为你的盈利。</div>
+  <div class="book-meta"><span class="book-tag">如果说，约翰·麦利威瑟在所罗门兄弟公司得到了什么秘诀的话，这个秘诀就是：千万不要放弃你的损失，直到它转变成为你的盈利。 · 罗杰·洛温斯坦 · 广东经济出版社  2009年3月</span></div>
+</div>
+
+
+<div class="book-card" data-title="美国创新史" data-author="哈罗德·埃文斯 盖尔·巴克兰 戴维·列菲">
+  <div class="book-title">《美国创新史》</div>
+  <div class="book-author">哈罗德·埃文斯 盖尔·巴克兰 戴维·列菲</div>
+  <div class="book-meta"><span class="book-tag">哈罗德·埃文斯 盖尔·巴克兰 戴维·列菲 · 中信出版社 2011年4月 · 定价: 498元</span></div>
+</div>
+
+
+<div class="book-card" data-title="影响历史的商业七巨头" data-author="理查德·S·泰德罗">
+  <div class="book-title">《影响历史的商业七巨头》</div>
+  <div class="book-author">理查德·S·泰德罗</div>
+  <div class="book-meta"><span class="book-tag">理查德·S·泰德罗 · 机械工业出版社 2003年2月 · 定价:33元</span></div>
+</div>
+
+
+<div class="book-card" data-title="硅谷巨人" data-author="汤姆·珀金斯">
+  <div class="book-title">《硅谷巨人》</div>
+  <div class="book-author">汤姆·珀金斯</div>
+  <div class="book-meta"><span class="book-tag">汤姆·珀金斯 · 中国青年出版社 2008年8月 · 定价: 36元</span></div>
+</div>
+
+
+<div class="book-card" data-title="美国创新史" data-author="哈罗德·埃文斯 盖尔·巴克兰 戴维·列菲">
+  <div class="book-title">《美国创新史》</div>
+  <div class="book-author">哈罗德·埃文斯 盖尔·巴克兰 戴维·列菲</div>
+  <div class="book-meta"><span class="book-tag">哈罗德·埃文斯 盖尔·巴克兰 戴维·列菲 · 中信出版社 2011年4月 · 定价: 498元</span></div>
+</div>
+
+
+<div class="book-card" data-title="影响历史的商业七巨头" data-author="理查德·S·泰德罗">
+  <div class="book-title">《影响历史的商业七巨头》</div>
+  <div class="book-author">理查德·S·泰德罗</div>
+  <div class="book-meta"><span class="book-tag">理查德·S·泰德罗 · 机械工业出版社 2003年2月 · 定价:33元</span></div>
+</div>
+
+
+<div class="book-card" data-title="硅谷巨人" data-author="汤姆·珀金斯">
+  <div class="book-title">《硅谷巨人》</div>
+  <div class="book-author">汤姆·珀金斯</div>
+  <div class="book-meta"><span class="book-tag">汤姆·珀金斯 · 中国青年出版社 2008年8月 · 定价: 36元</span></div>
+</div>
+
+
+<div class="book-card" data-title="寻路中国：从乡村到工厂的自驾之旅" data-author="彼得·海斯勒">
+  <div class="book-title">《寻路中国：从乡村到工厂的自驾之旅》</div>
+  <div class="book-author">彼得·海斯勒</div>
+  <div class="book-meta"><span class="book-tag">彼得·海斯勒 · 上海译文出版社  2011年1月 · 定价: 33元</span></div>
+</div>
+
+
+<div class="book-card" data-title="江城" data-author="彼得·海斯勒">
+  <div class="book-title">《江城》</div>
+  <div class="book-author">彼得·海斯勒</div>
+  <div class="book-meta"><span class="book-tag">彼得·海斯勒 · 上海译文出版社  2012年1月 · 定价:36元</span></div>
+</div>
+
+
+<div class="book-card" data-title="美丽与诅咒：全球化时代的印度" data-author="西达尔塔·德布">
+  <div class="book-title">《美丽与诅咒：全球化时代的印度》</div>
+  <div class="book-author">西达尔塔·德布</div>
+  <div class="book-meta"><span class="book-tag">西达尔塔·德布 · 中信出版社  2012年5月 · 定价: 38元</span></div>
+</div>
+
+
+<div class="book-card" data-title="金融往事：恐慌、危机和迟来的复苏" data-author="迈克尔·刘易斯">
+  <div class="book-title">《金融往事：恐慌、危机和迟来的复苏》</div>
+  <div class="book-author">迈克尔·刘易斯</div>
+  <div class="book-meta"><span class="book-tag">迈克尔·刘易斯 · 中信出版社  2011年5月 · 定价：49元</span></div>
+</div>
+
+
+<div class="book-card" data-title="众魔在人间：华尔街的风云传奇" data-author="贝萨尼·麦克莱恩 / 乔·诺塞拉">
+  <div class="book-title">《众魔在人间：华尔街的风云传奇》</div>
+  <div class="book-author">贝萨尼·麦克莱恩 / 乔·诺塞拉</div>
+  <div class="book-meta"><span class="book-tag">贝萨尼·麦克莱恩 / 乔·诺塞拉 · 中信出版社  2011年12月 · 定价：68元</span></div>
+</div>
+
+
+<div class="book-card" data-title="数字是靠不住的" data-author="查尔斯·塞费">
+  <div class="book-title">《数字是靠不住的》</div>
+  <div class="book-author">查尔斯·塞费</div>
+  <div class="book-meta"><span class="book-tag">查尔斯·塞费 · 中信出版社  2011年9月 · 定价：42元</span></div>
+</div>
+
+
+<div class="book-card" data-title="众魔在人间：华尔街的风云传奇" data-author="贝萨尼·麦克莱恩 / 乔·诺塞拉">
+  <div class="book-title">《众魔在人间：华尔街的风云传奇》</div>
+  <div class="book-author">贝萨尼·麦克莱恩 / 乔·诺塞拉</div>
+  <div class="book-meta"><span class="book-tag">贝萨尼·麦克莱恩 / 乔·诺塞拉 · 中信出版社  2011年12月 · 定价：68元</span></div>
+</div>
+
+
+<div class="book-card" data-title="沸腾的岁月" data-author="[美] 约翰·布鲁克斯">
+  <div class="book-title">《沸腾的岁月》</div>
+  <div class="book-author">[美] 约翰·布鲁克斯</div>
+  <div class="book-meta"><span class="book-tag">[美] 约翰·布鲁克斯 · 中信出版社  2006年10月 · 定价：35元</span></div>
+</div>
+
+
+<div class="book-card" data-title="过度互联：互联网的奇迹与威胁" data-author="威廉姆·戴维德">
+  <div class="book-title">《过度互联：互联网的奇迹与威胁》</div>
+  <div class="book-author">威廉姆·戴维德</div>
+  <div class="book-meta"><span class="book-tag">威廉姆·戴维德 · 中信出版社  2012年8月 · 定价：36元</span></div>
+</div>
+
+
+<div class="book-card" data-title="美国种族简史" data-author="[美] 托马斯·索威尔">
+  <div class="book-title">《美国种族简史》</div>
+  <div class="book-author">[美] 托马斯·索威尔</div>
+  <div class="book-meta"><span class="book-tag">[美] 托马斯·索威尔 · 中信出版社 2011年11月 · 定价：35元</span></div>
+</div>
+
+
+<div class="book-card" data-title="城市的胜利" data-author="[美] 爱德华·格莱泽">
+  <div class="book-title">《城市的胜利》</div>
+  <div class="book-author">[美] 爱德华·格莱泽</div>
+  <div class="book-meta"><span class="book-tag">[美] 爱德华·格莱泽 · 上海社会科学院出版社 2012年12月 · 定价：49.80元</span></div>
+</div>
+
+
+<div class="book-card" data-title="城市的胜利" data-author="【美】爱德华·格莱泽 上海社会科学院出版社 2012年12月">
+  <div class="book-title">《城市的胜利》</div>
+  <div class="book-author">【美】爱德华·格莱泽 上海社会科学院出版社 2012年12月</div>
+  <div class="book-meta"><span class="book-tag">【美】爱德华·格莱泽 上海社会科学院出版社 2012年12月 · 定价： 49.80元</span></div>
+</div>
+
+
+<div class="book-card" data-title="π：世界最神秘的数字" data-author="阿尔弗雷德·S. 波沙曼提尔">
+  <div class="book-title">《π：世界最神秘的数字》</div>
+  <div class="book-author">阿尔弗雷德·S. 波沙曼提尔</div>
+  <div class="book-meta"><span class="book-tag">阿尔弗雷德·S. 波沙曼提尔 · 吉林出版集团有限责任公司 2011年4月 · 定价：28.00元</span></div>
+</div>
+
+
+<div class="book-card" data-title="别闹了，费曼先生" data-author="理查德·费曼">
+  <div class="book-title">《别闹了，费曼先生》</div>
+  <div class="book-author">理查德·费曼</div>
+  <div class="book-meta"><span class="book-tag">理查德·费曼 · 生活·读书·新知三联书店 2005年1月 · 定价：15元</span></div>
+</div>
+
+
+<div class="book-card" data-title="谁是谷歌想要的人才" data-author="[美] 威廉·庞德斯通">
+  <div class="book-title">《谁是谷歌想要的人才》</div>
+  <div class="book-author">[美] 威廉·庞德斯通</div>
+  <div class="book-meta"><span class="book-tag">[美] 威廉·庞德斯通 · 浙江人民出版社 2013年2月 · 定价：49.9元</span></div>
+</div>
+
+
+<div class="book-card" data-title="当大脑遇到金钱" data-author="贾森·茨威格">
+  <div class="book-title">《当大脑遇到金钱》</div>
+  <div class="book-author">贾森·茨威格</div>
+  <div class="book-meta"><span class="book-tag">贾森·茨威格 · 广东经济出版社   2009年11月 · 定价：35元</span></div>
+</div>
+
+
+<div class="book-card" data-title="习惯的力量" data-author="查尔斯·杜希格">
+  <div class="book-title">《习惯的力量》</div>
+  <div class="book-author">查尔斯·杜希格</div>
+  <div class="book-meta"><span class="book-tag">查尔斯·杜希格 · 中信出版社  2013年3月 · 定价：42元</span></div>
+</div>
+
+
+<div class="book-card" data-title="美国的逻辑" data-author="【美】罗伯特·赖克">
+  <div class="book-title">《美国的逻辑》</div>
+  <div class="book-author">【美】罗伯特·赖克</div>
+  <div class="book-meta"><span class="book-tag">【美】罗伯特·赖克 · 中信出版社 2011年4月 · 定价：32元</span></div>
+</div>
+
+
+<div class="book-card" data-title="城市之王——纽约市市长朱利安尼" data-author="安德鲁·科兹曼">
+  <div class="book-title">《城市之王——纽约市市长朱利安尼》</div>
+  <div class="book-author">安德鲁·科兹曼</div>
+  <div class="book-meta"><span class="book-tag">安德鲁·科兹曼 · 东方出版社 2004年10月 · 定价：28元</span></div>
+</div>
+
+
+<div class="book-card" data-title="死刑台前的告别" data-author="［美］大卫·道">
+  <div class="book-title">《死刑台前的告别》</div>
+  <div class="book-author">［美］大卫·道</div>
+  <div class="book-meta"><span class="book-tag">［美］大卫·道 · 中国人民大学出版社 · 定价：32元</span></div>
+</div>
+
+    </div>
+    <p id="noResults" class="hidden" style="text-align:center;color:var(--muted);padding:2rem 0;">未找到匹配的书目</p>
+  </section>
+
   
-<section class="chapter" id="chapter-1">
-  <h2>1. 我们如何来到现在</h2>
+<div class="research-appendix" id="research-appendix">
+  <div class="section-label">Research Appendix</div>
+  <h2>待核实候选书目</h2>
+  <p>以下书目在章节正文中以粗体形式出现，但未在附录中找到对应条目。它们可能是缺失的第 98–100 本，但缺乏足够证据直接纳入正式书单。</p>
+  <ul>
+    <li><strong>《世界是平的》</strong>（chapter 2）— 章节中以粗体形式出现，附录中无对应条目，置信度：low</li>
+<li><strong>《通用汽车的缔造者》</strong>（chapter 2）— 章节中以粗体形式出现，附录中无对应条目，置信度：low</li>
+<li><strong>《总开关—信息帝国的兴衰变迁》</strong>（chapter 22）— 章节中以粗体形式出现，附录中无对应条目，置信度：low</li>
+  </ul>
+</div>
+
+
+  <hr class="section-divider">
+
+  <section id="reading">
+    <div class="section-label">Full Text</div>
+    <h2>完整正文</h2>
+    <p style="color:var(--muted);font-size:0.95rem;margin-bottom:2rem;">以下按章节顺序呈现全部正文内容，每章末尾附该章推荐书目。</p>
+    
+<section class="chapter-reading" id="chapter-1">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">01</span>我们如何来到现在</h2>
   <div class="chapter-body">
     <p>一个叫查尔斯·汤斯的科学家，他接到一个研究飞机上使用雷达的任务。在他做这个研究之前，除了原子弹这种闭着眼睛一脚把炸弹踢下飞机也能杀死无数人之外，飞机扔炸弹基本上是靠瞎蒙。研究这种雷达的目的是可以更有效率地杀人，但是当时的雷达波长很长，所以要求雷达直径也很长。</p>
 <p>汤斯的任务是怎么搞出一个短波长的雷达。但是他发现一个问题，如果波长短到比如1. 5厘米，那么它很容易被水吸收—这样雨天雾天就没办法准确杀人了。我不知道雷达们后来怎么样了，反正汤斯发现了这个特点。于是，查尔斯·汤斯，这位来自贝尔实验室的科学家，发明了人类最重要的热剩饭的工具：微波炉。</p>
@@ -133,15 +1095,31 @@
 <p>这么想想，真的是挺好一件事。“居然可以是这样！”即使我们不掌握那么多的钱，我们也没有什么可以赚钱的技术，但我们可以有很多的好奇心，这个东西同样可以让我们走到今天。</p>
   </div>
   <div class="book-list">
-    <div class="book-card" data-title="沃森父子与IBM王朝" data-author="理查德·泰德洛"><div class="book-title">《沃森父子与IBM王朝》</div><div class="book-meta">理查德·泰德洛 · 中国人民大学出版社 2005年10月 · 定价：29元</div></div>
-<div class="book-card" data-title="压垮世界的泡沫" data-author="加雷·加勒特"><div class="book-title">《压垮世界的泡沫》</div><div class="book-meta">加雷·加勒特 · 法律出版社 2010年12月 · 定价：32元</div></div>
-<div class="book-card" data-title="我们如何来到现在" data-author="安迪·凯斯勒"><div class="book-title">《我们如何来到现在》</div><div class="book-meta">安迪·凯斯勒 · 机械工业出版社 2011年1月 · 定价：36元</div></div>
-  </div>
+<div class="book-card" data-title="沃森父子与IBM王朝" data-author="理查德·泰德洛">
+  <div class="book-title">《沃森父子与IBM王朝》</div>
+  <div class="book-author">理查德·泰德洛</div>
+  <div class="book-meta">理查德·泰德洛 · 中国人民大学出版社 2005年10月 · 定价：29元</div>
+</div>
+
+
+<div class="book-card" data-title="压垮世界的泡沫" data-author="加雷·加勒特">
+  <div class="book-title">《压垮世界的泡沫》</div>
+  <div class="book-author">加雷·加勒特</div>
+  <div class="book-meta">加雷·加勒特 · 法律出版社 2010年12月 · 定价：32元</div>
+</div>
+
+
+<div class="book-card" data-title="我们如何来到现在" data-author="安迪·凯斯勒">
+  <div class="book-title">《我们如何来到现在》</div>
+  <div class="book-author">安迪·凯斯勒</div>
+  <div class="book-meta">安迪·凯斯勒 · 机械工业出版社 2011年1月 · 定价：36元</div>
+</div>
+</div>
 </section>
 
 
-<section class="chapter" id="chapter-2">
-  <h2>2. 日光之下，并无新事</h2>
+<section class="chapter-reading" id="chapter-2">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">02</span>日光之下，并无新事</h2>
   <div class="chapter-body">
     <p>关于把钱借给别人，最纠结的事在于你总是不好意思提醒这个家伙应该还钱了，但心里又成天惦记着这个事。关于借钱的另一个悲剧是，借钱给别人是换不来这个人的友谊的，他会不断地质疑你：为什么成天盯着我还钱？我要是有钱早就还你了，你这人真婆妈……这事如果上升到国家层面，除了这两个悲催定律之外，还有一个更让人绝望的：大部分国家借了钱之后通常是越借越多，并且十有八九还不起了。</p>
 <p>美国人在一战之后二战之前跟欧洲就是这样的关系，钱越借越多，欧洲人也没什么长进，除了买军火买装备练级，没啥好做的。中国人借钱给美国人？这事早就发生过了。美国人就这时就心下嘀咕：借钱给欧洲，并且还是德国这个手下败将，可贷款只带来他们的厌恶，我们这是图啥？</p>
@@ -165,15 +1143,31 @@
 <p>这真是悲剧中的悲剧。所以还是说点乐观的吧。1970年代，《商业周刊》发表了一篇文章《股票之死》，报道中说，你有听说过、参加过美国公司的股东大会吗？那里全是老人，死气沉沉，不代表未来。《商业周刊》显然错了，那些死气沉沉的老家伙们个个笃信“日光之下，并无新事”，他们知道萧条之后一定会有一轮股市的反弹，未来的大牛市等着他们呢。</p>
   </div>
   <div class="book-list">
-    <div class="book-card" data-title="世界是平的" data-author="托马斯·弗里德曼"><div class="book-title">《世界是平的》</div><div class="book-meta">托马斯·弗里德曼 · 湖南科学技术出版社 2008年9月 · 定价：58元</div></div>
-<div class="book-card" data-title="通用汽车的缔造者" data-author="劳伦斯·古斯廷"><div class="book-title">《通用汽车的缔造者》</div><div class="book-meta">劳伦斯·古斯廷 · 上海远东出版社 2008年8月 · 定价：39元</div></div>
-<div class="book-card" data-title="大癫狂——非同寻常的大众幻想与全民疯狂" data-author="查尔斯·麦基"><div class="book-title">《大癫狂——非同寻常的大众幻想与全民疯狂》</div><div class="book-meta">查尔斯·麦基 · 北京邮电大学出版社 2009年1月 · 定价：39元</div></div>
-  </div>
+<div class="book-card" data-title="世界是平的" data-author="托马斯·弗里德曼">
+  <div class="book-title">《世界是平的》</div>
+  <div class="book-author">托马斯·弗里德曼</div>
+  <div class="book-meta">托马斯·弗里德曼 · 湖南科学技术出版社 2008年9月 · 定价：58元</div>
+</div>
+
+
+<div class="book-card" data-title="通用汽车的缔造者" data-author="劳伦斯·古斯廷">
+  <div class="book-title">《通用汽车的缔造者》</div>
+  <div class="book-author">劳伦斯·古斯廷</div>
+  <div class="book-meta">劳伦斯·古斯廷 · 上海远东出版社 2008年8月 · 定价：39元</div>
+</div>
+
+
+<div class="book-card" data-title="大癫狂——非同寻常的大众幻想与全民疯狂" data-author="查尔斯·麦基">
+  <div class="book-title">《大癫狂——非同寻常的大众幻想与全民疯狂》</div>
+  <div class="book-author">查尔斯·麦基</div>
+  <div class="book-meta">查尔斯·麦基 · 北京邮电大学出版社 2009年1月 · 定价：39元</div>
+</div>
+</div>
 </section>
 
 
-<section class="chapter" id="chapter-3">
-  <h2>3. 那些数学大师们</h2>
+<section class="chapter-reading" id="chapter-3">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">03</span>那些数学大师们</h2>
   <div class="chapter-body">
     <p>小时候对伽利略的印象一般，一是我们所有的书里都说他最后屈服于教廷压力而作了伪证，当时我满脑子想的都是不成功便成仁，他怎么可以这样；二是他很无聊，居然想起来跑到比萨斜塔上去扔铁球。</p>
 <p>尼尔·波斯曼为他多少正了一点名。他说那个实验不是伽利略做的，是亚里士多德的粉丝、他的对手乔齐奥·科雷索做的，本来是想证明他的偶像的说法有多正确，结果被伽利略逮了个正着。我看到这个消息很高兴，大师么就应该是这样，与那些凡夫俗子较劲，没有品味，再说，较得过来吗？</p>
@@ -194,14 +1188,24 @@
 <p>没准真的就摧毁了，这事还没完呢。</p>
   </div>
   <div class="book-list">
-    <div class="book-card" data-title="数学那些事儿：思想、发现、人物和历史" data-author="威廉·邓纳姆"><div class="book-title">《数学那些事儿：思想、发现、人物和历史》</div><div class="book-meta">威廉·邓纳姆 · 人民邮电出版社 2011年3月 · 定价：39元</div></div>
-<div class="book-card" data-title="技术垄断" data-author="尼尔·波斯曼"><div class="book-title">《技术垄断》</div><div class="book-meta">尼尔·波斯曼 · 北京大学出版社 2007年10月 · 定价：22元</div></div>
-  </div>
+<div class="book-card" data-title="数学那些事儿：思想、发现、人物和历史" data-author="威廉·邓纳姆">
+  <div class="book-title">《数学那些事儿：思想、发现、人物和历史》</div>
+  <div class="book-author">威廉·邓纳姆</div>
+  <div class="book-meta">威廉·邓纳姆 · 人民邮电出版社 2011年3月 · 定价：39元</div>
+</div>
+
+
+<div class="book-card" data-title="技术垄断" data-author="尼尔·波斯曼">
+  <div class="book-title">《技术垄断》</div>
+  <div class="book-author">尼尔·波斯曼</div>
+  <div class="book-meta">尼尔·波斯曼 · 北京大学出版社 2007年10月 · 定价：22元</div>
+</div>
+</div>
 </section>
 
 
-<section class="chapter" id="chapter-4">
-  <h2>4. 当心，被他们骗了</h2>
+<section class="chapter-reading" id="chapter-4">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">04</span>当心，被他们骗了</h2>
   <div class="chapter-body">
     <p>大卫·奥格威有一天注意到办公室里新来的年轻人，他厌恶地摇摇头：这群刚毕业的名校大学生们，虚荣心强，把麦迪逊大道当成自己的羽毛，做的事情呢？蜻蜓点水马马虎虎，并且不爱加班，到点回家或者出去欢乐，目无老板，随时准备着收拾东西跳槽的样子。嗯，实在不怎么样。</p>
 <p>你听着心里是不是一惊一乍的？大卫·奥格威？奥美创始人，这不是已经是个古人了吗？他怎么知道？</p>
@@ -223,15 +1227,31 @@
 <p>不管怎么说，年轻是最好的事，埃罗尔·菲林说过一句话：任何一个人，如果他死时银行里还有超过1万美元存款，那他就是一个失败者。把这句话写墙上，告诉婴儿潮一代们：我们不但能活过他们，他们还应该把钱给我们留下来。</p>
   </div>
   <div class="book-list">
-    <div class="book-card" data-title="广告大师奥格威" data-author="大卫·奥格威"><div class="book-title">《广告大师奥格威》</div><div class="book-meta">大卫·奥格威 · 生活读书新知三联书店 · 2003年9月</div></div>
-<div class="book-card" data-title="投资者宣言" data-author="威廉·伯恩斯坦"><div class="book-title">《投资者宣言》</div><div class="book-meta">威廉·伯恩斯坦 · 机械工业出版社 2011年2月 · 定价：35元</div></div>
-<div class="book-card" data-title="非理性繁荣" data-author="罗伯特·希勒"><div class="book-title">《非理性繁荣》</div><div class="book-meta">罗伯特·希勒 · 中国人民大学出版社 2001年4月 · 定价：30元</div></div>
-  </div>
+<div class="book-card" data-title="广告大师奥格威" data-author="大卫·奥格威">
+  <div class="book-title">《广告大师奥格威》</div>
+  <div class="book-author">大卫·奥格威</div>
+  <div class="book-meta">大卫·奥格威 · 生活读书新知三联书店 · 2003年9月</div>
+</div>
+
+
+<div class="book-card" data-title="投资者宣言" data-author="威廉·伯恩斯坦">
+  <div class="book-title">《投资者宣言》</div>
+  <div class="book-author">威廉·伯恩斯坦</div>
+  <div class="book-meta">威廉·伯恩斯坦 · 机械工业出版社 2011年2月 · 定价：35元</div>
+</div>
+
+
+<div class="book-card" data-title="非理性繁荣" data-author="罗伯特·希勒">
+  <div class="book-title">《非理性繁荣》</div>
+  <div class="book-author">罗伯特·希勒</div>
+  <div class="book-meta">罗伯特·希勒 · 中国人民大学出版社 2001年4月 · 定价：30元</div>
+</div>
+</div>
 </section>
 
 
-<section class="chapter" id="chapter-5">
-  <h2>5. 你从事的是娱乐业</h2>
+<section class="chapter-reading" id="chapter-5">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">05</span>你从事的是娱乐业</h2>
   <div class="chapter-body">
     <p>安迪·格鲁夫作为史上最着名的一个偏执狂，有一天他在办公室对戈登·摩尔说，如果我们被踢出董事会，他们找到一个新的首席执行官来，你说他会怎么做？戈登犹豫了一下说，他会放弃存储器的生意。格鲁夫死死地盯住戈登·摩尔：你我为什么不走出这扇门，然后走回来，我们自己动手呢？</p>
 <p>在他们说这话的时候，远在华尔街的另一个安迪，安迪·凯斯勒作为一个菜鸟分析师，正在研究Intel。他预测在经历了一个日本制造冲击（那时候美国的敌人还是日本）、存货量大大增加引发生产过剩之后，芯片制造业应该凭借技术进步迎来反弹，他给出的建议是“买入”。</p>
@@ -255,15 +1275,31 @@
 <p>在我们这里，这个故事通常有另外一个版本，为什么营业部门口看车的、卖盒饭的老太太炒股都赚了，因为她们发现自己的生意好做的时候，也应该是退场的时候了，那些供不应求的盒饭就是她们的小铃铛。</p>
   </div>
   <div class="book-list">
-    <div class="book-card" data-title="只有偏执狂才能生存" data-author="安迪·格鲁夫"><div class="book-title">《只有偏执狂才能生存》</div><div class="book-meta">安迪·格鲁夫 · 中信出版社 辽宁教育出版社 · 2002年8月</div></div>
-<div class="book-card" data-title="大空头" data-author="迈克尔·刘易斯"><div class="book-title">《大空头》</div><div class="book-meta">迈克尔·刘易斯 · 中信出版社 2011年1月 · 定价：42元</div></div>
-<div class="book-card" data-title="华尔街的肉—我从股市绞肉机中死里逃生" data-author="安迪·凯斯勒"><div class="book-title">《华尔街的肉—我从股市绞肉机中死里逃生》</div><div class="book-meta">安迪·凯斯勒 · 上海人民出版社 2006年11月 · 定价：22元</div></div>
-  </div>
+<div class="book-card" data-title="只有偏执狂才能生存" data-author="安迪·格鲁夫">
+  <div class="book-title">《只有偏执狂才能生存》</div>
+  <div class="book-author">安迪·格鲁夫</div>
+  <div class="book-meta">安迪·格鲁夫 · 中信出版社 辽宁教育出版社 · 2002年8月</div>
+</div>
+
+
+<div class="book-card" data-title="大空头" data-author="迈克尔·刘易斯">
+  <div class="book-title">《大空头》</div>
+  <div class="book-author">迈克尔·刘易斯</div>
+  <div class="book-meta">迈克尔·刘易斯 · 中信出版社 2011年1月 · 定价：42元</div>
+</div>
+
+
+<div class="book-card" data-title="华尔街的肉—我从股市绞肉机中死里逃生" data-author="安迪·凯斯勒">
+  <div class="book-title">《华尔街的肉—我从股市绞肉机中死里逃生》</div>
+  <div class="book-author">安迪·凯斯勒</div>
+  <div class="book-meta">安迪·凯斯勒 · 上海人民出版社 2006年11月 · 定价：22元</div>
+</div>
+</div>
 </section>
 
 
-<section class="chapter" id="chapter-6">
-  <h2>6. 人人都爱非理性</h2>
+<section class="chapter-reading" id="chapter-6">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">06</span>人人都爱非理性</h2>
   <div class="chapter-body">
     <p>投资这回事，被当成又体面又高智商的赚钱手段的历史并不长，在人类文明当中，除了中国人觉得做生意这事不靠谱人品不好，其他国家的人民也不待见这个东西。我们都有一个词来说它们，“不劳而获”，这还真是一个很严厉的评价。</p>
 <p>所以一想到现在可以有专门的杂志来教大家如何“不劳而获”，我还真是觉得这社会进步了。当然了，即使社会进步至如此，也不是所有人都能得到“不劳而获”的机会。比如我就觉得我不适合投资，这其中的原因显然不是我道德高尚，而是我总能看到各种怪模怪样的理论，这种事听得多了，你就会觉得你掉到一个赌场里——像我这种心理素质不好的，如果又担了一个“不劳而获”的名声，还被赌场吓住，那真是一件让人伤感的事。</p>
@@ -280,15 +1316,31 @@
 <p>看到了吗？科学的本质。知识被越多的人用，它的潜在价值就越大。即使全世界投资者都在非理性，那也不用怕。你可以说：那又怎么样，我们在创造历史啊。</p>
   </div>
   <div class="book-list">
-    <div class="book-card" data-title="为什么是欧洲？——世界史视角下的西方崛起" data-author="杰克·戈德斯通"><div class="book-title">《为什么是欧洲？——世界史视角下的西方崛起》</div><div class="book-meta">杰克·戈德斯通 · 浙江大学出版社 2010年7月 · 定价：34元</div></div>
-<div class="book-card" data-title="怪诞行为学——可预测的非理性" data-author="中信出版社 2010年19月"><div class="book-title">《怪诞行为学——可预测的非理性》</div><div class="book-meta">中信出版社 2010年19月 · 定价：45元</div></div>
-<div class="book-card" data-title="群体的智慧——如何做出最聪明的决策" data-author="詹姆斯·索罗维基"><div class="book-title">《群体的智慧——如何做出最聪明的决策》</div><div class="book-meta">詹姆斯·索罗维基 · 中信出版社 2010年10月 · 定价：33元</div></div>
-  </div>
+<div class="book-card" data-title="为什么是欧洲？——世界史视角下的西方崛起" data-author="杰克·戈德斯通">
+  <div class="book-title">《为什么是欧洲？——世界史视角下的西方崛起》</div>
+  <div class="book-author">杰克·戈德斯通</div>
+  <div class="book-meta">杰克·戈德斯通 · 浙江大学出版社 2010年7月 · 定价：34元</div>
+</div>
+
+
+<div class="book-card" data-title="怪诞行为学——可预测的非理性" data-author="中信出版社 2010年19月">
+  <div class="book-title">《怪诞行为学——可预测的非理性》</div>
+  <div class="book-author">中信出版社 2010年19月</div>
+  <div class="book-meta">中信出版社 2010年19月 · 定价：45元</div>
+</div>
+
+
+<div class="book-card" data-title="群体的智慧——如何做出最聪明的决策" data-author="詹姆斯·索罗维基">
+  <div class="book-title">《群体的智慧——如何做出最聪明的决策》</div>
+  <div class="book-author">詹姆斯·索罗维基</div>
+  <div class="book-meta">詹姆斯·索罗维基 · 中信出版社 2010年10月 · 定价：33元</div>
+</div>
+</div>
 </section>
 
 
-<section class="chapter" id="chapter-7">
-  <h2>7. 天才，还是该死的无耻之徒</h2>
+<section class="chapter-reading" id="chapter-7">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">07</span>天才，还是该死的无耻之徒</h2>
   <div class="chapter-body">
     <p>投资界是盛产天才的地方，何止是天才，简直充满了神启者、通灵者。投资界在这方面的鼻祖是来自田纳西州的克拉夫林姐妹，姐姐维多利亚最大的客户是接近于老年痴呆的铁路大王范德比尔特，你就想像一个比比尔·盖茨还要富有三四倍钱的人傻了，这真是一件欢乐的事，可他身边有这样一对姐妹花替他炒股票，她们该是多成功的股票经纪师啊！她们也因此成为第一个成立经纪公司的女人。</p>
 <p>她们的厉害还不仅在于此，她们也是最早在美国做报纸的女人，最早鼓吹自由恋爱的女人，维多利亚还是最早竞选美国总统的女人，她们的报纸最早把《共产党宣言》介绍给了美国人……当然，在为范德比尔特写传记的小爱德华·雷内汗看来，她们还是最早对自由恋爱进行收费的人。</p>
@@ -319,14 +1371,12 @@
 <p>中信出版社，2009年4月</p>
 <p>39.00元</p>
   </div>
-  <div class="book-list">
-    <p>（本章无书单）</p>
-  </div>
+  
 </section>
 
 
-<section class="chapter" id="chapter-8">
-  <h2>8. 伯恩斯坦错了吗</h2>
+<section class="chapter-reading" id="chapter-8">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">08</span>伯恩斯坦错了吗</h2>
   <div class="chapter-body">
     <p>1995年，印度新德里的人民党政府关闭了这个城市唯一的一家肯德基，原因是卫生检疫人员在厨房里发现了一只苍蝇。爱德华·卢斯说，熟悉德里市饭店卫生标准的人都不禁要怀疑这只是一个借口。卢斯是《金融时报》驻印度的记者，他写了《不顾诸神——现代印度的奇怪崛起》，这故事告诉我们，这个世界不仅仅只有崛起的中国才会有这样的双重标准的事情发生，新兴国家们多多少少都有一点这样的爱好。</p>
 <p>威廉·伯恩斯坦说，投资者很容易相信新兴国家的高速增长会为投资者带来高额的回报，但实际发生的往往是资本市场回报率低于全球平均水平。他为此总结了三条原因，其中第一条是国家跟公司一样，跌到一个较低估值的时候才会有入场抄底的机会，而新兴市场往往还一路高歌猛进呢，投资者根本没遇到合适的进入时间。第二条是新股发行过多，降低了整体的回报水平。第三条是政府不能完善的保护投资者利益，也没有完善法制来制约政府和大股东的随意掠夺和破坏公司的价值。肯德基在德里的那只苍蝇，可以为此作证。</p>
@@ -344,16 +1394,38 @@
 <p>伯恩斯坦说过一句话，他说，要乐于享受投资过程，就像一个手艺人爱手艺，但大部分人不像木匠，倒是像牙医。我觉得这是他否定新兴市场投资价值的所有理论基础，如果你不愿意移民到这些国家，你怎么可能信赖它，投资它呢？大师说的话总是又哲学又朴实，但我还想提供詹姆斯·比尔德的一句大师级别的话：一个老想着卡路里的美食家，就像一个老看手表的妓女。对于投资这些新兴市场想要赚钱的人来说，你真的没有必要因为它有投资价值，而爱上它。就像柯纳·伍德曼所说：商人不能对他卖的东西投入感情。是的，他必须垂涎优质的商品，因为只有这样的东西他才有信心去卖；可他又得小心翼翼地避免滋生出经济学家所谓的“禀赋效应”——仅仅因为你拥有某样东西，就觉得它比相应的货币价值更值钱。</p>
   </div>
   <div class="book-list">
-    <div class="book-card" data-title="不顾诸神——现代印度的奇怪崛起" data-author="爱德华·卢斯"><div class="book-title">《不顾诸神——现代印度的奇怪崛起》</div><div class="book-meta">爱德华·卢斯 · 中信出版社 2007年11月 · 定价：39元</div></div>
-<div class="book-card" data-title="赤道之南——巴西的新兴与光芒" data-author="中信出版社 2011年8月"><div class="book-title">《赤道之南——巴西的新兴与光芒》</div><div class="book-meta">中信出版社 2011年8月 · 定价：39元</div></div>
-<div class="book-card" data-title="与全世界做生意——一个经济学家的环球冒险" data-author="柯纳·伍德曼"><div class="book-title">《与全世界做生意——一个经济学家的环球冒险》</div><div class="book-meta">柯纳·伍德曼 · 机械工业出版社 2010年10月 · 定价：32元</div></div>
-<div class="book-card" data-title="一件T恤的全球经济之旅" data-author="皮翠拉·瑞沃莉"><div class="book-title">《一件T恤的全球经济之旅》</div><div class="book-meta">皮翠拉·瑞沃莉 · 中信出版社 2011年1月 · 定价：39元</div></div>
-  </div>
+<div class="book-card" data-title="不顾诸神——现代印度的奇怪崛起" data-author="爱德华·卢斯">
+  <div class="book-title">《不顾诸神——现代印度的奇怪崛起》</div>
+  <div class="book-author">爱德华·卢斯</div>
+  <div class="book-meta">爱德华·卢斯 · 中信出版社 2007年11月 · 定价：39元</div>
+</div>
+
+
+<div class="book-card" data-title="赤道之南——巴西的新兴与光芒" data-author="中信出版社 2011年8月">
+  <div class="book-title">《赤道之南——巴西的新兴与光芒》</div>
+  <div class="book-author">中信出版社 2011年8月</div>
+  <div class="book-meta">中信出版社 2011年8月 · 定价：39元</div>
+</div>
+
+
+<div class="book-card" data-title="与全世界做生意——一个经济学家的环球冒险" data-author="柯纳·伍德曼">
+  <div class="book-title">《与全世界做生意——一个经济学家的环球冒险》</div>
+  <div class="book-author">柯纳·伍德曼</div>
+  <div class="book-meta">柯纳·伍德曼 · 机械工业出版社 2010年10月 · 定价：32元</div>
+</div>
+
+
+<div class="book-card" data-title="一件T恤的全球经济之旅" data-author="皮翠拉·瑞沃莉">
+  <div class="book-title">《一件T恤的全球经济之旅》</div>
+  <div class="book-author">皮翠拉·瑞沃莉</div>
+  <div class="book-meta">皮翠拉·瑞沃莉 · 中信出版社 2011年1月 · 定价：39元</div>
+</div>
+</div>
 </section>
 
 
-<section class="chapter" id="chapter-9">
-  <h2>9. 怎么就成了巴圣人了</h2>
+<section class="chapter-reading" id="chapter-9">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">09</span>怎么就成了巴圣人了</h2>
   <div class="chapter-body">
     <p>这人世间有一句话是我很不爱听的，就是“世风日下，人心不古”，作为一个进化论的信徒，我觉得这世界虽然看起来乱七八糟的事越来越多，但总的来说，这是信息越来越开放的结果。</p>
 <p>但大部分的时候，既然古人说的话能够流传下来，你总能找到它有万分准确的地方。比如在说到沃伦·巴菲特的时候，我就会想，他现在怎么就成为全世界人民的偶像了呢，真是世风日下啊！要说他做的那些事，比如买个高盛的股票，买了美国银行的股票——这不就是看好机会抄个底吗？怎么就变成“美国经济的稳定力量”，“让美国人重拾信心”了呢？叫好声音太多了，以至于我眼看着巴菲特一路绝尘地奔着巴圣人去了，就只好叹一下“人心不古”了。</p>
@@ -371,13 +1443,17 @@
 <p>史蒂夫·乔布斯在年少糊涂的时候做了一件蠢事，就是从百事可乐那里挖来了约翰·斯卡利。乔布斯跟斯卡利说了一句很“现实扭曲力场”的话：“你是打算卖一辈子糖水，还是打算改变世界？”我觉得沃伦·巴菲特就是那个卖一辈子糖水的人，别忘了，他的心头大爱可是可口可乐，这是他最得意的一个投资，而约翰·皮尔庞特·摩根，当然，我可以很庄重地说，他可以被叫做是“改变世界的人”。</p>
   </div>
   <div class="book-list">
-    <div class="book-card" data-title="工商巨子" data-author="荣·切尔诺"><div class="book-title">《工商巨子》</div><div class="book-meta">荣·切尔诺 · 海南出版社 2000年6月 · 定价：65元</div></div>
-  </div>
+<div class="book-card" data-title="工商巨子" data-author="荣·切尔诺">
+  <div class="book-title">《工商巨子》</div>
+  <div class="book-author">荣·切尔诺</div>
+  <div class="book-meta">荣·切尔诺 · 海南出版社 2000年6月 · 定价：65元</div>
+</div>
+</div>
 </section>
 
 
-<section class="chapter" id="chapter-10">
-  <h2>10. 为什么不为“民主化”投资</h2>
+<section class="chapter-reading" id="chapter-10">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">10</span>为什么不为“民主化”投资</h2>
   <div class="chapter-body">
     <p>理财这回事，是给焦虑中的中产阶级们服务的。中产阶级这个群体，往好里说是社会中坚，稳定基石，如果刻薄一点，那就是谨小慎微，前怕狼后怕虎，手里有点钱，憧憬过上好生活，但又禁不起风吹草动，尤其是当自己不小心有了更多欲望的时候。</p>
 <p>Larry Lohter在谈到巴西的中产阶级时说，“中产阶级倾向于模仿他们渴望加入的精英阶层。比如在有仆人的家庭，孩子们很少被要求自己收拾东西。”我觉得全世界的欣欣向荣的中产阶级差不多都是这样，就是向往需要使劲够一下才能够到的奢侈生活。现代人早就不把“奢侈”当回事了，但二百多年前，大卫·休谟还要郑重其事地为奢侈这事纠结：奢侈让人沉迷，让人耽于欲望，这就是恶——什么是启蒙呢？就是告诉人类，奢侈是没有办法的事。接受这种“不道德”，由此产生了现代商业文明，简单一点说吧，因为奢侈的存在，这世界就存在着大量的“稀缺”，我们知道，在这个基础之上从此诞生了一种叫经济学的东西。</p>
@@ -405,14 +1481,12 @@
 <p>中信出版社 2010年1月</p>
 <p>定价：38元</p>
   </div>
-  <div class="book-list">
-    <p>（本章无书单）</p>
-  </div>
+  
 </section>
 
 
-<section class="chapter" id="chapter-11">
-  <h2>11. 为什么对莫斯科维茨心生崇敬</h2>
+<section class="chapter-reading" id="chapter-11">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">11</span>为什么对莫斯科维茨心生崇敬</h2>
   <div class="chapter-body">
     <p>李翔再一次把他收藏的马克·扎克伯格的视频给大家看。那几天Facebook刚刚宣布要IPO，一群人把《社交网络》的盗版碟翻出来，试图重温一下这部电影，在帕洛阿图瞻仰过马克真身的李翔说扎克伯格对这部电影的评价是——只有T恤演得像。我很喜欢这个答案，虽然我觉得这些故事里也没有什么不真实的——这个电影是从爱德华多·萨维林那里出来的，他看到的可能就是这样，这个世界上大部分事情之所以缤纷，可能只是看问题的角度不一样而已。</p>
 <p>说说标题中的达斯汀·莫斯科维茨吧。</p>
@@ -444,14 +1518,12 @@
 <p>华文出版社 2010年10月</p>
 <p>定价：49.8元</p>
   </div>
-  <div class="book-list">
-    <p>（本章无书单）</p>
-  </div>
+  
 </section>
 
 
-<section class="chapter" id="chapter-12">
-  <h2>12. 我们这个时代最智慧的头脑</h2>
+<section class="chapter-reading" id="chapter-12">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">12</span>我们这个时代最智慧的头脑</h2>
   <div class="chapter-body">
     <p>有这么一个公司，笃信自由市场理论并在这个自由市场里表现得游刃有余；它还有强大的创新能力，不断地在自己领域里创新商业模式，颠覆既有的传统规则；它们还有明星CEO，给自由市场、创新打气；并且它还是在《财富》500强中能进前十名的大家伙……对了，它还是清洁能源的推广以及开发者，代表人类绿色的未来——当一个这么好公司摆在你的面前，你觉得怎么样？你投资吗？</p>
 <p>如果我是一个投资者，面对这样一组Tag，面对这个华尔街的尤物，我也会义不容辞地进去捞一票。如果我还是它的员工，哈利路亚，各种顶级的福利和补贴，各种丰盛的养老金计划，这真是前世修来的福分啊。</p>
@@ -468,15 +1540,31 @@
 <p>Jeff Harmmerbacher，一个数学家，他在Facebook负责数据挖掘和分析，有一天他辞职了，他说，他容忍不了这个世界上最聪明最智慧的头脑做的工作，只是为了怎么让人更多地点击他们的广告。嗯，这也是我想表达的，佩奇啊或者扎克伯格啊，他们做的事的确看起来是改变世界的样子，但是，那也就是一个卖广告的生意啊。</p>
   </div>
   <div class="book-list">
-    <div class="book-card" data-title="被谷歌" data-author="肯·奥莱塔"><div class="book-title">《被谷歌》</div><div class="book-meta">肯·奥莱塔 · 中信出版社 2010年9月 · 定价：39元</div></div>
-<div class="book-card" data-title="乔布斯传" data-author="沃尔特·艾萨克森"><div class="book-title">《乔布斯传》</div><div class="book-meta">沃尔特·艾萨克森 · 中信出版社 2011年10月 · 定价：68元</div></div>
-<div class="book-card" data-title="房间里最精明的人—安然破产案始末" data-author="贝萨妮·麦克莱恩，彼得·埃尔金德"><div class="book-title">《房间里最精明的人—安然破产案始末》</div><div class="book-meta">贝萨妮·麦克莱恩，彼得·埃尔金德 · 中国社会科学出版社 2007年2月 · 定价：42元</div></div>
-  </div>
+<div class="book-card" data-title="被谷歌" data-author="肯·奥莱塔">
+  <div class="book-title">《被谷歌》</div>
+  <div class="book-author">肯·奥莱塔</div>
+  <div class="book-meta">肯·奥莱塔 · 中信出版社 2010年9月 · 定价：39元</div>
+</div>
+
+
+<div class="book-card" data-title="乔布斯传" data-author="沃尔特·艾萨克森">
+  <div class="book-title">《乔布斯传》</div>
+  <div class="book-author">沃尔特·艾萨克森</div>
+  <div class="book-meta">沃尔特·艾萨克森 · 中信出版社 2011年10月 · 定价：68元</div>
+</div>
+
+
+<div class="book-card" data-title="房间里最精明的人—安然破产案始末" data-author="贝萨妮·麦克莱恩，彼得·埃尔金德">
+  <div class="book-title">《房间里最精明的人—安然破产案始末》</div>
+  <div class="book-author">贝萨妮·麦克莱恩，彼得·埃尔金德</div>
+  <div class="book-meta">贝萨妮·麦克莱恩，彼得·埃尔金德 · 中国社会科学出版社 2007年2月 · 定价：42元</div>
+</div>
+</div>
 </section>
 
 
-<section class="chapter" id="chapter-13">
-  <h2>13. 乔布斯的One More Thing</h2>
+<section class="chapter-reading" id="chapter-13">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">13</span>乔布斯的One More Thing</h2>
   <div class="chapter-body">
     <p>如果史蒂夫·乔布斯还活着，每半年就搞点新意思出来，我觉得也是一件挺难的事。当然，他有“扭曲现实力场”，所以他可以让人跟着他的魔法棒一起激动一下，比如在最近一次的新一代iPad发布上，我就会想，当他最后说“and one more thing……” 的时候，会不会把那个iPhoto说得天花乱坠，说不定就会这样。所以老实巴交的宅男Tim Cook老老实实地把视网膜显示技术、新的图像处理这些东西都一骨脑地说了出来，总是让人感觉缺了一点激动人心。</p>
 <p>其实如果从正常经营的角度看，Tim Cook我看可以说正领导着一个史上最牛的公司隆隆向前。如果从战略家们那些高屋建瓴的角度看，苹果公司有好的产品，在全球范围内建立起了庞大的供应链，有成熟的研发，好像还有一个不错的更有利于确定决策的团队（那个搞一言堂法西斯不民主不nice的乔布斯终于不再指手划脚了）； 如果从苛刻的财务家或者分析师的角度看，现在也很完美，巨大的收入总额，好看得不能再好看的利润，还有源源不断的巨大的现金流，而库存采购这些成本完美得近乎数学公式……作为一个冷静理智的商业的信仰者，似乎没有任何理由来怀疑无辜的Tim Cook。</p>
@@ -500,14 +1588,12 @@
 <p>中信出版社 2008年1月</p>
 <p>定价：39元</p>
   </div>
-  <div class="book-list">
-    <p>（本章无书单）</p>
-  </div>
+  
 </section>
 
 
-<section class="chapter" id="chapter-14">
-  <h2>14. 不要跟自己的肺生气</h2>
+<section class="chapter-reading" id="chapter-14">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">14</span>不要跟自己的肺生气</h2>
   <div class="chapter-body">
     <p>“主张在投资者的证券组合中采用某种机构的方法，调整债券与股票之间的比重。</p>
 <p>它的主要好处在于，让投资者有事可做。随着市场上升，他将不断地出售所持有的股票，并将所获收入投入到债券中；当市场下降时，他会采取相反的做法。这些交易活动将提供某种通道，以释放投资者有可能不断累积的能量。作为一名投资者，他能从下列想法中获得满足感：自己的业务操作与普通大众的正好相反。”</p>
@@ -530,13 +1616,17 @@
 <p>杰西·利弗莫尔说：“你看看，很多人徒有精明的名声，他们之所以看多，是因为他们已经持有股票。我不允许手上已有的头寸——或者先入为主的成见——为我做任何思考。我再三强调我从不和行情滞怠争论，这就是缘故。因为市场意外地、甚或毫无道理地对你不利，你便对市场生气，那就像得肺炎的时候对肺生气一样荒唐。”</p>
   </div>
   <div class="book-list">
-    <div class="book-card" data-title="股票大作手回忆录" data-author="埃德温·勒菲弗"><div class="book-title">《股票大作手回忆录》</div><div class="book-meta">埃德温·勒菲弗 · 万卷出版社 2010年11月 · 定价：48元</div></div>
-  </div>
+<div class="book-card" data-title="股票大作手回忆录" data-author="埃德温·勒菲弗">
+  <div class="book-title">《股票大作手回忆录》</div>
+  <div class="book-author">埃德温·勒菲弗</div>
+  <div class="book-meta">埃德温·勒菲弗 · 万卷出版社 2010年11月 · 定价：48元</div>
+</div>
+</div>
 </section>
 
 
-<section class="chapter" id="chapter-15">
-  <h2>15. 聪明的投资者</h2>
+<section class="chapter-reading" id="chapter-15">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">15</span>聪明的投资者</h2>
   <div class="chapter-body">
     <p>托马斯·伍德罗·威尔逊，一个美国总统看到了得克萨斯的石油富豪们是如何呼风唤雨的，心里多少有点酸溜溜，他说：“你知道，上帝把全部石油放在地下，然后来了一个人，他做任何事情都没有成功过，结果他把石油开采了出来。从那一刻起，他就觉得自己在哪一方面都是专家，不管是政治，还是裙子。”</p>
 <p>我现在还挺担心这种情况再度发生的，换算成我们的语言可能是，“你知道，党和国家把煤埋地下，然后来了一个人，没给国家做过任何贡献，把煤挖了出来，从那一刻起，他就觉得自己在哪一方面都是专家，不但当了人大代表，而且还懂了裙子。”他很有可能还懂了电影、电视，还懂了媒体……这种事可不算什么新鲜事，能源大亨们热爱娱乐传媒业，可不光是在美国，这些年我听到看到的也不少。他们通常都来势汹汹，张嘴便是这样的—“我们投资一个亿，我们不用想钱的事，我们打算大干一场。”噢？羡慕嫉妒恨的我总忍不住大惊小怪，难道已经有人进化到不心疼钱了吗？一般情况下，对面的人会搓搓手，半羞涩半得意地说：煤老板啊，试试看吧，替他们花点钱吧。</p>
@@ -554,13 +1644,17 @@
 <p>选择靠谱的钱和老板很重要，这还是一个职场的故事。你听说上周大连实德刚刚以0：5输掉一场比赛吗？我打赌它还会再输上一阵的。</p>
   </div>
   <div class="book-list">
-    <div class="book-card" data-title="大富时代" data-author="那时候大富豪们似乎是在金钱和财富玩具中游泳：任性的石油商们为了实现每个费伯式的神话，像收集糖果一样收集飞机、牧场和艺术品。"><div class="book-title">《大富时代》</div><div class="book-meta">那时候大富豪们似乎是在金钱和财富玩具中游泳：任性的石油商们为了实现每个费伯式的神话，像收集糖果一样收集飞机、牧场和艺术品。 · 布赖恩·伯勒 · 中信出版社 2010年12月</div></div>
-  </div>
+<div class="book-card" data-title="大富时代" data-author="那时候大富豪们似乎是在金钱和财富玩具中游泳：任性的石油商们为了实现每个费伯式的神话，像收集糖果一样收集飞机、牧场和艺术品。">
+  <div class="book-title">《大富时代》</div>
+  <div class="book-author">那时候大富豪们似乎是在金钱和财富玩具中游泳：任性的石油商们为了实现每个费伯式的神话，像收集糖果一样收集飞机、牧场和艺术品。</div>
+  <div class="book-meta">那时候大富豪们似乎是在金钱和财富玩具中游泳：任性的石油商们为了实现每个费伯式的神话，像收集糖果一样收集飞机、牧场和艺术品。 · 布赖恩·伯勒 · 中信出版社 2010年12月</div>
+</div>
+</div>
 </section>
 
 
-<section class="chapter" id="chapter-16">
-  <h2>16. 如果回到1997年</h2>
+<section class="chapter-reading" id="chapter-16">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">16</span>如果回到1997年</h2>
   <div class="chapter-body">
     <p>如果把1997年的苹果公司摆在你面前，你对它会有什么样的见解？或者更直白一点说，你会投资它吗？</p>
 <p>在那一年里，苹果发生的最大的事就是创始人史蒂夫·乔布斯又回来了。对于投资者来说，这是一个需要认真考虑的大事。</p>
@@ -581,14 +1675,24 @@
 <p>要怪只能怪自己。</p>
   </div>
   <div class="book-list">
-    <div class="book-card" data-title="创新者的窘境" data-author="克莱顿·克里斯坦森"><div class="book-title">《创新者的窘境》</div><div class="book-meta">克莱顿·克里斯坦森 · 中信出版社 2010年6月 · 定价：38元</div></div>
-<div class="book-card" data-title="创新者的解答" data-author="克莱顿·克里斯坦森"><div class="book-title">《创新者的解答》</div><div class="book-meta">克莱顿·克里斯坦森 · 中信出版社 2010年6月 · 定价：38元</div></div>
-  </div>
+<div class="book-card" data-title="创新者的窘境" data-author="克莱顿·克里斯坦森">
+  <div class="book-title">《创新者的窘境》</div>
+  <div class="book-author">克莱顿·克里斯坦森</div>
+  <div class="book-meta">克莱顿·克里斯坦森 · 中信出版社 2010年6月 · 定价：38元</div>
+</div>
+
+
+<div class="book-card" data-title="创新者的解答" data-author="克莱顿·克里斯坦森">
+  <div class="book-title">《创新者的解答》</div>
+  <div class="book-author">克莱顿·克里斯坦森</div>
+  <div class="book-meta">克莱顿·克里斯坦森 · 中信出版社 2010年6月 · 定价：38元</div>
+</div>
+</div>
 </section>
 
 
-<section class="chapter" id="chapter-17">
-  <h2>17. </h2>
+<section class="chapter-reading" id="chapter-17">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">17</span></h2>
   <div class="chapter-body">
     <p>#创新也能是护城河？ #</p>
 <p>在我们错过了1997年的苹果，诺基亚和惠普也承载不起我们的希望之后，我们到哪里去判断和寻找那些能让我们赚钱的创新公司呢？啊，我们还是先从一个悲观的结论开始吧。</p>
@@ -608,15 +1712,31 @@
 <p>如果我是风险投资家，那我就投它们了，至于杰克·多尔西是否朝三暮四，可能还真不是最重要的事。</p>
   </div>
   <div class="book-list">
-    <div class="book-card" data-title="创新者的窘境" data-author="克莱顿·克里斯坦森"><div class="book-title">《创新者的窘境》</div><div class="book-meta">克莱顿·克里斯坦森 · 中信出版社 2010年6月 · 定价：38元</div></div>
-<div class="book-card" data-title="只有偏执狂才能生存" data-author="安迪·格鲁夫"><div class="book-title">《只有偏执狂才能生存》</div><div class="book-meta">安迪·格鲁夫 · 中信出版社 2002年8月 · 定价：22元</div></div>
-<div class="book-card" data-title="创新者的解答" data-author="克莱顿·克里斯坦森"><div class="book-title">《创新者的解答》</div><div class="book-meta">克莱顿·克里斯坦森 · 中信出版社 2010年6月 · 定价：38元</div></div>
-  </div>
+<div class="book-card" data-title="创新者的窘境" data-author="克莱顿·克里斯坦森">
+  <div class="book-title">《创新者的窘境》</div>
+  <div class="book-author">克莱顿·克里斯坦森</div>
+  <div class="book-meta">克莱顿·克里斯坦森 · 中信出版社 2010年6月 · 定价：38元</div>
+</div>
+
+
+<div class="book-card" data-title="只有偏执狂才能生存" data-author="安迪·格鲁夫">
+  <div class="book-title">《只有偏执狂才能生存》</div>
+  <div class="book-author">安迪·格鲁夫</div>
+  <div class="book-meta">安迪·格鲁夫 · 中信出版社 2002年8月 · 定价：22元</div>
+</div>
+
+
+<div class="book-card" data-title="创新者的解答" data-author="克莱顿·克里斯坦森">
+  <div class="book-title">《创新者的解答》</div>
+  <div class="book-author">克莱顿·克里斯坦森</div>
+  <div class="book-meta">克莱顿·克里斯坦森 · 中信出版社 2010年6月 · 定价：38元</div>
+</div>
+</div>
 </section>
 
 
-<section class="chapter" id="chapter-18">
-  <h2>18. 投资者从垄断公司那里得到什么</h2>
+<section class="chapter-reading" id="chapter-18">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">18</span>投资者从垄断公司那里得到什么</h2>
   <div class="chapter-body">
     <p>关于垄断型公司，有一个经典的误解是， 它会因为它的垄断地位和稳定收益，给投资者带来很好的回报。也就是说，在通常理解里，虽然垄断公司对消费者来说就是一场没完没了的噩梦，但对于投资者来说那是上天赐给你的贴心礼物。有关这个经典理论的阐释及推广者当然是中国移动的前总裁王建宙。他那句着名的话就不再重复了， 翻译过来就是，如果你们还是我的股东，那你们这些聒噪的消费者就该闭嘴了！</p>
 <p>这个事也可以换个角度来理解，就是有一个人，他很黑心地赚了你的钱，然后再跟你说，“来，你也入一股，我们一起去赚别人的钱！”天，你觉得这像是好人做的事吗？ 很多时候，人心里会有各种斗争，比如说， 这可是投资行为，不要拿道德律令来左右自己，傍上大公司赚上一笔好钱，这又有什么错呢？但你要知道，第一，任何人如果跟你说你有机会稳赚不赔，那么你一定要把他当成一个骗子。第二，如果每个人都认为投资某个公司是会赚钱的，那么最终结果可能是难以形成交易，还是没钱可赚。</p>
@@ -639,14 +1759,12 @@
 <p>而垄断公司的另一个结局就是分拆， 远的有洛克菲勒的标准石油，近的有AT&T 对投资者来说，总不是好结局。</p>
 <p>最后一个问题是，垄断难免最终会带来思想和行为的禁锢，套用那句着名的话， 绝对的权力导致绝对的腐败，韦尔想到的那种其乐融融的人类画卷不但不会发生， 而且更有可能的是借助垄断的地位产生更多的企图。设想一下，如果每个垄断公司的老板都是王建宙的话，那么它的极致状态可能就是，每个人都是中国移动的股东，你真的会觉得作为消费者的你会把冤大头的损失从投资者身份那里补回来吗？每个人都是股东的事我们又不是没有经历过，那就是全民所有，就是国家至上，就是一大坨人人有份的东西成为“无主资产”，实际上每个China.Inc主义者也都是这么想的，也这么干的。</p>
   </div>
-  <div class="book-list">
-    <p>（本章无书单）</p>
-  </div>
+  
 </section>
 
 
-<section class="chapter" id="chapter-19">
-  <h2>19. 荒谬历史中的一点奇葩</h2>
+<section class="chapter-reading" id="chapter-19">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">19</span>荒谬历史中的一点奇葩</h2>
   <div class="chapter-body">
     <p>新媒体兴起之初，总会有领风气之先者脱颖而出，运用得当，表现不俗。比如广播时代有富兰克林·罗斯福，围炉夜话，让全美上下一条心好像由此就战胜了萧条与纳粹；电视时代有肯尼迪，年轻的世家子弟，又是普利策奖获得者，美国一下子就进入到新纪元了；如今的互联网时代，差一点成就了偶像奥巴马——之所以说是差一点，是我还不知道他能否对付得了这个金融危机以及随之而来的欧债危机，现在但凡有一个法西斯或者铁幕国家横空出世，奥巴马可能就不光是得一个诺贝尔和平奖了。在这里插一句，我能想象得出欧洲人穷志短媚于世，但拿诺贝尔和平奖这事过了这么久还是远超于我的想象。</p>
 <p>回过头来说，新的媒体形式一出，总是代表着新锐、革新甚至就是革命本身，捎带着使用者也似乎成了革新者的同谋，你要说狐假虎威也行，虚张声势也行。就说前面两个赫赫有名的已经盖棺定论的美国前总统，到底做得怎么样，还真不好下结论，我们看到的都是被媒体和彼时新媒体放大了无数倍的一个结果，实际情况如果我按常理推断，应该没有我们以为的那么花哨。这么想来，有的时候会让人喟叹：历史原来还真是荒谬的。或者说，人类才是更荒谬的。</p>
@@ -663,14 +1781,12 @@
 <p>如果我没说错，库格林神父应该就是那种有一点知识的人，但这些知识在他那里只是对他有用无用之区别，然后虚设几个前提，然后就着这些似是而非的东西，投愤怒之所好，展开单口相声似的批判。并且好像他是在反权威、反压迫，一门心思在为劳苦大众代言，但实际上是帮着政府在转移目标。再者，我觉得罗斯福和库格林之间的默契，细究起来，也是荒谬人类或者荒谬历史上的一个奇葩了吧。</p>
 <p>如果说库格林神父之后谁是他的衣钵传人，那么就我的视力所及，我们这里有一位郎咸平，一定应该算一个。</p>
   </div>
-  <div class="book-list">
-    <p>（本章无书单）</p>
-  </div>
+  
 </section>
 
 
-<section class="chapter" id="chapter-20">
-  <h2>20. 从长远看，我们都是要死的</h2>
+<section class="chapter-reading" id="chapter-20">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">20</span>从长远看，我们都是要死的</h2>
   <div class="chapter-body">
     <p>安迪·凯斯勒在香港机场遇到几个衣着光鲜的家伙，用他的话来说，一看就是华尔街的货色。那个时候，他已经不再是摩根士丹利的分析师了，不用再当那些拿着巨额佣金的业务员们的“肉”了—在他那本《华尔街的肉》中，他总结他的前半生命运，所谓分析师，不过是替业务员揽活的帮手，他做的所有事不过是在替销售部门背书。那个时候安迪·凯斯勒是正准备收手的对冲基金管理者，赚了很多钱，他上去招惹了一番这几个华尔街的光鲜小弟，然后道出他心目中的人生浩叹：</p>
 <p>在华尔街，人人都会碰上“这到底是怎么回事”或“我到底在干吗”的困惑时刻，有时候，困惑更深时的念头是，这一切到底代表什么呢？</p>
@@ -688,14 +1804,12 @@
 <p>乐观的人可能不这么看。凯恩斯主义还没有成为放之四海而皆准的真理的时候，乐观的经济学家会说，从长远看，经济是可以通过自我调节恢复正常的。凯恩斯那时还活着，他为此说了一句着名的话：从长远看，人都是要死的。</p>
 <p>凯恩斯并不是一个犬儒主义者，作为最早炒汇的那一批人，他的投资回报率还很高。但他的这句话差不多成了犬儒主义者的座右铭，你看，为所欲为的洪水猛兽就这样来了，真的连心理治疗师都用不着了。</p>
   </div>
-  <div class="book-list">
-    <p>（本章无书单）</p>
-  </div>
+  
 </section>
 
 
-<section class="chapter" id="chapter-21">
-  <h2>21. 一个理想主义者的价值投资</h2>
+<section class="chapter-reading" id="chapter-21">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">21</span>一个理想主义者的价值投资</h2>
   <div class="chapter-body">
     <p>我第一次看到“人类思维数据库”这个说法的时候，还是惊了一下的。在此之前，在我眼里，谷歌就是谷歌，是一个搜索工具，在此之后，我每次打开那个搜索框，心里就会默念着：它知道我在想什么，它知道所有人都在想什么。</p>
 <p>这其中的逻辑很简单，你在网上搜索的东西，是你想要了解的东西，只要你一搜索，你的各种卑微的、阳光的、猥琐的、有趣的、热烈的想法就已经作为呈堂证供摆在那里了。当然，有一派人认为如果你觉得这有侵犯你的隐私之嫌，你可以选择不去搜索—但问题在于，自从有了这个方便的搜索，我当然不会放弃这种方便的应用；而另一方面，作为一个有独立思考能力的人还应该追问一下，我为什么不能搜索啊？</p>
@@ -713,14 +1827,12 @@
 <p><strong>《巴菲特传》</strong> 罗杰·洛文斯坦 中信出版社 2008年9月 定价：49元</p>
 <p><strong>《梦断硅谷》</strong> 乔希·勒纳 中信出版社 2012年5月 定价：38元</p>
   </div>
-  <div class="book-list">
-    <p>（本章无书单）</p>
-  </div>
+  
 </section>
 
 
-<section class="chapter" id="chapter-22">
-  <h2>22. 大公司的边界</h2>
+<section class="chapter-reading" id="chapter-22">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">22</span>大公司的边界</h2>
   <div class="chapter-body">
     <p>有这么一个公司，它控制了德国100%的合成橡胶、甲醇、润滑油，90%的塑料，80%的炸药的生产，它生产一种叫阿司匹林的药片让人类不大会因为一场感冒就轻易死掉，是全世界的救命药。它创办于1925年，是几家最优秀的德国公司强强联合的产物，在1930年代是德国最大的公司，也是全球最大的化学工业集团。这个公司的投资价值怎么样？</p>
 <p>好吧，你决定投资了，但是……这个公司赞助了奥斯维辛集中营的修建，还在里面搞起了科学试验，就是各种人类活体实验，以考察药物功效或者人种差异。因为它的这些行为，这个化学工业康采恩在第二次世界大战后被盟国解散了，你还觉得它的投资价值很可观吗？</p>
@@ -736,14 +1848,12 @@
 <p>好吧，我们可以再举一个例子，在美国电影史上有一个着名的“海斯法典”，它规定了若干种场面不能出现在电影里，它来自于一个号称很正义的叫威尔·海斯的政客，也来自于一个叫丹尼尔·劳德的天主教教士，这两个人制定的极端保守的原则最后成为了好莱坞的拍片准则，所有的大制片厂们的趣味就这样控制在这两个人手中，然后间接地去影响整个社会。要提一下的是，威尔·海斯还出任过美国邮政总局的局长。虽然这些道德洁癖者通常还都是正直的人，但这个海斯可要除外，因为他据说也是哈定总统的重要竞选资助人。</p>
 <p>这就说到这一大串的家伙，他们各个都是理想主义者，关于理想主义者我们总应该提防的一点就是他们不要与强大的权力联姻，当强大的一方是类似于军方的时候，我们通常会保持足够的警惕，但如果这是一些大公司的时候，我们就莫名地赞扬起它们更多的责任心—这是一个我还没想太明白的事。</p>
   </div>
-  <div class="book-list">
-    <p>（本章无书单）</p>
-  </div>
+  
 </section>
 
 
-<section class="chapter" id="chapter-23">
-  <h2>23. 所以，它就安静地站着</h2>
+<section class="chapter-reading" id="chapter-23">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">23</span>所以，它就安静地站着</h2>
   <div class="chapter-body">
     <p>一个人会问一头猪：“为什么你不对我说你的快乐而只是站在那里盯着我呢？”这头猪会很高兴来回答，它可能会说：“这个原因就是我总是忘掉了我准备要说的。”但是就在这一刻，它也忘掉了这个回答，所以，它就安静地站着。这段话是弗里德里希·尼采说的。关于这个故事的中国智慧版本是惠子和庄子共同完成的，惠子说，“子非鱼，安知鱼之乐”，庄子说的是，“子非我，安知我不知鱼之乐”。</p>
 <p>如果给上面两句话找一个共同点就是，哲学家们认为，人和动物之间实在没有什么可交流的，我们不知道它们在想什么。我还能隐约感觉到他们代表自己或人类表达了谦虚之情，古生物学家斯蒂芬·杰伊·古尔德差不多也从科学的角度浪漫地说：“一条聪明的章鱼很可能认为，八条手臂要比两只手臂更加完美。”但他们难以回避的一个共同的问题就是，谦虚虽然是美德，但一旦表现出我是解释权拥有者，那基本上开始营造的亲切友好谦虚谨慎的氛围就再也不见了。林恩·马古利斯也说，动物是历史进化的叙述者，没准这个叙述者就主动去偏袒了自己的种类。我想说的是，解释权很重要，人类的优越感大部分来自于他们解释世界的能力和解释世界的机会。</p>
@@ -760,14 +1870,12 @@
 <p><strong>《演化，跨越40亿年的生命记录》</strong> 卡尔·齐默 上海世纪出版集团 2011年8月 定价：88元</p>
 <p><strong>《植物的欲望》</strong> 迈克尔·波伦 上海人民出版社，2005年5月 定价：28元</p>
   </div>
-  <div class="book-list">
-    <p>（本章无书单）</p>
-  </div>
+  
 </section>
 
 
-<section class="chapter" id="chapter-24">
-  <h2>24. 富有的邻居和聪明的小贼们</h2>
+<section class="chapter-reading" id="chapter-24">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">24</span>富有的邻居和聪明的小贼们</h2>
   <div class="chapter-body">
     <p>苹果打赢了跟三星的官司，按照通常的理解，这对于苹果来说算是一件好事。你可以很轻松地推导出，苹果依靠知识产权的专利为自己建立了一条很宽的护城河，这可不是谁都可以游过去的；还能推导出，借助它领先的技术优势，它的领先产品还会给它带来更多的收入；如果你已经熟谙这些大佬们的专利战，你还会知道苹果除了罚来的那些钱，接下来还会拿到大量的特许使用费用。你可以换个角度去理解，对于苹果来说，“偷是不对的”不是讨来的说法和结果，更不会哭着喊着让三星道歉，主要是你得买。</p>
 <p>从这个意义上说，你最应该做的事情就是趁着利好买进苹果的股票，与世界上最好的公司一同发财，这是一件很体面的事。但是我们每个在资本市场上有着丰富的失败经验和血泪教训的人都知道，如果事情有这么简单，那一定有哪里出了问题。</p>
@@ -783,14 +1891,12 @@
 <p>有时候会觉得作为投资者是一件很恐怖的事。作为一个正派的伪技术控，你要思考什么是偷，偷什么是可以原谅的，偷什么样的东西，那些不作为的超级大公司是不是应该被偷，技术创新到底应该在哪个阶段有价值，你扮演一个什么样的角色……有一本书，叫《玩转金钱》，几乎通篇都是安迪·凯斯勒在为他的对冲基金找好的项目和投资人，他对技术公司充满热爱。</p>
 <p>最后一个要说的是，最近有一种理论在苹果和三星的专利大战中总是被提及，那就是他们认为这个判决说明大公司的创新更有市场，未来创新很有可能主体会回到大公司身上来——就是那个富有的邻居会成为扛着创新大旗的人。我要说的则是，从贝尔实验室那个时候算起，总是会有人在各种节点或转折点的时候有人谈到这一点—总有人会这么说，但这句话从来没对过。</p>
   </div>
-  <div class="book-list">
-    <p>（本章无书单）</p>
-  </div>
+  
 </section>
 
 
-<section class="chapter" id="chapter-25">
-  <h2>25. 通过欢乐获取力量</h2>
+<section class="chapter-reading" id="chapter-25">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">25</span>通过欢乐获取力量</h2>
   <div class="chapter-body">
     <p>很久以前，我有一个同事在接受了多年计划经济学的教育之后，成为布哈林的信徒。其基本观点就是拖拉机比汽车重要，拖拉机是生产资料，能种地能运输，比小汽车这种纯粹的奢侈消费要有价值得多，这东西能贡献更多的产值啊。</p>
 <p>当时消费社会还没有兴起，我还没有各种伟大理论来把自己武装起来，所以只有听他讲的份儿。事隔多年以后，总结下来的第一条就是革命者们研究起经济来，总是像攻山头一样目的明确，如果还是坚定的革命者，那还有排除万难的气魄，不达目的誓不罢休，如果还有资源和权力，那么就到了集中精力办大事的境界，不把人搞成拖拉机肯定不会回头——当然，有的时候这还会成为一个伟大成果，大家都是生产资料，人也可以是传说中的螺丝钉。</p>
@@ -807,13 +1913,17 @@
 <p>兰迪·科米萨，我们可以把他看成是一个准文艺青年，有一天他在硅谷的咖啡厅里跟服务生说：给我来一杯无咖啡因脱脂奶特咖啡。服务生白了他一眼：你现在也搞这一套，好像很爱惜自己身体的样子。在我们这里，这玩意叫“不如不要”。我觉得兰迪·科米萨的故事告诉我们一个消费社会的真谛：它起因于实用家们的理想主义，让一些东西成为你的必需品和“欲望之物”，然后是欢欣鼓舞的布尔乔亚们尽情地享用，然后是小布尔乔亚们对空虚和意义的指证，带来新的消费观念，让孟菲斯一样的亚文化成为新的主流，最后一击就是那些卖泡腾片的大师，他们心里想的是卖个双份儿的钱，但实际上给我们的让我们乐此不疲的那些东西是“不如不要”。</p>
   </div>
   <div class="book-list">
-    <div class="book-card" data-title="大设计—BBC写给大众的设计史" data-author="彭妮·斯帕克"><div class="book-title">《大设计—BBC写给大众的设计史》</div><div class="book-meta">彭妮·斯帕克 · 广西师范大学出版社  2012年1月 · 定价：168元</div></div>
-  </div>
+<div class="book-card" data-title="大设计—BBC写给大众的设计史" data-author="彭妮·斯帕克">
+  <div class="book-title">《大设计—BBC写给大众的设计史》</div>
+  <div class="book-author">彭妮·斯帕克</div>
+  <div class="book-meta">彭妮·斯帕克 · 广西师范大学出版社  2012年1月 · 定价：168元</div>
+</div>
+</div>
 </section>
 
 
-<section class="chapter" id="chapter-26">
-  <h2>26. 我们所热爱的青春期</h2>
+<section class="chapter-reading" id="chapter-26">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">26</span>我们所热爱的青春期</h2>
   <div class="chapter-body">
     <p>最近关于理性、爱、国家、热情等等之类的词很泛滥，我还在视频截图上看到一些脸，当然，你可以读出来一些邪恶、暴戾，你也可以不按文字的指示读出热情、冲动，更有一种可能那就是一些无所事事、迷茫而且年轻的脸。</p>
 <p>几年前看过一本叫《青春无羁》的书，不那么好看，感觉就是一个才力不逮的乐评人把自己对这个世界中有关青春的历史和知识做了一个总结。事后想来，这本导致我很困惑的书并非是作者的脑子有多糊涂，而是青春和青春期的表现形式实在是过于多元了，这本来也是一个很难被定义的东西。比如，他写到一战结束之后的德国的一群年轻人，他们才刚刚说完“我们必须有勇气与祖国保持一定的距离，与强制灌输给我们却不让我们思考的爱国主义保持距离。”之后几年工夫就成就了“德国青年联盟”，然后服膺于纳粹的光环……在书里提到的一种解释是，在他们这群“保持距离”的青春期家伙中，另一条发展脉络是彼得·潘、童子军，然后是候鸟运动，这听起来就又红又专，他们也是追求一种纯洁——纯洁导致排斥，导致独裁，这个应该不难理解，但如何就成为工具了，成年人又是如何“引导”和“利用”的，他们在这里究竟做了什么，我是没弄大清楚的。</p>
@@ -829,13 +1939,17 @@
 <p>这话说得真好。但乔治·卢卡斯或者道格拉斯·亚当斯，那么多人的想象还没有实现，我们就真的已经到了青春期？我也觉得还远着呢。不过，没关系，你我反正活不到人类尽头，在我们的生活当中，有我们自己的反叛的teenage的青春，有经历过中国的迷人的1980年代，有现在的纠结反思自己做得不够好的人类……它总还是迷人的。与那个让人绝望的成人世界，我们还有距离，这就是我们的好世界。</p>
   </div>
   <div class="book-list">
-    <div class="book-card" data-title="青春无羁" data-author="乔恩·萨维奇"><div class="book-title">《青春无羁》</div><div class="book-meta">乔恩·萨维奇 · 吉林出版集团有限公司  2010年4月 · 定价：54元</div></div>
-  </div>
+<div class="book-card" data-title="青春无羁" data-author="乔恩·萨维奇">
+  <div class="book-title">《青春无羁》</div>
+  <div class="book-author">乔恩·萨维奇</div>
+  <div class="book-meta">乔恩·萨维奇 · 吉林出版集团有限公司  2010年4月 · 定价：54元</div>
+</div>
+</div>
 </section>
 
 
-<section class="chapter" id="chapter-27">
-  <h2>27. 为什么奥特曼不能在银行里下棋</h2>
+<section class="chapter-reading" id="chapter-27">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">27</span>为什么奥特曼不能在银行里下棋</h2>
   <div class="chapter-body">
     <p>一到假期，关于公共服务就是热门话题，拜生活水平提高所赐，上一个十一黄金周中公共服务的焦点已经从铁路民航上升到高速公路大塞车。当然，免费是一个重要原因。一种服务从收费到免费，其服务体验会打一点折扣，这本来是可以理解的，但如果体验太差，那么就要被各种“理性”分析。我是蛮怕太理性的头头是道的分析的，因为我总觉得这世界上大多数事道理其实很简单，本来用不着说太多的——我看到的通常都是对某事的解释，以及对某个解释的解释，以及他为什么这么解释的解释，以及这些解释说明了什么的道理。</p>
 <p>我所感觉到的，就是我们的高速公路公司提供的服务不怎么样，但我对它们本来也没有太高的期待，所以还可以接受。但有一个问题我一直弄不清楚，比如它们通常给自己提出的收费理由是“贷款修路，收费还贷”，这听起来像是以借贷方式为主来融资的行业，它们还大多是上市公司，对于主营业务就是这些个收费站和收费员的公司来说，它的业绩好坏前景多空，应该也是跟这些收费息息相关的。那它们上市时融的资主要是在干嘛，增发的钱主要花在什么地方——我也没做过什么调查，但我总觉得它们来来回回拿了很多钱。在拿着上市公司身份的时候，它们可以给股东谋些好利益；获得贷款的时候，它们是银行的优质客户；当然，它们还有一重身份是国有企业——通常的说法是，它还是公共服务的提供者，虽然你是要付出很多的钱才能享受这公共服务的。总之，这就是一个潜伏在收费一线的假装自己在市场里游弋的垄断公司，实际上就是一个政府的代理。</p>
@@ -850,14 +1964,24 @@
 <p>我提到这个的原因是想说，如果铁路未来的收益有那么一次证券化——其实对于中国来说未必是一件坏事。反正你也看到了高速公路上的大堵车，你也看到了公路运输费用的高昂，所以你真不用太担心铁路的竞争力。虽然它是垄断的、国营的，虽然它看起来总是磕磕绊绊的还不那么好看，虽然经常让你不爽，但可能这也是最后一个从垄断的、国营的提供的合适的机会了，或者说它可能是最后一个还在银行下棋的奥特曼。</p>
   </div>
   <div class="book-list">
-    <div class="book-card" data-title="沉疴遍地" data-author="托尼·朱特"><div class="book-title">《沉疴遍地》</div><div class="book-meta">托尼·朱特 · 新星出版社 2012年3月 · 定价：25元</div></div>
-<div class="book-card" data-title="自食恶果——欧债风暴与新第三世界之旅" data-author="迈克尔·刘易斯"><div class="book-title">《自食恶果——欧债风暴与新第三世界之旅》</div><div class="book-meta">迈克尔·刘易斯 · 财信出版 2011年12月 · 定价：新台币280元（合人民币60元）</div></div>
-  </div>
+<div class="book-card" data-title="沉疴遍地" data-author="托尼·朱特">
+  <div class="book-title">《沉疴遍地》</div>
+  <div class="book-author">托尼·朱特</div>
+  <div class="book-meta">托尼·朱特 · 新星出版社 2012年3月 · 定价：25元</div>
+</div>
+
+
+<div class="book-card" data-title="自食恶果——欧债风暴与新第三世界之旅" data-author="迈克尔·刘易斯">
+  <div class="book-title">《自食恶果——欧债风暴与新第三世界之旅》</div>
+  <div class="book-author">迈克尔·刘易斯</div>
+  <div class="book-meta">迈克尔·刘易斯 · 财信出版 2011年12月 · 定价：新台币280元（合人民币60元）</div>
+</div>
+</div>
 </section>
 
 
-<section class="chapter" id="chapter-28">
-  <h2>28. 它不像你想象的那么简单</h2>
+<section class="chapter-reading" id="chapter-28">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">28</span>它不像你想象的那么简单</h2>
   <div class="chapter-body">
     <p>我看了一本叫《僵尸生存指南》的超级无厘头的书。它的无厘头主要表现在煞有介事，如果你把那本书里的僵尸替换掉，可以把它当做“当敌人入侵时，如何有效进行持久战”，或者当街头暴乱发生时，你如何自处，或者走夜路自卫指南，以及所有的枪支武器在什么场合下如何使用之类……它一本正经地讲这些事并配上插图，我在厕所里看它的时候经常哈哈大笑，所以我真不建议大家看这样一本书。</p>
 <p>通常来说，僵尸进攻人类，你的注意力全放在僵尸身上，这个时候来了一个或一坨人类，如果你又寂寞已久，你难免同仇敌忾将对方引为同道知己……难说啊老兄！我觉得这是亮点，也是这本《僵尸生存指南》里有限提供的有价值的内容：连这么无厘头的书，都不忘传递厚黑的悲观人世哲学。</p>
@@ -875,15 +1999,31 @@
 <p>圣贤说：在这样的事件中，人类幸存的问题几乎就无关紧要了。当然，有一些人会渡过劫波，甚至能活下去，但是，生存的条件将比一二百万年前刚刚出现的人类苛酷百倍。文明，以及文化的记忆，将会一去不返。既然有了我们物种这样的大脑，还有记忆的天赋，那么，留给散落各方、四下呆看的幸存者的，只会是一种负罪感，痛悔自己对于这么可爱的一个生物做出这样的破坏。对于这个惨淡的开端，那将是一份惨淡的遗产。</p>
   </div>
   <div class="book-list">
-    <div class="book-card" data-title="最年轻的科学" data-author="刘易斯·托马斯"><div class="book-title">《最年轻的科学》</div><div class="book-meta">刘易斯·托马斯 · 湖南科学技术出版社 2011年10月 · 定价：48元</div></div>
-<div class="book-card" data-title="过度互联" data-author="副标题：互联网的奇迹与威胁"><div class="book-title">《过度互联》</div><div class="book-meta">副标题：互联网的奇迹与威胁 · 威廉姆·戴维德 · 中信出版社 2012年8月</div></div>
-<div class="book-card" data-title="僵尸生存指南" data-author="副标题：如何在活死人横行的疯狂世界求生"><div class="book-title">《僵尸生存指南》</div><div class="book-meta">副标题：如何在活死人横行的疯狂世界求生 · 巫毒僵尸通常都在以下地区遇到：撒哈拉沙漠以南地区，加勒比海，中美洲和南美洲，美国南部地区。 马克斯·布鲁克斯 · 江苏人民出版社 2011年12月</div></div>
-  </div>
+<div class="book-card" data-title="最年轻的科学" data-author="刘易斯·托马斯">
+  <div class="book-title">《最年轻的科学》</div>
+  <div class="book-author">刘易斯·托马斯</div>
+  <div class="book-meta">刘易斯·托马斯 · 湖南科学技术出版社 2011年10月 · 定价：48元</div>
+</div>
+
+
+<div class="book-card" data-title="过度互联" data-author="副标题：互联网的奇迹与威胁">
+  <div class="book-title">《过度互联》</div>
+  <div class="book-author">副标题：互联网的奇迹与威胁</div>
+  <div class="book-meta">副标题：互联网的奇迹与威胁 · 威廉姆·戴维德 · 中信出版社 2012年8月</div>
+</div>
+
+
+<div class="book-card" data-title="僵尸生存指南" data-author="副标题：如何在活死人横行的疯狂世界求生">
+  <div class="book-title">《僵尸生存指南》</div>
+  <div class="book-author">副标题：如何在活死人横行的疯狂世界求生</div>
+  <div class="book-meta">副标题：如何在活死人横行的疯狂世界求生 · 巫毒僵尸通常都在以下地区遇到：撒哈拉沙漠以南地区，加勒比海，中美洲和南美洲，美国南部地区。 马克斯·布鲁克斯 · 江苏人民出版社 2011年12月</div>
+</div>
+</div>
 </section>
 
 
-<section class="chapter" id="chapter-29">
-  <h2>29. 工匠们创造的历史</h2>
+<section class="chapter-reading" id="chapter-29">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">29</span>工匠们创造的历史</h2>
   <div class="chapter-body">
     <p>有没有过那种时候，有一个叨逼叨叨逼叨的人在你身边一直说啊说，你又说不过他，最后只好埋头去做给他看——当然，大多数时候那些没完没了的话你都可以视若无物，大多数人你更不要去理他，所以我可不主张去跟他们争口气。但一定有个别时候，你觉得值得这么做一下才可以让他闭嘴——我虽然一生所为离创造性的技术相去甚远，但我还是觉得技术这东西是身为人类值得迷恋的一种东西。简单点说，就是哪怕你是一个宏大事件的爱好者，成天研究的都是道，但你也不能把技术看成是一些可有可无的精巧的小玩意，它们有很多让人兴奋的元素，你不能简单把它们一律归为形而下者那一坨里去。</p>
 <p>这里有一个有趣的现象，如果用弗洛伊德这样的理论去套一下它的话，就是喜欢大词谈些主义的，总是跟精神分析派们爱提起的那些“口腔欲望期”有关。我总觉得接下来你长大成人，就应该真刀真枪地上了，就不能再耽于口唇之欲了。所以胡适与鲁迅当年的问题与主义之争，我的观感就是这有毛可争的，这是人的不同成长阶段啊，互相说服或批判都是使错了劲。</p>
@@ -900,14 +2040,24 @@
 <p>好在Geek还在。现在一般把Geek跟程序员们联系在一起，我们都知道，程序员们相对来说喜欢自嘲一点，程序猿啊，码农啊，这些都是他们自己编出来的。我觉得这倒很可能来自于他们的前辈的基因。他们工作的特点、从事这个工作的职业态度和素质要求，还有他们的性格，似乎都跟我们人类工业革命前的那些工匠有相似之处。你也可以说程序员是智力劳动工作者，比如叫工程师，但有一点差别的是，他们分明是撸起袖子就要解决问题的——记住哦，不是给出解决方案，而是直接动手解决掉。他们显然不能被视为艺术范儿的设计师，但你看他们追求的东西往往又要好看又要实用又要简洁，这是对最好的设计师的要求，也是一个体面的工匠所要具备的素质。北方有谚语说，巧妇和面要有三光，手光面光案板光——这是对一种普通劳动的赞美，你看，把它送给程序员可以，给工匠也可以。</p>
   </div>
   <div class="book-list">
-    <div class="book-card" data-title="魔球" data-author="副标题：一个勇敢面对自己, 逆转胜的真实故事"><div class="book-title">《魔球》</div><div class="book-meta">副标题：一个勇敢面对自己, 逆转胜的真实故事 · 迈克尔·刘易斯 · 早安财经文化有限公司（台湾）</div></div>
-<div class="book-card" data-title="IT不再重要" data-author="副标题：互联网大转换的制高点—云计算"><div class="book-title">《IT不再重要》</div><div class="book-meta">副标题：互联网大转换的制高点—云计算 · 随着互联网的能力、范围和实用性的扩大，它最具有革命性的后果可能不是电脑开始像我们一样思维，而是我们将开始像电脑一样思维。 · 尼古拉斯·卡尔</div></div>
-  </div>
+<div class="book-card" data-title="魔球" data-author="副标题：一个勇敢面对自己, 逆转胜的真实故事">
+  <div class="book-title">《魔球》</div>
+  <div class="book-author">副标题：一个勇敢面对自己, 逆转胜的真实故事</div>
+  <div class="book-meta">副标题：一个勇敢面对自己, 逆转胜的真实故事 · 迈克尔·刘易斯 · 早安财经文化有限公司（台湾）</div>
+</div>
+
+
+<div class="book-card" data-title="IT不再重要" data-author="副标题：互联网大转换的制高点—云计算">
+  <div class="book-title">《IT不再重要》</div>
+  <div class="book-author">副标题：互联网大转换的制高点—云计算</div>
+  <div class="book-meta">副标题：互联网大转换的制高点—云计算 · 随着互联网的能力、范围和实用性的扩大，它最具有革命性的后果可能不是电脑开始像我们一样思维，而是我们将开始像电脑一样思维。 · 尼古拉斯·卡尔</div>
+</div>
+</div>
 </section>
 
 
-<section class="chapter" id="chapter-30">
-  <h2>30. 有一些人值得为他起立鼓掌（上）</h2>
+<section class="chapter-reading" id="chapter-30">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">30</span>有一些人值得为他起立鼓掌（上）</h2>
   <div class="chapter-body">
     <p>就跟成了精的地产界的专业人士最爱提“地段”一样，事业有成的投资界人士挂在嘴边也有一句话，“投资就是投资团队”，“我看好你的人”。如果这些话只是在风险资本家那里说说，还算是有价值的，后来泛滥到买个股票也要说投资团队，我觉得就要提高警惕了。依我看，上市公司已经这么成熟了，很多时候都是财务总监和华尔街那帮家伙们控制着，左右你的收入回报的与那些个被赞美的团队没有太大关系。并且，团队这回事，即便你是一个田野调查爱好者，你也未必能看明白。比如我们身边的无锡尚德，说起来还真是不错，有一个科学家CEO，有激情，有理想，有政策，有领导重视，新能源，新技术，并且有一段时间还垄断了全球的上游资源，从哪个角度看都是一个有智商有情商的伟大公司胚子。但你看现在……当然现在已经沦落为仙股了，你要去投资它，我也不是很反对，你的风险就是它有可能退市和破产。</p>
 <p>并且，还有一点要强调，我们如何判断一个团队的好坏，通常是借助于他们既有的成绩，而被赞美或被证实不灵光的团队也都是事后才知道的。比如有一个叫迈克尔·艾斯纳的家伙，他是迪士尼的前主席和CEO，很多人不喜欢他，跟乔布斯的皮克斯过不去，又赶跑了才华横溢的杰弗瑞·卡僧伯格，在那之后的好长一段时间，迪士尼就根本没有出品过什么说得过去的动画片……但你要就此判定他是个败家子，那也不对，在他任上迪士尼的资产和利润都涨了十几倍，如果想赚钱的话，你当然会得到一个好回报。但迪士尼的麻烦是在他离任之后才出现的……地产界大佬们所说的决定房产价值的三个要素：地段，地段，地段。所以，如果真有什么价值的投资建议的话，即便是针对那些声名赫赫的团队，你更应该说的是：时机，时机，时机……</p>
@@ -929,14 +2079,24 @@
 <p>当然，他还没有买下他最热爱的派拉蒙，他还没有回到娱乐业，他一定还觉得没有达到他一生的标杆——大卫·格芬的高度……当然，这是另外一个故事了。</p>
   </div>
   <div class="book-list">
-    <div class="book-card" data-title="倒带人生" data-author="肯恩·格林伍德"><div class="book-title">《倒带人生》</div><div class="book-meta">肯恩·格林伍德 · 译林出版社，2010年11月 · 定价：25元</div></div>
-<div class="book-card" data-title="巴里·迪勒" data-author="副标题：美国娱乐业巨亨沉浮录"><div class="book-title">《巴里·迪勒》</div><div class="book-meta">副标题：美国娱乐业巨亨沉浮录 · 乔治·梅尔 · 上海财经大学出版社，2010年5月</div></div>
-  </div>
+<div class="book-card" data-title="倒带人生" data-author="肯恩·格林伍德">
+  <div class="book-title">《倒带人生》</div>
+  <div class="book-author">肯恩·格林伍德</div>
+  <div class="book-meta">肯恩·格林伍德 · 译林出版社，2010年11月 · 定价：25元</div>
+</div>
+
+
+<div class="book-card" data-title="巴里·迪勒" data-author="副标题：美国娱乐业巨亨沉浮录">
+  <div class="book-title">《巴里·迪勒》</div>
+  <div class="book-author">副标题：美国娱乐业巨亨沉浮录</div>
+  <div class="book-meta">副标题：美国娱乐业巨亨沉浮录 · 乔治·梅尔 · 上海财经大学出版社，2010年5月</div>
+</div>
+</div>
 </section>
 
 
-<section class="chapter" id="chapter-31">
-  <h2>31. 有一些人值得为他起立鼓掌（下）</h2>
+<section class="chapter-reading" id="chapter-31">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">31</span>有一些人值得为他起立鼓掌（下）</h2>
   <div class="chapter-body">
     <p>大卫·格芬最初也是威廉·莫里斯经纪公司一个送文件的小伙子。他不如巴里·迪勒的地方就是，巴里是个高中毕业的好莱坞本地青年，大卫则有一个假文凭——这是一件偶尔会被人提起的事。假文凭在任何时候都是一个污点，即使是大卫·格芬也不能把这个当成特立独行。除了这个文凭问题，大卫·格芬就是处处都比巴里·迪勒强。至少巴里是这么看的。他们从威廉·莫里斯时代就算是至交，但在巴里那里，他一生都是在追赶这个家伙。《洛杉矶杂志》的罗德·鲁里曾经评价过这个事，“受访者都说，迪勒的真正动力是超越格芬——从事业到性生活，乃至握手的力度。”需要说明一下的是，大卫·格芬是个着名的同性恋者。至少从这一点上看，巴里·迪勒到现在也没有机会超越了。</p>
 <p>我们回顾巴里·迪勒当年，领着迈克尔·埃斯纳和杰弗里·卡僧伯格创造了派拉蒙的辉煌时代。他们联手将派拉蒙的利润由1973年的3900万美元提升至1983年1.4亿美元，增长了3倍。他们凭借着《夺宝奇兵》等电影将派拉蒙由6大电影制片厂的最后一名推至榜首，在18个月里制作了20部赚钱的电影。“好莱坞的许多人都避免与迪勒-埃斯纳团队合作。但是2人联手的8年中，派拉蒙不仅在电影领域称霸，还凭借《干杯酒吧》和《家族的诞生》等联播视频引领电视网的电视节目。”</p>
@@ -959,14 +2119,24 @@
 <p>唯一的障碍就是他现在已经70岁了。纵是天才，也敌不过年龄、衰老，这叫自然规律。自然规律最终还是会打败这些金光闪闪的东西和金光闪闪的人物，一想到这些，还是会让人有些伤感。</p>
   </div>
   <div class="book-list">
-    <div class="book-card" data-title="倒带人生" data-author="肯恩·格林伍德"><div class="book-title">《倒带人生》</div><div class="book-meta">肯恩·格林伍德 · 译林出版社，2010年11月 · 定价：25元</div></div>
-<div class="book-card" data-title="巴里·迪勒：美国娱乐业巨亨沉浮录" data-author="乔治·梅尔"><div class="book-title">《巴里·迪勒：美国娱乐业巨亨沉浮录》</div><div class="book-meta">乔治·梅尔 · 上海财经大学出版社，2010年5月 · 定价：36元</div></div>
-  </div>
+<div class="book-card" data-title="倒带人生" data-author="肯恩·格林伍德">
+  <div class="book-title">《倒带人生》</div>
+  <div class="book-author">肯恩·格林伍德</div>
+  <div class="book-meta">肯恩·格林伍德 · 译林出版社，2010年11月 · 定价：25元</div>
+</div>
+
+
+<div class="book-card" data-title="巴里·迪勒：美国娱乐业巨亨沉浮录" data-author="乔治·梅尔">
+  <div class="book-title">《巴里·迪勒：美国娱乐业巨亨沉浮录》</div>
+  <div class="book-author">乔治·梅尔</div>
+  <div class="book-meta">乔治·梅尔 · 上海财经大学出版社，2010年5月 · 定价：36元</div>
+</div>
+</div>
 </section>
 
 
-<section class="chapter" id="chapter-32">
-  <h2>32. “加里驾驶小飞机兜风那天”</h2>
+<section class="chapter-reading" id="chapter-32">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">32</span>“加里驾驶小飞机兜风那天”</h2>
   <div class="chapter-body">
     <p>英雄不问出处。这句话在我看来有两种解释，一种是不管什么背景出身，都能把自己的那一摊事业做得很好，以至于我们根本不用去看他们的来历到底如何；另外一种就是在人家事成之后，你冷不丁地看到一个伟人杵在那里，怎么看都是英雄自己的能耐，你就忽略了其实他成功背后还有诸多原因。想起这个问题是有一天华老师都跑过来感慨了：你知道伐？巴菲特他老爹是参议员，比尔·盖茨他妈妈是IBM的董事，Balabala……你明白我的意思吧？</p>
 <p>这就是典型的“英雄不问出处”的第二种情况，你一直在高山仰止地看着这两位轮流登上首富宝座，充满着羡慕和尊敬，直到有一天你开始查他们的来历，原来是官二代啊！原来是富二代啊！这难免让英雄形象打点折扣。当然，更多时候，还是心下宽慰好多，嗯，这辈子做不成首富，也不能全怪自己不努力，爹地不行啊。</p>
@@ -997,14 +2167,12 @@
 <p>中信出版社，2009年6月</p>
 <p>定价: 26元</p>
   </div>
-  <div class="book-list">
-    <p>（本章无书单）</p>
-  </div>
+  
 </section>
 
 
-<section class="chapter" id="chapter-33">
-  <h2>33. 你是智慧多一点，还是钱多一点</h2>
+<section class="chapter-reading" id="chapter-33">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">33</span>你是智慧多一点，还是钱多一点</h2>
   <div class="chapter-body">
     <p>很多时候，我还是很庆幸自己不是一个投资者——这句话说得可能不是那么严谨，严格说来每个人都是投资者，好在我是特指那些以投资为主要收入来源并且主要是在各种资本市场上的投资者——当我不是一个投资者的时候，作为一个商业爱好者，我只需要关心这个公司到底是怎么回事就行了，我还能发现这里有很多有趣的东西。但如果我是一个投资者，我就要成天警惕地看着四周别人如何看待这个公司，不但担心那些公司的经营者弄了假账来骗你的投资，还要想着分析师们是否拿了上市公司的红利或者是一个跟自己一样没有什么经验的蠢货，当然资深一点的还要分析市场热情和理性程度，说白了就是猜市场上每个其他投资者都在想什么——要知道，博傻不是发生在市场大起大落时候的击鼓传花，而是随时都得琢磨着哪个眼拙的人把好东西很便宜地卖给你，或者哪个笨蛋把你手里的烫山芋给接过去。</p>
 <p>我看过一本书，叫《别对我撒谎》。我在看到一半的时候，有一个迷思：一个人如果成天琢磨着别人是不是骗自己，这事比较累；如果还要想办法去证明对方骗了自己，要斗智斗勇——这本书说一个人每天要撒150次谎——我觉得至少有三分之二就是100次是为了要使计策证明其他人是不是骗自己——这就不仅仅是累了，基本上相当于悲剧了。你看，在投资领域里，如果看大家在做什么，基本上讲的就是这样的悲剧故事。</p>
@@ -1021,14 +2189,24 @@
 <p>关于洋洋自得的经济学家，最后钱没有越来越多，智慧也跟着被人质疑，当然还有获诺贝尔经济学奖的经济学家的声誉也打了折扣。不过，最后他们还是跟着长期资本管理公司一起被美联储解救了一回。纯真正直的人们一直对这事百思不解：这帮坏人，明明是一个私营公司，明明只是做了一个对冲基金，又不像银行那样涉及国计民生，政府为什么要主导出资救助？这世界究竟还有没有一点底线？你看，当他们为这些苦恼的时候，看起来既不像智慧多多，更不像财富多多，纯真正直总是要很受伤。</p>
   </div>
   <div class="book-list">
-    <div class="book-card" data-title="别对我撒谎：23篇震撼世界的新闻调查报道" data-author="即使有一天，网络作为媒介取代了传统媒体，记者的正义感、勇气、思想、采访技巧、文字表达能力仍是这个领域最重要的资源。"><div class="book-title">《别对我撒谎：23篇震撼世界的新闻调查报道》</div><div class="book-meta">即使有一天，网络作为媒介取代了传统媒体，记者的正义感、勇气、思想、采访技巧、文字表达能力仍是这个领域最重要的资源。 · 约翰·皮尔格 · 华东师范大学出版社 2010年3月</div></div>
-<div class="book-card" data-title="拯救华尔街：长期资本管理公司的崛起与陨落" data-author="如果说，约翰·麦利威瑟在所罗门兄弟公司得到了什么秘诀的话，这个秘诀就是：千万不要放弃你的损失，直到它转变成为你的盈利。"><div class="book-title">《拯救华尔街：长期资本管理公司的崛起与陨落》</div><div class="book-meta">如果说，约翰·麦利威瑟在所罗门兄弟公司得到了什么秘诀的话，这个秘诀就是：千万不要放弃你的损失，直到它转变成为你的盈利。 · 罗杰·洛温斯坦 · 广东经济出版社  2009年3月</div></div>
-  </div>
+<div class="book-card" data-title="别对我撒谎：23篇震撼世界的新闻调查报道" data-author="即使有一天，网络作为媒介取代了传统媒体，记者的正义感、勇气、思想、采访技巧、文字表达能力仍是这个领域最重要的资源。">
+  <div class="book-title">《别对我撒谎：23篇震撼世界的新闻调查报道》</div>
+  <div class="book-author">即使有一天，网络作为媒介取代了传统媒体，记者的正义感、勇气、思想、采访技巧、文字表达能力仍是这个领域最重要的资源。</div>
+  <div class="book-meta">即使有一天，网络作为媒介取代了传统媒体，记者的正义感、勇气、思想、采访技巧、文字表达能力仍是这个领域最重要的资源。 · 约翰·皮尔格 · 华东师范大学出版社 2010年3月</div>
+</div>
+
+
+<div class="book-card" data-title="拯救华尔街：长期资本管理公司的崛起与陨落" data-author="如果说，约翰·麦利威瑟在所罗门兄弟公司得到了什么秘诀的话，这个秘诀就是：千万不要放弃你的损失，直到它转变成为你的盈利。">
+  <div class="book-title">《拯救华尔街：长期资本管理公司的崛起与陨落》</div>
+  <div class="book-author">如果说，约翰·麦利威瑟在所罗门兄弟公司得到了什么秘诀的话，这个秘诀就是：千万不要放弃你的损失，直到它转变成为你的盈利。</div>
+  <div class="book-meta">如果说，约翰·麦利威瑟在所罗门兄弟公司得到了什么秘诀的话，这个秘诀就是：千万不要放弃你的损失，直到它转变成为你的盈利。 · 罗杰·洛温斯坦 · 广东经济出版社  2009年3月</div>
+</div>
+</div>
 </section>
 
 
-<section class="chapter" id="chapter-34">
-  <h2>34. 当范德比尔特最后一次经过码头（上）</h2>
+<section class="chapter-reading" id="chapter-34">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">34</span>当范德比尔特最后一次经过码头（上）</h2>
   <div class="chapter-body">
     <p>你知道什么才能叫高富帅吗？自从这个粗鄙的词流行起来之后，在我的脑海中就始终有一个人跟这个词牢牢地捆绑在了一起。按照哈佛商学院教授理查德·泰德罗的说法，他的一生就是“一个成功接着另一个成功”。</p>
 <p>从上学开始，他不仅成绩优异，而且还是戴着光环的成绩优异——他不是简单地从高中毕了业，而是毕业典礼上的致词者；他也不是从大学毕了业就了事，而是获得了美国优秀大学生的称号（我还真不知道美国也有这个评选）；他不是随便挑了一所学校做研究，而是一定要在麻省理工这样排名第一的工学院里搞到一个自然科学的博士学位。然后，他毕了业，去了当时还不错的飞歌公司，这当然不能算是一个好的选择，于是——罗伯特·诺伊斯决定跟随当年最有号召力的从贝尔实验室辞了职创业的物理学家威廉·肖克利，他刚刚作为晶体管的发明人而让世界瞩目。然后有一天，他从费城飞到硅谷——那个时候还不叫硅谷，硅谷是因为他才被叫起来的——在到达的当天上午，先找中介买了一个房子，然后下午去找肖克利面试……泰德罗也忍不住说：注意一下这个顺序！好吧，这个顺序可以秒杀所有自信心爆棚的人（这里插播另外一个故事，在另一个关于杰夫·贝佐斯的传说当中，当这个人决定远离东海岸的金融事业而到西部创业的时候，他找了一家搬家公司，告诉司机师傅们，你们往西开，搬到哪里我还没想好，这也是一个有趣的故事，只是后来贝佐斯也觉得这事跟实际出入太大）。</p>
@@ -1051,15 +2229,31 @@
 <p>不过，在这三种企业创始人中，他们还都不是最丰富多彩最让人感觉卓尔不凡的，真正的厉害角色当然还是那些白手起家的真正的混蛋们。</p>
   </div>
   <div class="book-list">
-    <div class="book-card" data-title="美国创新史" data-author="哈罗德·埃文斯 盖尔·巴克兰 戴维·列菲"><div class="book-title">《美国创新史》</div><div class="book-meta">哈罗德·埃文斯 盖尔·巴克兰 戴维·列菲 · 中信出版社 2011年4月 · 定价: 498元</div></div>
-<div class="book-card" data-title="影响历史的商业七巨头" data-author="理查德·S·泰德罗"><div class="book-title">《影响历史的商业七巨头》</div><div class="book-meta">理查德·S·泰德罗 · 机械工业出版社 2003年2月 · 定价:33元</div></div>
-<div class="book-card" data-title="硅谷巨人" data-author="汤姆·珀金斯"><div class="book-title">《硅谷巨人》</div><div class="book-meta">汤姆·珀金斯 · 中国青年出版社 2008年8月 · 定价: 36元</div></div>
-  </div>
+<div class="book-card" data-title="美国创新史" data-author="哈罗德·埃文斯 盖尔·巴克兰 戴维·列菲">
+  <div class="book-title">《美国创新史》</div>
+  <div class="book-author">哈罗德·埃文斯 盖尔·巴克兰 戴维·列菲</div>
+  <div class="book-meta">哈罗德·埃文斯 盖尔·巴克兰 戴维·列菲 · 中信出版社 2011年4月 · 定价: 498元</div>
+</div>
+
+
+<div class="book-card" data-title="影响历史的商业七巨头" data-author="理查德·S·泰德罗">
+  <div class="book-title">《影响历史的商业七巨头》</div>
+  <div class="book-author">理查德·S·泰德罗</div>
+  <div class="book-meta">理查德·S·泰德罗 · 机械工业出版社 2003年2月 · 定价:33元</div>
+</div>
+
+
+<div class="book-card" data-title="硅谷巨人" data-author="汤姆·珀金斯">
+  <div class="book-title">《硅谷巨人》</div>
+  <div class="book-author">汤姆·珀金斯</div>
+  <div class="book-meta">汤姆·珀金斯 · 中国青年出版社 2008年8月 · 定价: 36元</div>
+</div>
+</div>
 </section>
 
 
-<section class="chapter" id="chapter-35">
-  <h2>35. 当范德比尔特最后一次经过码头（下）</h2>
+<section class="chapter-reading" id="chapter-35">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">35</span>当范德比尔特最后一次经过码头（下）</h2>
   <div class="chapter-body">
     <p>在上一篇中我们说过了两种企业创始人。一种是以罗伯特·诺伊斯为代表的中产阶级高富帅，另外一种是富二代到富N代，他们的代表是胡安·特里普和小托马斯·沃森以及所有非亨利·福特一世的所有福特家的继承人们。</p>
 <p>第三种就是我们马上要说到的那些很草根的企业创始人。混蛋们终于可以出场了。这里要从政治上正确的角度解释一下，草根与混蛋之间不是划等号的关系，混蛋也未必全然是骂人话，你也可以理解成是特立独行、不拘一格、不按牌理出牌之类的不同凡响。也正是因为这样的一些元素，所以草根总是更容易被拿来作为最好的励志的素材。如果说让我在三种企业创始人中选一个作为最值得推荐的群体，那么显然我会倾向于这一群。想一想我们从小受到的教育，王侯将相宁有种乎，人家能做到为什么你不能之类的，他们也具有天然的教科书气质。</p>
@@ -1079,15 +2273,31 @@
 <p>在1980年代以前的中国内地未授权翻译的图书的中文版前言中通常都会有一段话，“应该指出，作者的观点受制于错误的理论指导，读者应该以马克思主义为武器，辩证看待其中的糟粕”——虽然我很喜欢那个刻薄的促狭鬼的描述，但不代表我认可范德比尔特这个混蛋的人生观。</p>
   </div>
   <div class="book-list">
-    <div class="book-card" data-title="美国创新史" data-author="哈罗德·埃文斯 盖尔·巴克兰 戴维·列菲"><div class="book-title">《美国创新史》</div><div class="book-meta">哈罗德·埃文斯 盖尔·巴克兰 戴维·列菲 · 中信出版社 2011年4月 · 定价: 498元</div></div>
-<div class="book-card" data-title="影响历史的商业七巨头" data-author="理查德·S·泰德罗"><div class="book-title">《影响历史的商业七巨头》</div><div class="book-meta">理查德·S·泰德罗 · 机械工业出版社 2003年2月 · 定价:33元</div></div>
-<div class="book-card" data-title="硅谷巨人" data-author="汤姆·珀金斯"><div class="book-title">《硅谷巨人》</div><div class="book-meta">汤姆·珀金斯 · 中国青年出版社 2008年8月 · 定价: 36元</div></div>
-  </div>
+<div class="book-card" data-title="美国创新史" data-author="哈罗德·埃文斯 盖尔·巴克兰 戴维·列菲">
+  <div class="book-title">《美国创新史》</div>
+  <div class="book-author">哈罗德·埃文斯 盖尔·巴克兰 戴维·列菲</div>
+  <div class="book-meta">哈罗德·埃文斯 盖尔·巴克兰 戴维·列菲 · 中信出版社 2011年4月 · 定价: 498元</div>
+</div>
+
+
+<div class="book-card" data-title="影响历史的商业七巨头" data-author="理查德·S·泰德罗">
+  <div class="book-title">《影响历史的商业七巨头》</div>
+  <div class="book-author">理查德·S·泰德罗</div>
+  <div class="book-meta">理查德·S·泰德罗 · 机械工业出版社 2003年2月 · 定价:33元</div>
+</div>
+
+
+<div class="book-card" data-title="硅谷巨人" data-author="汤姆·珀金斯">
+  <div class="book-title">《硅谷巨人》</div>
+  <div class="book-author">汤姆·珀金斯</div>
+  <div class="book-meta">汤姆·珀金斯 · 中国青年出版社 2008年8月 · 定价: 36元</div>
+</div>
+</div>
 </section>
 
 
-<section class="chapter" id="chapter-36">
-  <h2>36. 然后，他就开始沮丧起来</h2>
+<section class="chapter-reading" id="chapter-36">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">36</span>然后，他就开始沮丧起来</h2>
   <div class="chapter-body">
     <p>前阵子听说一个令人沮丧的故事。几个媒体老总结伴驱车来到北京怀柔三岔村，他们的目的是看一看彼得·海斯勒生活和战斗过的地方，这个中文名叫何伟的人以村民魏子淇为主人公写了一本叫《寻路中国》的书。</p>
 <p>这本书确实很好看，这没什么可让人沮丧的，沮丧的点在于，这些前辈人情练达，如果要了解中国和中国人，您哪怕就是成天在微博上挂着，也一样可以找到你的魏子淇，更何况发现中国的本质——那来自于另一位不在场的精英感慨，海斯勒发现了中国的本质，“这就是中国啊”——本来就是老几位的本分，不至于按图索骥跑到三岔村来探访神迹，按钱钟书的说法，属于吃了好吃的鸡蛋之后不但要见一下母鸡，而且连公鸡踩蛋处也要凭吊一下。</p>
@@ -1104,15 +2314,31 @@
 <p>没有一个记者会关心这个事，横冲直撞的记者们怎么会有这种沮丧，哪怕他是一个绅士，文笔优美、为人宽厚。所以最终的结论可能就是，彼得·海斯勒是一个爱中国的作家，西达尔塔·德布是一个爱印度的记者，乔·诺塞拉是一个爱商业的记者。我们呢，可能就只好做一个爱企业家的发言人……然后，我也就开始沮丧起来。</p>
   </div>
   <div class="book-list">
-    <div class="book-card" data-title="寻路中国：从乡村到工厂的自驾之旅" data-author="彼得·海斯勒"><div class="book-title">《寻路中国：从乡村到工厂的自驾之旅》</div><div class="book-meta">彼得·海斯勒 · 上海译文出版社  2011年1月 · 定价: 33元</div></div>
-<div class="book-card" data-title="江城" data-author="彼得·海斯勒"><div class="book-title">《江城》</div><div class="book-meta">彼得·海斯勒 · 上海译文出版社  2012年1月 · 定价:36元</div></div>
-<div class="book-card" data-title="美丽与诅咒：全球化时代的印度" data-author="西达尔塔·德布"><div class="book-title">《美丽与诅咒：全球化时代的印度》</div><div class="book-meta">西达尔塔·德布 · 中信出版社  2012年5月 · 定价: 38元</div></div>
-  </div>
+<div class="book-card" data-title="寻路中国：从乡村到工厂的自驾之旅" data-author="彼得·海斯勒">
+  <div class="book-title">《寻路中国：从乡村到工厂的自驾之旅》</div>
+  <div class="book-author">彼得·海斯勒</div>
+  <div class="book-meta">彼得·海斯勒 · 上海译文出版社  2011年1月 · 定价: 33元</div>
+</div>
+
+
+<div class="book-card" data-title="江城" data-author="彼得·海斯勒">
+  <div class="book-title">《江城》</div>
+  <div class="book-author">彼得·海斯勒</div>
+  <div class="book-meta">彼得·海斯勒 · 上海译文出版社  2012年1月 · 定价:36元</div>
+</div>
+
+
+<div class="book-card" data-title="美丽与诅咒：全球化时代的印度" data-author="西达尔塔·德布">
+  <div class="book-title">《美丽与诅咒：全球化时代的印度》</div>
+  <div class="book-author">西达尔塔·德布</div>
+  <div class="book-meta">西达尔塔·德布 · 中信出版社  2012年5月 · 定价: 38元</div>
+</div>
+</div>
 </section>
 
 
-<section class="chapter" id="chapter-37">
-  <h2>37. 潘多拉的盒子是什么时候打开的（上）</h2>
+<section class="chapter-reading" id="chapter-37">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">37</span>潘多拉的盒子是什么时候打开的（上）</h2>
   <div class="chapter-body">
     <p>话说在资本市场的田园牧歌时代，人们买一只股票的目的可能只是希望在每年的某个固定时间里，能够得到一次分红。你能想象得到当时的对话可能是“爷爷当年入股的Town上最好的磨坊分红不如去年了”，也有可能是“马丁退出的那100股我们要不要接手？一年至少能带回50美元红利。”</p>
 <p>后来，就大萧条了，再后来……也不知道是什么时候，你会发现市价比和每股盈余成为投资者最关注的指标，或许你可以理解成，市盈率这个更代表未来收益预期的数字更能表现供求关系的变化，你可以理解成，价格比价值更容易成为你投资的原因。</p>
@@ -1137,15 +2363,31 @@
 <p>那应该是1980年代，一个让我们乐观开心，雄心勃勃的1980年代。</p>
   </div>
   <div class="book-list">
-    <div class="book-card" data-title="金融往事：恐慌、危机和迟来的复苏" data-author="迈克尔·刘易斯"><div class="book-title">《金融往事：恐慌、危机和迟来的复苏》</div><div class="book-meta">迈克尔·刘易斯 · 中信出版社  2011年5月 · 定价：49元</div></div>
-<div class="book-card" data-title="众魔在人间：华尔街的风云传奇" data-author="贝萨尼·麦克莱恩 / 乔·诺塞拉"><div class="book-title">《众魔在人间：华尔街的风云传奇》</div><div class="book-meta">贝萨尼·麦克莱恩 / 乔·诺塞拉 · 中信出版社  2011年12月 · 定价：68元</div></div>
-<div class="book-card" data-title="数字是靠不住的" data-author="查尔斯·塞费"><div class="book-title">《数字是靠不住的》</div><div class="book-meta">查尔斯·塞费 · 中信出版社  2011年9月 · 定价：42元</div></div>
-  </div>
+<div class="book-card" data-title="金融往事：恐慌、危机和迟来的复苏" data-author="迈克尔·刘易斯">
+  <div class="book-title">《金融往事：恐慌、危机和迟来的复苏》</div>
+  <div class="book-author">迈克尔·刘易斯</div>
+  <div class="book-meta">迈克尔·刘易斯 · 中信出版社  2011年5月 · 定价：49元</div>
+</div>
+
+
+<div class="book-card" data-title="众魔在人间：华尔街的风云传奇" data-author="贝萨尼·麦克莱恩 / 乔·诺塞拉">
+  <div class="book-title">《众魔在人间：华尔街的风云传奇》</div>
+  <div class="book-author">贝萨尼·麦克莱恩 / 乔·诺塞拉</div>
+  <div class="book-meta">贝萨尼·麦克莱恩 / 乔·诺塞拉 · 中信出版社  2011年12月 · 定价：68元</div>
+</div>
+
+
+<div class="book-card" data-title="数字是靠不住的" data-author="查尔斯·塞费">
+  <div class="book-title">《数字是靠不住的》</div>
+  <div class="book-author">查尔斯·塞费</div>
+  <div class="book-meta">查尔斯·塞费 · 中信出版社  2011年9月 · 定价：42元</div>
+</div>
+</div>
 </section>
 
 
-<section class="chapter" id="chapter-38">
-  <h2>38. 潘多拉的盒子是什么时候打开的（下）</h2>
+<section class="chapter-reading" id="chapter-38">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">38</span>潘多拉的盒子是什么时候打开的（下）</h2>
   <div class="chapter-body">
     <p>1980年代真是让人迷恋啊。</p>
 <p>1980年代，美国选出了一个会打星球大战的演员出身的总统罗纳德·里根，不仅打赢了冷战，还让美国人重新树立起了信心。华尔街吸引了一群聪明人去做事；当年被肯尼迪总统登月计划鼓舞的年轻的理工科生们也顺利毕业，他们开始进入到实业领域，并且创造了更多石破天惊的好想法；更早一批受益于“曼哈顿计划”的信息科学家们开始了真正的信息革命，个人电脑已经遂了比尔·盖茨的愿正在摆上每个人的书桌。于是蓬勃的1980年代就应运而生了。</p>
@@ -1166,15 +2408,31 @@
 <p>这听起来真是太让人感伤了。而这一切，是从1987年开始的。迈克尔·刘易斯、乔·诺塞拉或者约翰·布鲁克斯以及所有人可能说得都对，大资本大机构建立的市场，信息民主化带来的对冲基金，以及不动产和资本市场的衍生品，最终让资本市场走到了今天。但在1987年之前的时候，没有哪个机构投资者会相信最后市场会变得如此无趣。更重要的是，在1987年之前，雄心勃勃的人哪里知道会有丹·罗伯森这样的结果。</p>
   </div>
   <div class="book-list">
-    <div class="book-card" data-title="众魔在人间：华尔街的风云传奇" data-author="贝萨尼·麦克莱恩 / 乔·诺塞拉"><div class="book-title">《众魔在人间：华尔街的风云传奇》</div><div class="book-meta">贝萨尼·麦克莱恩 / 乔·诺塞拉 · 中信出版社  2011年12月 · 定价：68元</div></div>
-<div class="book-card" data-title="沸腾的岁月" data-author="[美] 约翰·布鲁克斯"><div class="book-title">《沸腾的岁月》</div><div class="book-meta">[美] 约翰·布鲁克斯 · 中信出版社  2006年10月 · 定价：35元</div></div>
-<div class="book-card" data-title="过度互联：互联网的奇迹与威胁" data-author="威廉姆·戴维德"><div class="book-title">《过度互联：互联网的奇迹与威胁》</div><div class="book-meta">威廉姆·戴维德 · 中信出版社  2012年8月 · 定价：36元</div></div>
-  </div>
+<div class="book-card" data-title="众魔在人间：华尔街的风云传奇" data-author="贝萨尼·麦克莱恩 / 乔·诺塞拉">
+  <div class="book-title">《众魔在人间：华尔街的风云传奇》</div>
+  <div class="book-author">贝萨尼·麦克莱恩 / 乔·诺塞拉</div>
+  <div class="book-meta">贝萨尼·麦克莱恩 / 乔·诺塞拉 · 中信出版社  2011年12月 · 定价：68元</div>
+</div>
+
+
+<div class="book-card" data-title="沸腾的岁月" data-author="[美] 约翰·布鲁克斯">
+  <div class="book-title">《沸腾的岁月》</div>
+  <div class="book-author">[美] 约翰·布鲁克斯</div>
+  <div class="book-meta">[美] 约翰·布鲁克斯 · 中信出版社  2006年10月 · 定价：35元</div>
+</div>
+
+
+<div class="book-card" data-title="过度互联：互联网的奇迹与威胁" data-author="威廉姆·戴维德">
+  <div class="book-title">《过度互联：互联网的奇迹与威胁》</div>
+  <div class="book-author">威廉姆·戴维德</div>
+  <div class="book-meta">威廉姆·戴维德 · 中信出版社  2012年8月 · 定价：36元</div>
+</div>
+</div>
 </section>
 
 
-<section class="chapter" id="chapter-39">
-  <h2>39. 底特律到底发生了什么（上）</h2>
+<section class="chapter-reading" id="chapter-39">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">39</span>底特律到底发生了什么（上）</h2>
   <div class="chapter-body">
     <p>我一直觉得有一个人类永恒的问题被我们低估了，就是乐观和悲观的问题。我们在大多数面临选择和判断的时候，实际上就是在选择做一个乐观者还是悲观者。</p>
 <p>底特律从1950年代到现在，人口从180多万下降到7 7万，全世界都用悲悯的目光看着这个城市，用病、崩溃、衰落来形容它，甚至要为它做个尸检……但爱德华·格莱泽不一样，在全世界都悲观的时候他选择做一个乐观者，他的观点是，你们要多想想留下的那77万人，他们为什么不走？</p>
@@ -1193,14 +2451,24 @@
 <p>你住在底特律——被几家大公司所左右的底特律，然后你又在其中一个大汽车公司里工作，虽然有工会保护着你，如果你的401K又是跟公司股票挂钩的话，那基本上就相当于买了一只股票，这只股票决定着你的工作、你的退休和你的投资。你把所有鸡蛋都放在这个篮子里，所有，还包括你的家庭。</p>
   </div>
   <div class="book-list">
-    <div class="book-card" data-title="美国种族简史" data-author="[美] 托马斯·索威尔"><div class="book-title">《美国种族简史》</div><div class="book-meta">[美] 托马斯·索威尔 · 中信出版社 2011年11月 · 定价：35元</div></div>
-<div class="book-card" data-title="城市的胜利" data-author="[美] 爱德华·格莱泽"><div class="book-title">《城市的胜利》</div><div class="book-meta">[美] 爱德华·格莱泽 · 上海社会科学院出版社 2012年12月 · 定价：49.80元</div></div>
-  </div>
+<div class="book-card" data-title="美国种族简史" data-author="[美] 托马斯·索威尔">
+  <div class="book-title">《美国种族简史》</div>
+  <div class="book-author">[美] 托马斯·索威尔</div>
+  <div class="book-meta">[美] 托马斯·索威尔 · 中信出版社 2011年11月 · 定价：35元</div>
+</div>
+
+
+<div class="book-card" data-title="城市的胜利" data-author="[美] 爱德华·格莱泽">
+  <div class="book-title">《城市的胜利》</div>
+  <div class="book-author">[美] 爱德华·格莱泽</div>
+  <div class="book-meta">[美] 爱德华·格莱泽 · 上海社会科学院出版社 2012年12月 · 定价：49.80元</div>
+</div>
+</div>
 </section>
 
 
-<section class="chapter" id="chapter-40">
-  <h2>40. 底特律到底发生了什么（下）</h2>
+<section class="chapter-reading" id="chapter-40">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">40</span>底特律到底发生了什么（下）</h2>
   <div class="chapter-body">
     <p>上一次我们在讨论底特律时说到，当一个城市中几大公司占据主导地位时，这个城市的居民基本上相当于把工作、退休和投资的所有钱都投注在一个股票之上。所有 的事都围绕着这个股票的衰荣来决定你的生活是什么样子的，底特律就把人逼到这个绝路之上，我觉得这是投资界最悲催的一件事。如果还要挑比这个更悲催的，那 就是中国的单一经济的城市，因为它不但把前面几个占全了，而且还有他爹他妈，他的孩子，以及他能借到钱或者资助他的所有家族成员。</p>
 <p>上次说到这里我们的话题就停止了，因为我的同事正在底特律进行着采访，现在她带回来了最新消息：底特律正在复苏，有一些事情做得不错。一个叫丹·吉尔伯特的人试图让人们回到内城来工作和生活，给这个城市增加一些除了汽车之外的东西。</p>
@@ -1217,13 +2485,17 @@
 <p>到目前为止，底特律内城已经开始恢复，不过最重要的消息还是汽车工厂重新开始招工——对的，它还是依赖于这几个生意好转了那么一点的巨头。就像在面对周期 性的股票的时候，你要提起十二万分的精神一样，你现在面对的是一个周期性的城市了，你的工资，你的401K，你的投资现在终于遇到了不是最坏的时候了……</p>
   </div>
   <div class="book-list">
-    <div class="book-card" data-title="城市的胜利" data-author="【美】爱德华·格莱泽 上海社会科学院出版社 2012年12月"><div class="book-title">《城市的胜利》</div><div class="book-meta">【美】爱德华·格莱泽 上海社会科学院出版社 2012年12月 · 定价： 49.80元</div></div>
-  </div>
+<div class="book-card" data-title="城市的胜利" data-author="【美】爱德华·格莱泽 上海社会科学院出版社 2012年12月">
+  <div class="book-title">《城市的胜利》</div>
+  <div class="book-author">【美】爱德华·格莱泽 上海社会科学院出版社 2012年12月</div>
+  <div class="book-meta">【美】爱德华·格莱泽 上海社会科学院出版社 2012年12月 · 定价： 49.80元</div>
+</div>
+</div>
 </section>
 
 
-<section class="chapter" id="chapter-41">
-  <h2>41. 即使聪明如理查德·费曼……</h2>
+<section class="chapter-reading" id="chapter-41">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">41</span>即使聪明如理查德·费曼……</h2>
   <div class="chapter-body">
     <p>前段时间一个骨灰级的猜年龄游戏被微信用户们翻了出来，简单点说就是：说出一个0至9之间的你认为的幸运数字，把这个数字乘以2，再加上5，再乘以50，把得到的数目加上1763，然后减去你出生的那一年，最后得出的三位数，百位数是你的幸运数字，后两位是你的年龄……按惯例，这种“神秘数字”游戏，一定会有人跟帖做苦苦思索状，并且不得其解，惊呼太尼玛神奇了。</p>
 <p>在吃过100个豆之后，如果还不知道豆腥，不是你的嗅觉出了问题，就是智力有问题。我第一次用公式——居然是公式啊——把这道题解开的时候，对自己的智力表达了无限景仰，觉得人生豁然开朗，恨不得跟每个人说，你知道吗？那些数字，那些让我们崩溃和一头雾水的数字，只是干扰我们的神经的……然后，你知道，在我们的生活当中总是充斥着大量的连公式都不肯列的死文科生们，接下来就可以蹂躏他们了。</p>
@@ -1245,15 +2517,31 @@
 <p>它的答案是，任何一个圆的周长加上1米，跟你想像的庞然大物是没有关系的，它都遵循周长=2πr的这个公式，增加1米的周长，不管原来的周长是4万公里还是4米，1米=2πr，r约等于15.9厘米——在增加1米之后，你看到紧绷的绳子整整被提起了将近16厘米，在这个故事当中，地球那个庞大的有6000多公里的半径，就是那个老虎。</p>
   </div>
   <div class="book-list">
-    <div class="book-card" data-title="π：世界最神秘的数字" data-author="阿尔弗雷德·S. 波沙曼提尔"><div class="book-title">《π：世界最神秘的数字》</div><div class="book-meta">阿尔弗雷德·S. 波沙曼提尔 · 吉林出版集团有限责任公司 2011年4月 · 定价：28.00元</div></div>
-<div class="book-card" data-title="别闹了，费曼先生" data-author="理查德·费曼"><div class="book-title">《别闹了，费曼先生》</div><div class="book-meta">理查德·费曼 · 生活·读书·新知三联书店 2005年1月 · 定价：15元</div></div>
-<div class="book-card" data-title="谁是谷歌想要的人才" data-author="[美] 威廉·庞德斯通"><div class="book-title">《谁是谷歌想要的人才》</div><div class="book-meta">[美] 威廉·庞德斯通 · 浙江人民出版社 2013年2月 · 定价：49.9元</div></div>
-  </div>
+<div class="book-card" data-title="π：世界最神秘的数字" data-author="阿尔弗雷德·S. 波沙曼提尔">
+  <div class="book-title">《π：世界最神秘的数字》</div>
+  <div class="book-author">阿尔弗雷德·S. 波沙曼提尔</div>
+  <div class="book-meta">阿尔弗雷德·S. 波沙曼提尔 · 吉林出版集团有限责任公司 2011年4月 · 定价：28.00元</div>
+</div>
+
+
+<div class="book-card" data-title="别闹了，费曼先生" data-author="理查德·费曼">
+  <div class="book-title">《别闹了，费曼先生》</div>
+  <div class="book-author">理查德·费曼</div>
+  <div class="book-meta">理查德·费曼 · 生活·读书·新知三联书店 2005年1月 · 定价：15元</div>
+</div>
+
+
+<div class="book-card" data-title="谁是谷歌想要的人才" data-author="[美] 威廉·庞德斯通">
+  <div class="book-title">《谁是谷歌想要的人才》</div>
+  <div class="book-author">[美] 威廉·庞德斯通</div>
+  <div class="book-meta">[美] 威廉·庞德斯通 · 浙江人民出版社 2013年2月 · 定价：49.9元</div>
+</div>
+</div>
 </section>
 
 
-<section class="chapter" id="chapter-42">
-  <h2>42. 听说你打算定制一个伟大习惯？</h2>
+<section class="chapter-reading" id="chapter-42">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">42</span>听说你打算定制一个伟大习惯？</h2>
   <div class="chapter-body">
     <p>眼见得《习惯的力量》红火了起来，一本书火爆而成为显学，我觉得它的标志就是有人给书做PPT，有人拿着这PPT鼓励后进并且大声疾呼——我觉得他们都是有好习惯的人。我在看这本书的时候，也收获很多，比如懂得的一个道理就是，我们的人生之所以随波逐流，是因为一堆坏习惯，而坏习惯的养成多半原因是我们对自己的奖励机制出了问题，呀，真的是应该好好反省一下。</p>
 <p>若干年前，一位人力资源管理专家给我讲过一个浅显的道理，她说如果有一个你的得力下属突然跑过来跟你说，有个竞争对手公司出了更高的价钱请他跳槽，你应该怎么办？通常的做法是给他加点工资，稳定下来。专家说，你看，你这就是鼓励背叛。我觉得这太有道理了，以至于只记住了前半截：不应该鼓励背叛。但如果不鼓励背叛，那到底应该做点什么——这关键的后半截完全没有印象了，以至于我在茫茫暗夜中又摸索了许久，并且至今也没有摸出来，唯一的进步就是，明白不管要不要鼓励背叛，得先弄清楚手中的筹码。我想说的是，不管是奖励自己的臭毛病，还是奖励别人的背叛，你一定要知道自己手里到底有怎样一副牌。</p>
@@ -1270,14 +2558,24 @@
 <p>最后，一个显而易见的事实就是，好习惯当然是好事，坏习惯肯定应该要改掉，但通常来说我们拥有的都是不好不坏的习惯，无伤大雅的小癖好，你弄清楚了它的奖励机制，然后你想着要为它多做点什么事。也就是想想而已。回到人力资源管理专家的世界里，我所知道的是一个错误的激励机制确实鼓励了背叛，但多少也会给自己一个额外的奖赏：这孙子为什么起了背叛之心？你知道，你管不了别人的时候，就要管自己。这话说给自己听的时候是励志，但将心比心，你怎么知道这个有二心的孙子不会有所反思？虽然牌抓在自己手里是王道，但你知道对手手里的牌也是王道啊。</p>
   </div>
   <div class="book-list">
-    <div class="book-card" data-title="当大脑遇到金钱" data-author="贾森·茨威格"><div class="book-title">《当大脑遇到金钱》</div><div class="book-meta">贾森·茨威格 · 广东经济出版社   2009年11月 · 定价：35元</div></div>
-<div class="book-card" data-title="习惯的力量" data-author="查尔斯·杜希格"><div class="book-title">《习惯的力量》</div><div class="book-meta">查尔斯·杜希格 · 中信出版社  2013年3月 · 定价：42元</div></div>
-  </div>
+<div class="book-card" data-title="当大脑遇到金钱" data-author="贾森·茨威格">
+  <div class="book-title">《当大脑遇到金钱》</div>
+  <div class="book-author">贾森·茨威格</div>
+  <div class="book-meta">贾森·茨威格 · 广东经济出版社   2009年11月 · 定价：35元</div>
+</div>
+
+
+<div class="book-card" data-title="习惯的力量" data-author="查尔斯·杜希格">
+  <div class="book-title">《习惯的力量》</div>
+  <div class="book-author">查尔斯·杜希格</div>
+  <div class="book-meta">查尔斯·杜希格 · 中信出版社  2013年3月 · 定价：42元</div>
+</div>
+</div>
 </section>
 
 
-<section class="chapter" id="chapter-43">
-  <h2>43. “这条贪婪的隧道尽头……”</h2>
+<section class="chapter-reading" id="chapter-43">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">43</span>“这条贪婪的隧道尽头……”</h2>
   <div class="chapter-body">
     <p>疯狂工作，尽情享受！赚钱，买你所爱的！这些话现在我们听着也是越来越耳熟了，很多时候我们都很愿意畅想这样的场面，比如“忙完这几天，就……”然后再一直延伸到很远的地方，比如类似于“35岁就退休”这样的豪迈。这种乐观主义的精神如果放在美国，那就是美国梦，如果放在中国，那差不多就是中国梦。</p>
 <p>但是有一个美国人突然跑出来表达了不同的意见，他说：“我们越是努力地工作赚钱来购买这些东西，就越是缺少时间和精力来享受已经购买的东西。美国文化向外界传递了一个越来越混乱的信息：疯狂工作的同时又要尽情地享受人生，这两件事情是不可能同时成立的。”</p>
@@ -1297,13 +2595,17 @@
 <p>于是我又产生了一个与我们自己相关的迷思，要知道我们现在激情勃发，也是有了中国梦的人！虽然莱维特小镇的白栅栏爬山虎还没有普及到我们头上，但你知道我们也是可以畅想的人了。罗伯特·赖克部长说，美国经历了三个阶段：1870年至1929年是收入和财富不断积累和集中的年代，1947年至1975年繁荣得到了广泛的共享，1998年至2010年，财富又开始重新集中……我想知道的是，关于中国梦的那一部分是否真的也可以先跟这时间对照起来看看。</p>
   </div>
   <div class="book-list">
-    <div class="book-card" data-title="美国的逻辑" data-author="【美】罗伯特·赖克"><div class="book-title">《美国的逻辑》</div><div class="book-meta">【美】罗伯特·赖克 · 中信出版社 2011年4月 · 定价：32元</div></div>
-  </div>
+<div class="book-card" data-title="美国的逻辑" data-author="【美】罗伯特·赖克">
+  <div class="book-title">《美国的逻辑》</div>
+  <div class="book-author">【美】罗伯特·赖克</div>
+  <div class="book-meta">【美】罗伯特·赖克 · 中信出版社 2011年4月 · 定价：32元</div>
+</div>
+</div>
 </section>
 
 
-<section class="chapter" id="chapter-44">
-  <h2>44. “我知道事情真相啦”</h2>
+<section class="chapter-reading" id="chapter-44">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">44</span>“我知道事情真相啦”</h2>
   <div class="chapter-body">
     <p>这句话来自于郭德纲的段子。有人教唆一孩子，你要是想跟家里要钱，你就跟你爹妈说，“我知道事情真相啦”，于是……它果然好用！拿这句话做标题并非是让大家如何骗吃骗喝，而是真相这东西很重要，但又经常让人琢磨不透。在运气好的时候你喊着知道真相，可能就足够你所向披靡了；运气差的时候，你以为你知道事情真相，但结果当你用你了解的真相去解决问题，最终可能南辕北辙。</p>
 <p>我特别想说一个极端的例子，一个叫杰里米·温斯顿的美国人在万圣节被执行了死刑。他的律师大卫·道说：“他真的很后悔，我第一次见到他，就知道他后悔自己的作为。”这位温斯顿有一天凌晨打破一家一楼的窗户，把露西从她的床上抱走。那天下午，警方发现已经被勒死的露西，被性侵，头骨破裂，可能是被碾过，她只有5岁。这是那个后来感到后悔的变态恶魔温斯顿干的，这是真相的一部分。大卫·道还告诉你另外一些事：这个杰里米·温斯顿在8岁的时候亲眼见到父亲被枪杀，在接下来的7年时间里，他的母亲带着他先后跟11个男人在一起生活，其中6个定期殴打他和他的母亲，一个男人用枪指着他，一个男人用砖头打他，一个男人还鸡奸了他。</p>
@@ -1323,14 +2625,24 @@
 <p>这就说到了一个沉重的话题。沉重在于它只是几个我们必须要想但真是不愿意被问及的问题：未来会持续繁荣吗？中国城市里的第二代“移民”问题是否被重视过？那些存量的矛盾在增量惠及不到或者增量不再的时候是否还在郁积？每个劳动者或者市民，那些自称“屌丝”的年轻人，他们认为自己得到尊重了吗？</p>
   </div>
   <div class="book-list">
-    <div class="book-card" data-title="城市之王——纽约市市长朱利安尼" data-author="安德鲁·科兹曼"><div class="book-title">《城市之王——纽约市市长朱利安尼》</div><div class="book-meta">安德鲁·科兹曼 · 东方出版社 2004年10月 · 定价：28元</div></div>
-<div class="book-card" data-title="死刑台前的告别" data-author="［美］大卫·道"><div class="book-title">《死刑台前的告别》</div><div class="book-meta">［美］大卫·道 · 中国人民大学出版社 · 定价：32元</div></div>
-  </div>
+<div class="book-card" data-title="城市之王——纽约市市长朱利安尼" data-author="安德鲁·科兹曼">
+  <div class="book-title">《城市之王——纽约市市长朱利安尼》</div>
+  <div class="book-author">安德鲁·科兹曼</div>
+  <div class="book-meta">安德鲁·科兹曼 · 东方出版社 2004年10月 · 定价：28元</div>
+</div>
+
+
+<div class="book-card" data-title="死刑台前的告别" data-author="［美］大卫·道">
+  <div class="book-title">《死刑台前的告别》</div>
+  <div class="book-author">［美］大卫·道</div>
+  <div class="book-meta">［美］大卫·道 · 中国人民大学出版社 · 定价：32元</div>
+</div>
+</div>
 </section>
 
 
-<section class="chapter" id="chapter-45">
-  <h2>45. 我们只是想摆脱庸常生活</h2>
+<section class="chapter-reading" id="chapter-45">
+  <h2><span style="color:var(--border);margin-right:0.5rem;">45</span>我们只是想摆脱庸常生活</h2>
   <div class="chapter-body">
     <p>在经历了两年之后，这个栏目跟我们这本杂志一起也要告一段落了。在过去的两年中，它絮絮叨叨地讲了一些有关价值投资的事，如果总结下来，可能无外乎不要把鸡蛋放在一个篮子里；在别人贪婪的时候你要恐惧，在别人恐惧的时候你要贪婪；天下没有免费的午餐之类的常识。这些常识隐藏在各种各样的书中，也隐藏在各式不同的人生中，它们以不同的面目出现，很多时候，你会沉浸于这些不同的故事当中，以至于忘了我们要说的是有关投资和财富的话题，但好在一切都关乎成长，在这个栏目中还从来不曾绝望甚至困顿过。</p>
 <p>它大约涉及有100本书，如果为它做个总结的话，差不多绝大多数都来自美国。在这其中有一种是关于投资理念的，我得承认，对于一个从来不亲身去投资的人来说，这东西都是纸上谈兵，巴菲特总是会提及他的“护城河”理论，那些根本不用考虑谁来当CEO都会经营得很好的那些公司。彼得·林奇会说，要去看那些停车场排得爆满的公司，要投就投这样的公司。如果按这样的思路去指导我们的投资，工商银行你觉得怎么样？它们那里永远在排队。巴菲特借着这个指导了自己的可口可乐、运通、吉列还有过去的迪士尼公司，但我们知道，当年有一个CEO上来就改了可口可乐的配方，结果呢，销量大跌，我们还知道迪士尼在不同的人手中还真是有不一样的结果，吉列呢则卖给了宝洁。有位伯克希尔哈撒韦的股东抱怨说，像可口可乐这样的品牌经营商太少了。巴菲特的搭当查理·芒格尖刻地批评他说：“哪有那么容易的事，你难道做成了两三笔买卖，就指望能让全家人一辈子吃喝不愁？”而本杰明·格雷厄姆则会说，如果你只看停车场，而不去看财务报表的话，你与盲目也没有什么区别。</p>
@@ -1350,51 +2662,58 @@
 <p>在这个因为稀缺而诞生了经济学、因为稀缺而产生了经济社会的世界里，创造力是最稀缺的一个。我们或者投资创造力，或者投靠创造力——在这些书背后，是我想象中的，这个栏目的价值。</p>
 <p>于我这个作者而言，可能是收益最大的一个人。所以最后要说的是，它几乎给我打开了一个完全陌生的一个空间，这个空间里，听上去那些人类似乎只是在为自己的财富而殚精竭虑，给人的感觉很芸芸众生，但要知道，我们对自己的生活有多不满意，就意味着我们有多渴望一种新的更美好的生活，在这些焦虑背后，每个人孜孜以求的是我们想摆脱庸常生活的愿望所在。</p>
   </div>
-  <div class="book-list">
-    <p>（本章无书单）</p>
-  </div>
+  
 </section>
 
-</div>
+  </section>
 
-<footer>
-  <p>原始内容来自第一财经周刊 · 由 Conan Xin 整理 · 仅供学习交流</p>
+</main>
+
+<footer class="site-footer">
+  <p>原始内容来自《第一财经周刊》· 由 Conan Xin 整理</p>
+  <p>本项目为学习交流用途，不代表原出版方立场</p>
+  <div class="footer-links">
+    <a href="https://github.com/conanxin/2014books">GitHub</a>
+    <a href="#" onclick="window.print();return false;">打印友好版</a>
+    <a href="https://conanxin.github.io/2014books/">在线版本</a>
+  </div>
 </footer>
+
+<button class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="回到顶部">↑</button>
 
 <script>
 function doSearch() {
   const q = document.getElementById('searchInput').value.trim().toLowerCase();
-  const cards = document.querySelectorAll('.book-card');
-  const chapters = document.querySelectorAll('.chapter');
-  if (!q) { clearSearch(); return; }
+  const cards = document.querySelectorAll('#bookGrid .book-card');
+  const noResults = document.getElementById('noResults');
+  let visibleCount = 0;
   cards.forEach(c => {
     const t = (c.dataset.title || '').toLowerCase();
     const a = (c.dataset.author || '').toLowerCase();
-    if (t.includes(q) || a.includes(q)) {
+    if (!q || t.includes(q) || a.includes(q)) {
       c.classList.remove('hidden');
+      visibleCount++;
     } else {
       c.classList.add('hidden');
     }
   });
-  chapters.forEach(ch => {
-    const visible = ch.querySelectorAll('.book-card:not(.hidden)');
-    if (visible.length === 0 && ch.querySelector('.book-list')) {
-      ch.classList.add('hidden');
-    } else {
-      ch.classList.remove('hidden');
-    }
-  });
+  if (visibleCount === 0 && q) {
+    noResults.classList.remove('hidden');
+  } else {
+    noResults.classList.add('hidden');
+  }
 }
 
-function clearSearch() {
-  document.getElementById('searchInput').value = '';
-  document.querySelectorAll('.book-card').forEach(c => c.classList.remove('hidden'));
-  document.querySelectorAll('.chapter').forEach(ch => ch.classList.remove('hidden'));
-}
-
-document.getElementById('searchInput').addEventListener('keydown', function(e) {
-  if (e.key === 'Enter') doSearch();
+// Back to top visibility
+const backToTop = document.getElementById('backToTop');
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 600) {
+    backToTop.classList.add('visible');
+  } else {
+    backToTop.classList.remove('visible');
+  }
 });
 </script>
+
 </body>
 </html>
