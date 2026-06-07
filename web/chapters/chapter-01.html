@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第1章：我们如何来到现在 · 2014年值得你阅读的100本书</title>
+<meta property="og:title" content="第1章：我们如何来到现在 · 2014年值得你阅读的100本书">
+<meta property="og:description" content="一个叫查尔斯·汤斯的科学家，他接到一个研究飞机上使用雷达的任务。在他做这个研究之前，除了原子弹这种闭着眼睛一脚把炸弹踢下飞机也能杀死无数人之外，飞机扔炸弹基本上是靠瞎蒙。">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://conanxin.github.io/2014books/assets/og-cover.svg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body class="chapter-page">
+
+<div class="reading-progress" id="readingProgress"></div>
+
+<nav class="top-nav">
+  <div style="display:flex;align-items:center;gap:0.8rem;">
+    <button class="btn btn-small" id="drawerToggle" style="padding:0.3rem 0.6rem;font-size:0.75rem;">目录</button>
+    <a href="../index.html" class="nav-title" style="border-bottom:none;">2014books</a>
+  </div>
+  <div class="reading-settings">
+    <button class="btn btn-small" onclick="adjustFontSize(-1)" title="减小字号">A-</button>
+    <button class="btn btn-small" onclick="adjustFontSize(1)" title="增大字号">A+</button>
+    <button class="btn btn-small" onclick="toggleTheme()" title="切换纸张/夜间">◐</button>
+  </div>
+</nav>
+
+<div class="drawer-overlay" id="drawerOverlay" onclick="closeDrawer()"></div>
+<div class="chapter-drawer" id="chapterDrawer">
+  <div class="drawer-header">
+    <span class="drawer-title">章节目录</span>
+    <button class="drawer-close" onclick="closeDrawer()">×</button>
+  </div>
+  <a href="chapter-01.html" class="drawer-item" style="color:var(--accent);font-weight:600;"><span class="drawer-num">01</span>我们如何来到现在</a>
+<a href="chapter-02.html" class="drawer-item"><span class="drawer-num">02</span>日光之下，并无新事</a>
+<a href="chapter-03.html" class="drawer-item"><span class="drawer-num">03</span>那些数学大师们</a>
+<a href="chapter-04.html" class="drawer-item"><span class="drawer-num">04</span>当心，被他们骗了</a>
+<a href="chapter-05.html" class="drawer-item"><span class="drawer-num">05</span>你从事的是娱乐业</a>
+<a href="chapter-06.html" class="drawer-item"><span class="drawer-num">06</span>人人都爱非理性</a>
+<a href="chapter-07.html" class="drawer-item"><span class="drawer-num">07</span>天才，还是该死的无耻之徒</a>
+<a href="chapter-08.html" class="drawer-item"><span class="drawer-num">08</span>伯恩斯坦错了吗</a>
+<a href="chapter-09.html" class="drawer-item"><span class="drawer-num">09</span>怎么就成了巴圣人了</a>
+<a href="chapter-10.html" class="drawer-item"><span class="drawer-num">10</span>为什么不为“民主化”投资</a>
+<a href="chapter-11.html" class="drawer-item"><span class="drawer-num">11</span>为什么对莫斯科维茨心生崇敬</a>
+<a href="chapter-12.html" class="drawer-item"><span class="drawer-num">12</span>我们这个时代最智慧的头脑</a>
+<a href="chapter-13.html" class="drawer-item"><span class="drawer-num">13</span>乔布斯的One More Thing</a>
+<a href="chapter-14.html" class="drawer-item"><span class="drawer-num">14</span>不要跟自己的肺生气</a>
+<a href="chapter-15.html" class="drawer-item"><span class="drawer-num">15</span>聪明的投资者</a>
+<a href="chapter-16.html" class="drawer-item"><span class="drawer-num">16</span>如果回到1997年</a>
+<a href="chapter-17.html" class="drawer-item"><span class="drawer-num">17</span></a>
+<a href="chapter-18.html" class="drawer-item"><span class="drawer-num">18</span>投资者从垄断公司那里得到什么</a>
+<a href="chapter-19.html" class="drawer-item"><span class="drawer-num">19</span>荒谬历史中的一点奇葩</a>
+<a href="chapter-20.html" class="drawer-item"><span class="drawer-num">20</span>从长远看，我们都是要死的</a>
+<a href="chapter-21.html" class="drawer-item"><span class="drawer-num">21</span>一个理想主义者的价值投资</a>
+<a href="chapter-22.html" class="drawer-item"><span class="drawer-num">22</span>大公司的边界</a>
+<a href="chapter-23.html" class="drawer-item"><span class="drawer-num">23</span>所以，它就安静地站着</a>
+<a href="chapter-24.html" class="drawer-item"><span class="drawer-num">24</span>富有的邻居和聪明的小贼们</a>
+<a href="chapter-25.html" class="drawer-item"><span class="drawer-num">25</span>通过欢乐获取力量</a>
+<a href="chapter-26.html" class="drawer-item"><span class="drawer-num">26</span>我们所热爱的青春期</a>
+<a href="chapter-27.html" class="drawer-item"><span class="drawer-num">27</span>为什么奥特曼不能在银行里下棋</a>
+<a href="chapter-28.html" class="drawer-item"><span class="drawer-num">28</span>它不像你想象的那么简单</a>
+<a href="chapter-29.html" class="drawer-item"><span class="drawer-num">29</span>工匠们创造的历史</a>
+<a href="chapter-30.html" class="drawer-item"><span class="drawer-num">30</span>有一些人值得为他起立鼓掌（上）</a>
+<a href="chapter-31.html" class="drawer-item"><span class="drawer-num">31</span>有一些人值得为他起立鼓掌（下）</a>
+<a href="chapter-32.html" class="drawer-item"><span class="drawer-num">32</span>“加里驾驶小飞机兜风那天”</a>
+<a href="chapter-33.html" class="drawer-item"><span class="drawer-num">33</span>你是智慧多一点，还是钱多一点</a>
+<a href="chapter-34.html" class="drawer-item"><span class="drawer-num">34</span>当范德比尔特最后一次经过码头（上）</a>
+<a href="chapter-35.html" class="drawer-item"><span class="drawer-num">35</span>当范德比尔特最后一次经过码头（下）</a>
+<a href="chapter-36.html" class="drawer-item"><span class="drawer-num">36</span>然后，他就开始沮丧起来</a>
+<a href="chapter-37.html" class="drawer-item"><span class="drawer-num">37</span>潘多拉的盒子是什么时候打开的（上）</a>
+<a href="chapter-38.html" class="drawer-item"><span class="drawer-num">38</span>潘多拉的盒子是什么时候打开的（下）</a>
+<a href="chapter-39.html" class="drawer-item"><span class="drawer-num">39</span>底特律到底发生了什么（上）</a>
+<a href="chapter-40.html" class="drawer-item"><span class="drawer-num">40</span>底特律到底发生了什么（下）</a>
+<a href="chapter-41.html" class="drawer-item"><span class="drawer-num">41</span>即使聪明如理查德·费曼……</a>
+<a href="chapter-42.html" class="drawer-item"><span class="drawer-num">42</span>听说你打算定制一个伟大习惯？</a>
+<a href="chapter-43.html" class="drawer-item"><span class="drawer-num">43</span>“这条贪婪的隧道尽头……”</a>
+<a href="chapter-44.html" class="drawer-item"><span class="drawer-num">44</span>“我知道事情真相啦”</a>
+<a href="chapter-45.html" class="drawer-item"><span class="drawer-num">45</span>我们只是想摆脱庸常生活</a>
+</div>
+
+<div class="chapter-container">
+  <div class="chapter-header">
+    <a href="../index.html#archive" class="back-link">← 返回首页</a>
+    <div class="chapter-num-display">Chapter 01 / 45</div>
+    <h1>我们如何来到现在</h1>
+  </div>
+
+  <div class="chapter-body-text" id="chapterBody">
+    <p>一个叫查尔斯·汤斯的科学家，他接到一个研究飞机上使用雷达的任务。在他做这个研究之前，除了原子弹这种闭着眼睛一脚把炸弹踢下飞机也能杀死无数人之外，飞机扔炸弹基本上是靠瞎蒙。研究这种雷达的目的是可以更有效率地杀人，但是当时的雷达波长很长，所以要求雷达直径也很长。</p>
+<p>汤斯的任务是怎么搞出一个短波长的雷达。但是他发现一个问题，如果波长短到比如1. 5厘米，那么它很容易被水吸收—这样雨天雾天就没办法准确杀人了。我不知道雷达们后来怎么样了，反正汤斯发现了这个特点。于是，查尔斯·汤斯，这位来自贝尔实验室的科学家，发明了人类最重要的热剩饭的工具：微波炉。</p>
+<p>如果单看这个故事，如我们标题所提出来的问题，人类能够走到现在除了庆幸躲过了汤斯扔下的炸弹之外，进步来自于战争和科学技术。</p>
+<p>还有一个法国女人叫约瑟夫·玛丽·杰卡德，我觉得她与黄道婆可以并称为世界上最着名的两个纺织女工，她发明了一种织布机，可以用打卡的方式决定先编入经线还是纬线，这样可以产生想要的图案，并且它还是可以通过设计一定的程序来产生有规律的图案。美国人赫尔曼·豪瑞斯勒在织布机的基础上发明了制表机，它们都是二进制的机器。最后这东西落在了托马斯·沃森的手里，他搞出来了一个IBM。</p>
+<p>如果从这个故事看“我们是怎么过来的”，那么可能要提到的是商业、需求、企业家，市场和搞定市场的人才。</p>
+<p>关于如何来到现在，类似的说法我们可以列举无数个，但同样每个都可以否定掉：战争当然是一个重要的催生技术发展的关键，但得益于战争而发明出来的“图灵计算机”在英国有一段时间里都可以称为民用机了，到了冷战时期却被统统收缴了事。</p>
+<p>政府不让大家用了：这么高科技的东西让民间来玩，如果被俄国人窃了密可怎么办？</p>
+<p>沃森也不全知全能，虽然他看到了商业在社会中的中心地位，并把公司愿景定为“处理所有商业信息”，但他预测这世界上有五台计算机可能就够了，于是他把DOS系统让给了比尔·盖茨，盖茨给微软定的愿景才是“让每个人的桌子上都摆上一台电脑”。一个卖软件的有这样的雄才大略，基本上可以担当如何来到现在的推进者了，但最后在更强大的互联网面前，他还是一个卖软件的家伙。</p>
+<p>“我们如何来到现在”这个问题的提问者安迪·凯斯勒有自己的一套答案，他是一个喜欢做减法的家伙。他在同名的书里说到了伊丽莎白一世，她的减法基本上奠定了现代社会：国家和政府是管不好投资这类事的，不如把它交给银行吧。</p>
+<p>由此，现代社会开始了。但银行靠谱吗？全世界所有银行都爱大公司，它们最爱锦上添花，却很少雪中送炭，为什么？因为它们最大的敌人是“欠钱不还”，所以银行家们最讨厌的是风险。</p>
+<p>当然，你也可以说国外有那么多小银行，它们可是做得不错的！没错，但你可以看加雷·加勒特怎么说。</p>
+<p>他是从金匠开始说起的。金匠在替人做首饰的同时，也会替人保管，而保管的凭条就成了一种可交易的凭据，时间久了之后金匠发现金主们同时来提走金子的可能性并不大，这样他可以多发一点凭条并没有太大风险—银行就是这么来的。</p>
+<p>加勒特让我们想象某个镇上的某一个小银行，它服务的对象包括面包师、铁匠、养马的、种地的等等，他们从银行里借了钱买原料，等到赚了钱再还给银行。但问题是银行要把钱贷出去的，面包、师铁匠们需要借的钱并不能满足一个银行需要的贷款比例，它有大量的信贷放不出去，怎么办？在美国，通常他们会把钱借给认识更多客户的大银行，终于要说到纽约了—那些面包师、铁匠们的钱最后就跑到了纽约的大银行手里。</p>
+<p>接下来的事情就是我们知道的另外一些故事，大银行们从小银行那里借来钱之后，再借给更多需要钱的人。它们不愿意把钱借给没有信用的人，那就借给AAA吧。后来的事你知道的，它们买了一堆债券回来。</p>
+<p>小银行呢？小银行的资产不见了，面包师的钱当然也不见了。</p>
+<p>如果从另外一个角度来看“我们是怎么来到这个操蛋的世界的”，我看这些故事很能说明问题。但安迪·凯斯勒显然是个乐观主义者，他在否定了银行之后，讲了瓦特的故事，瓦特是个Geek，琢磨提升蒸汽机的效率，有一个叫道尔顿的家伙把钱投给他，让他获得了成功。</p>
+<p>这时候要说一个艰难的结论：钱，可能是一个相当重要的东西。让没钱的人把自己想出来的东西做好，钱太重要了。阿基米德说，给我一个杠杆我要把地球撬起来。找银行家是不会借给他这个杠杆的，风险太大了。但总会有人愿意试一下，承受风险能力强的那个银行家就有可能做到这一点。于是，VC诞生了。</p>
+<p>你知道，如果是你愿意借钱给别人，比“可能借钱不还”还要重要一点的事是什么？一定是“我能得到什么好处”（雷锋们请转过身去）。因此这些愿意拿风险来换取回报的人，他们爱上了IPO。这是一个好东西，从此他们就可以不用放高利贷也可以有更高收益了。证券市场出现的时间其实并不算太晚，18世纪英国就已经有南海泡沫了（这也是英国人受了刺激从此不爱证券的原因）。但它始终没有成为主流，摩根他们家的人只要提到股票一律斥之为美国人的粗俗玩意，绅士们只搞债券。但是在技术成规模之后，IPO的价值更突出了。证券市场可以让没有钱，但是有技术的瓦特们变得有钱起来，变得有信用起来。</p>
+<p>在历史上，商业社会之前最好的致富手段一是靠抢劫，二是靠继承。但是商业社会之后，这世界才可以让普通人有钱的。如果你意识到这一点，不但可以理解为什么你痛恨社会不公，而且还会明白如果你均了别人的财富一样也是史前行为。最重要的是你会了解为什么我们会到了现在—文明社会该有的东西我们不都是假模假式的都有了吗？为什么看着有很多地方不对呢？</p>
+<p>当然，你也会明白为什么安迪·凯斯勒会把这本书的副标题叫作“商业、技术与金融趣史”。他本人就是个贝尔实验室的程序员，后来觉得上班做个张江男来钱太慢，改行去华尔街做对冲基金，在2000年泡沫的时候，他把他的10 0 0万的基金做到了10个亿，赚了钱之后他决定做点有益人类的事，就去写畅销书去了。</p>
+<p>成功的人会用他的成功来解释世界。</p>
+<p>加雷·加勒特的人生是成功的，只是他生活在一个不怎么样的年代，他在1930年代的时候写了《压垮世界的泡沫》，所以他会那么悲观地看待银行。</p>
+<p>相比之下，我更希望乐观一点的人生。</p>
+<p>有一天，某位同学跑过来跟我说：侬知道伐？太阳黑子可以穿越我们的身体！黑子，它就，从我们身体里穿过去了！我在听到那些匪夷所思的东西的时候一向都是很淡定的：这有什么奇怪的，这不是很正常吗？但是我心里说的是，啊，居然可以这样！但如果想上那么十分钟，就会想起来，怀孕MM的防辐射服应该是担心什么辐射会透过皮肤伤到胎儿，能穿越一层皮肤自然就会穿越人体。哦，我们拍的X光就是这样的，我还听说过人体吸收紫外线这样的话，黑子也好、紫外线也好、X光也好，都是某种光波，听说过波粒二相性吗？那些粒子—它就那么穿越过去了。</p>
+<p>这么想想，真的是挺好一件事。“居然可以是这样！”即使我们不掌握那么多的钱，我们也没有什么可以赚钱的技术，但我们可以有很多的好奇心，这个东西同样可以让我们走到今天。</p>
+  </div>
+
+  <div class="chapter-books"><h3>本章推荐书目</h3><div class="book-grid" style="margin-top:1rem;"><div class="book-card">
+  <div class="book-title">《沃森父子与IBM王朝》</div>
+  <div class="book-author">理查德·泰德洛</div>
+  <div class="book-meta">理查德·泰德洛 · 中国人民大学出版社 2005年10月 · 定价：29元</div>
+</div>
+<div class="book-card">
+  <div class="book-title">《压垮世界的泡沫》</div>
+  <div class="book-author">加雷·加勒特</div>
+  <div class="book-meta">加雷·加勒特 · 法律出版社 2010年12月 · 定价：32元</div>
+</div>
+<div class="book-card">
+  <div class="book-title">《我们如何来到现在》</div>
+  <div class="book-author">安迪·凯斯勒</div>
+  <div class="book-meta">安迪·凯斯勒 · 机械工业出版社 2011年1月 · 定价：36元</div>
+</div></div></div>
+
+  <div class="chapter-nav">
+    <span></span>
+    <a href="../index.html#books" style="color:var(--muted);">书目档案</a>
+    <a href="chapter-02.html">下一章 →</a>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <p>原始内容来自《第一财经周刊》· 由 Conan Xin 整理</p>
+  <p>本项目为学习交流用途，不代表原出版方立场</p>
+  <div class="footer-links">
+    <a href="https://github.com/conanxin/2014books">GitHub</a>
+    <a href="../index.html">首页</a>
+  </div>
+</footer>
+
+<script>
+// Reading progress
+const progressBar = document.getElementById('readingProgress');
+window.addEventListener('scroll', () => {
+  const scrollTop = window.scrollY;
+  const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+  const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+  progressBar.style.width = pct + '%';
+});
+
+// Font size
+let currentSize = 17;
+function adjustFontSize(delta) {
+  currentSize += delta;
+  if (currentSize < 14) currentSize = 14;
+  if (currentSize > 24) currentSize = 24;
+  document.documentElement.style.fontSize = currentSize + 'px';
+  localStorage.setItem('2014books_font_size', currentSize);
+}
+
+// Theme
+function toggleTheme() {
+  const html = document.documentElement;
+  if (html.classList.contains('night')) {
+    html.classList.remove('night');
+    localStorage.setItem('2014books_theme', 'paper');
+  } else {
+    html.classList.add('night');
+    localStorage.setItem('2014books_theme', 'night');
+  }
+}
+
+// Restore preferences
+(function(){
+  const savedSize = localStorage.getItem('2014books_font_size');
+  if (savedSize) {
+    currentSize = parseInt(savedSize, 10);
+    document.documentElement.style.fontSize = currentSize + 'px';
+  }
+  const savedTheme = localStorage.getItem('2014books_theme');
+  if (savedTheme === 'night') {
+    document.documentElement.classList.add('night');
+  }
+})();
+
+// Drawer
+const drawer = document.getElementById('chapterDrawer');
+const overlay = document.getElementById('drawerOverlay');
+document.getElementById('drawerToggle').addEventListener('click', () => {
+  drawer.classList.add('open');
+  overlay.classList.add('open');
+});
+function closeDrawer() {
+  drawer.classList.remove('open');
+  overlay.classList.remove('open');
+}
+</script>
+
+</body>
+</html>

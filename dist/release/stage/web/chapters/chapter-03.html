@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第3章：那些数学大师们 · 2014年值得你阅读的100本书</title>
+<meta property="og:title" content="第3章：那些数学大师们 · 2014年值得你阅读的100本书">
+<meta property="og:description" content="小时候对伽利略的印象一般，一是我们所有的书里都说他最后屈服于教廷压力而作了伪证，当时我满脑子想的都是不成功便成仁，他怎么可以这样；二是他很无聊，居然想起来跑到比萨斜塔上去扔铁球。 尼尔·波斯曼为他多少正了一点名。">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://conanxin.github.io/2014books/assets/og-cover.svg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body class="chapter-page">
+
+<div class="reading-progress" id="readingProgress"></div>
+
+<nav class="top-nav">
+  <div style="display:flex;align-items:center;gap:0.8rem;">
+    <button class="btn btn-small" id="drawerToggle" style="padding:0.3rem 0.6rem;font-size:0.75rem;">目录</button>
+    <a href="../index.html" class="nav-title" style="border-bottom:none;">2014books</a>
+  </div>
+  <div class="reading-settings">
+    <button class="btn btn-small" onclick="adjustFontSize(-1)" title="减小字号">A-</button>
+    <button class="btn btn-small" onclick="adjustFontSize(1)" title="增大字号">A+</button>
+    <button class="btn btn-small" onclick="toggleTheme()" title="切换纸张/夜间">◐</button>
+  </div>
+</nav>
+
+<div class="drawer-overlay" id="drawerOverlay" onclick="closeDrawer()"></div>
+<div class="chapter-drawer" id="chapterDrawer">
+  <div class="drawer-header">
+    <span class="drawer-title">章节目录</span>
+    <button class="drawer-close" onclick="closeDrawer()">×</button>
+  </div>
+  <a href="chapter-01.html" class="drawer-item"><span class="drawer-num">01</span>我们如何来到现在</a>
+<a href="chapter-02.html" class="drawer-item"><span class="drawer-num">02</span>日光之下，并无新事</a>
+<a href="chapter-03.html" class="drawer-item" style="color:var(--accent);font-weight:600;"><span class="drawer-num">03</span>那些数学大师们</a>
+<a href="chapter-04.html" class="drawer-item"><span class="drawer-num">04</span>当心，被他们骗了</a>
+<a href="chapter-05.html" class="drawer-item"><span class="drawer-num">05</span>你从事的是娱乐业</a>
+<a href="chapter-06.html" class="drawer-item"><span class="drawer-num">06</span>人人都爱非理性</a>
+<a href="chapter-07.html" class="drawer-item"><span class="drawer-num">07</span>天才，还是该死的无耻之徒</a>
+<a href="chapter-08.html" class="drawer-item"><span class="drawer-num">08</span>伯恩斯坦错了吗</a>
+<a href="chapter-09.html" class="drawer-item"><span class="drawer-num">09</span>怎么就成了巴圣人了</a>
+<a href="chapter-10.html" class="drawer-item"><span class="drawer-num">10</span>为什么不为“民主化”投资</a>
+<a href="chapter-11.html" class="drawer-item"><span class="drawer-num">11</span>为什么对莫斯科维茨心生崇敬</a>
+<a href="chapter-12.html" class="drawer-item"><span class="drawer-num">12</span>我们这个时代最智慧的头脑</a>
+<a href="chapter-13.html" class="drawer-item"><span class="drawer-num">13</span>乔布斯的One More Thing</a>
+<a href="chapter-14.html" class="drawer-item"><span class="drawer-num">14</span>不要跟自己的肺生气</a>
+<a href="chapter-15.html" class="drawer-item"><span class="drawer-num">15</span>聪明的投资者</a>
+<a href="chapter-16.html" class="drawer-item"><span class="drawer-num">16</span>如果回到1997年</a>
+<a href="chapter-17.html" class="drawer-item"><span class="drawer-num">17</span></a>
+<a href="chapter-18.html" class="drawer-item"><span class="drawer-num">18</span>投资者从垄断公司那里得到什么</a>
+<a href="chapter-19.html" class="drawer-item"><span class="drawer-num">19</span>荒谬历史中的一点奇葩</a>
+<a href="chapter-20.html" class="drawer-item"><span class="drawer-num">20</span>从长远看，我们都是要死的</a>
+<a href="chapter-21.html" class="drawer-item"><span class="drawer-num">21</span>一个理想主义者的价值投资</a>
+<a href="chapter-22.html" class="drawer-item"><span class="drawer-num">22</span>大公司的边界</a>
+<a href="chapter-23.html" class="drawer-item"><span class="drawer-num">23</span>所以，它就安静地站着</a>
+<a href="chapter-24.html" class="drawer-item"><span class="drawer-num">24</span>富有的邻居和聪明的小贼们</a>
+<a href="chapter-25.html" class="drawer-item"><span class="drawer-num">25</span>通过欢乐获取力量</a>
+<a href="chapter-26.html" class="drawer-item"><span class="drawer-num">26</span>我们所热爱的青春期</a>
+<a href="chapter-27.html" class="drawer-item"><span class="drawer-num">27</span>为什么奥特曼不能在银行里下棋</a>
+<a href="chapter-28.html" class="drawer-item"><span class="drawer-num">28</span>它不像你想象的那么简单</a>
+<a href="chapter-29.html" class="drawer-item"><span class="drawer-num">29</span>工匠们创造的历史</a>
+<a href="chapter-30.html" class="drawer-item"><span class="drawer-num">30</span>有一些人值得为他起立鼓掌（上）</a>
+<a href="chapter-31.html" class="drawer-item"><span class="drawer-num">31</span>有一些人值得为他起立鼓掌（下）</a>
+<a href="chapter-32.html" class="drawer-item"><span class="drawer-num">32</span>“加里驾驶小飞机兜风那天”</a>
+<a href="chapter-33.html" class="drawer-item"><span class="drawer-num">33</span>你是智慧多一点，还是钱多一点</a>
+<a href="chapter-34.html" class="drawer-item"><span class="drawer-num">34</span>当范德比尔特最后一次经过码头（上）</a>
+<a href="chapter-35.html" class="drawer-item"><span class="drawer-num">35</span>当范德比尔特最后一次经过码头（下）</a>
+<a href="chapter-36.html" class="drawer-item"><span class="drawer-num">36</span>然后，他就开始沮丧起来</a>
+<a href="chapter-37.html" class="drawer-item"><span class="drawer-num">37</span>潘多拉的盒子是什么时候打开的（上）</a>
+<a href="chapter-38.html" class="drawer-item"><span class="drawer-num">38</span>潘多拉的盒子是什么时候打开的（下）</a>
+<a href="chapter-39.html" class="drawer-item"><span class="drawer-num">39</span>底特律到底发生了什么（上）</a>
+<a href="chapter-40.html" class="drawer-item"><span class="drawer-num">40</span>底特律到底发生了什么（下）</a>
+<a href="chapter-41.html" class="drawer-item"><span class="drawer-num">41</span>即使聪明如理查德·费曼……</a>
+<a href="chapter-42.html" class="drawer-item"><span class="drawer-num">42</span>听说你打算定制一个伟大习惯？</a>
+<a href="chapter-43.html" class="drawer-item"><span class="drawer-num">43</span>“这条贪婪的隧道尽头……”</a>
+<a href="chapter-44.html" class="drawer-item"><span class="drawer-num">44</span>“我知道事情真相啦”</a>
+<a href="chapter-45.html" class="drawer-item"><span class="drawer-num">45</span>我们只是想摆脱庸常生活</a>
+</div>
+
+<div class="chapter-container">
+  <div class="chapter-header">
+    <a href="../index.html#archive" class="back-link">← 返回首页</a>
+    <div class="chapter-num-display">Chapter 03 / 45</div>
+    <h1>那些数学大师们</h1>
+  </div>
+
+  <div class="chapter-body-text" id="chapterBody">
+    <p>小时候对伽利略的印象一般，一是我们所有的书里都说他最后屈服于教廷压力而作了伪证，当时我满脑子想的都是不成功便成仁，他怎么可以这样；二是他很无聊，居然想起来跑到比萨斜塔上去扔铁球。</p>
+<p>尼尔·波斯曼为他多少正了一点名。他说那个实验不是伽利略做的，是亚里士多德的粉丝、他的对手乔齐奥·科雷索做的，本来是想证明他的偶像的说法有多正确，结果被伽利略逮了个正着。我看到这个消息很高兴，大师么就应该是这样，与那些凡夫俗子较劲，没有品味，再说，较得过来吗？</p>
+<p>我看尼尔·波斯曼的这本《技术垄断》本来是因为最近看有关技术的书太多了，担心被技术控们洗了脑，想寻一点“独眼龙”们（波特曼这种反技术的人这么自况，我也不知道为什么）的观点来对冲一下。但如你所见，最后我记住的还是这些。</p>
+<p>有一个问题一直萦绕在我脑海中：那些大师们，比如伽利略和牛顿，他们谁更厉害——看了《说唐》，难免要比下李元霸们的武功，看这些大师当然也是一样。按照波斯曼的说法，显然伽利略更厉害一些，因为伽利略那一辈人基本上搞掉了中世纪，这是皇家造币局长依萨克·牛顿爵士无论如何比不上的。在波斯曼看来，三个新发明终结了中世纪，机械钟表、印刷机和望远镜。钟表本来是给教士们提供服务的，用它每天按点来跟上帝交流，这样上帝不会被吵到；印刷机这东西发明不到五十年，人类知识就爆炸了，虽然大部分印的都是《圣经》，但也一样让人类进入到知识的新境界，就连史上最大既得利益者马丁·路德自己都被惊到了，他哪里知道会有这么大的影响力；第三个望远镜就被挂在伽利略的名下（虽然它真正的发明者至今还无定论），在他手里，望远镜被用来发现了一个新世界，宇宙是这样的！同时也毁灭了一个旧世界：上帝在哪儿呢？所以虽然牛顿有三大定律，但相比于眯起一只眼睛的伽利略来说，后者杀伤力更大。</p>
+<p>虽然我跟尼尔·波斯曼观点相近，但我得承认我不大在意天文学上那点事，木星有没有卫星，它都在那里。我对伽利略刮目相看并耿耿于怀的原因在于：他是怎么想起来有光速这回事的？这是无中生有的功夫。</p>
+<p>当然，在大师界，他们比起数学家来也显得出身不够高贵。按保罗·格雷厄姆的说法，全世界的人都嫉妒数学家，科学界的每个人暗地里都相信数学家比自己聪明，所以他们都一律要把自己的学问披上数学的外衣，这样仿佛自己就顶级聪明起来了。</p>
+<p>关于数学家的聪明，你可以在网上搜索一个Flash，正十七边形的画法，我每次看到它，都会觉得很悲观，看到了吗？它比想光为什么有速度这事还要匪夷所思是吧？如果我们多看一眼，还会知道这是数学家高斯在18岁时搞出来的……数学家让人崩溃主要是他们不管不顾地在十七八岁时就搞得不可超越的样子，作为一个死文科生，这简直就是一个未知异次元空间。</p>
+<p>还有一个欧拉，乍一看这个人不是很厉害：一辈子做各种数学题，还写了很厚很厚的书，听起来像个公务员。但他做数学题可不像我们，简单点说吧，如果我们的大脑是486电脑的话，那么他的大脑至少有20个core，如果他的大脑叫大脑的话，我们的大脑就应该叫鹅卵石。比如他随手写下一个公式，eπi+1=0，惊天地泣鬼神——允许我这个死文科生看图说话地解释一下：e是自然对数的底（不要问我什么是自然对数），π是圆周率——这是人类最重要的两个无理数之一；i是虚数单位，1是自然数单位，还有一个印度人对人类最伟大的贡献：0。它们完美地形成一个等式。所以你就知道他的运算能力有多厉害了。有一天，他从椅子上滑下来，那个时候他的大脑中那20几个core还在飞快地运算，算的结果很不乐观，他说：“我要死了。”果然就真的死了。</p>
+<p>每次看到数学家的故事，我都会很怀疑进化论，人类的智力水平似乎并不是线性向前的。我们的鹅卵石究竟是怎么退化出来的，这还是一个谜。</p>
+<p>好在数学这东西跟我们的生活没啥关系。有一个叫迪克舍曼的中学数学老师说说：“数学相当于思维上的举重训练。对于大多数人而言，它是通向某一终点的方法，它本身并不是终点。”再问他这东西有什么用，我们什么时候才会用到，他就会很激动地说：“永远不，你们永远用不到这个。”这种解答会让我们稍微放一点心。</p>
+<p>当然，这种说法也并不对。我们这个时代数学家并没有全部退化消亡，貌似他们还有很多大展拳脚的地方。比如，有投资银行或者什么对冲基金的研究部。终于说到我们的本行了——数学家还在做投资。</p>
+<p>比如，我们都知道有一个特别有名的公司叫高盛，有一本书叫《高盛帝国》，这是我最近这几年看的书中最无趣的一本，没有什么别的原因，主要是我对这个公司的价值观十分不解：纠集一群最聪明的数学家，然后做研究，发明各种模型，然后发现市场中的漏洞，然后发现赚钱的地方狠捞一票，他们管这个部门叫套利部门，那些穿着西装的数学家，单个拿出来我觉得发现人性和市场中的种种漏洞发个小财或者大财都是一件很牛的事，但如果一个公司把这个当成愿景一样的东西，我宁可还是做一个死文科生吧。</p>
+<p>另外一个经典机构是长期投资基金公司，他们创办之时，同样召集了诺贝尔的经济学家、退了休的财政部领导（美国的）、新锐的数学博士之类，他们号称是智力密度最高的一个机构，他们做的事、玩的模型我也一样不甚了了，但总之他们发现了市场的一些秘密，然后狠赚了几年钱。</p>
+<p>不管是高盛，还是长期投资。在我头脑当中，我对这些硕果仅存的数学家们的印象就是阿基米德一样：他们躺在浴缸里苦思冥想，突然跳了出来，我找到啦我找到啦我找到啦！阿基米德找到的是浮力定律，而这帮家伙们找到的是市场上的那些定价错误的傻瓜，终于让他们发现了市场中的机会。</p>
+<p>当然最后他们也会一丝不挂的。高盛就不用多说了。长期投资这群知识分子忍不住要洋洋得意地讲他们的模型，直到市场上都觉得这东西不错——当所有人都用一个模型来玩对冲基金的时候，接下来会发生什么？没有人跟他们对冲了，市场取向只有一个，只有卖家没有买家，全世界最聪明的头脑也没有办法。</p>
+<p>按照以前我们提到过的《刺耳的繁荣》中的说法，数学除了用来毁灭一个中学生的自信心之外没有什么用处。但不管是中学数学老师迪克舍曼，还是20core的欧拉，还是牛顿莱布尼茨，或者伽利略，他们都不知道：数学家们在今天，不但摧毁了我们的自信心，还险些用他们的模型摧毁了我们的生活。</p>
+<p>没准真的就摧毁了，这事还没完呢。</p>
+  </div>
+
+  <div class="chapter-books"><h3>本章推荐书目</h3><div class="book-grid" style="margin-top:1rem;"><div class="book-card">
+  <div class="book-title">《数学那些事儿：思想、发现、人物和历史》</div>
+  <div class="book-author">威廉·邓纳姆</div>
+  <div class="book-meta">威廉·邓纳姆 · 人民邮电出版社 2011年3月 · 定价：39元</div>
+</div>
+<div class="book-card">
+  <div class="book-title">《技术垄断》</div>
+  <div class="book-author">尼尔·波斯曼</div>
+  <div class="book-meta">尼尔·波斯曼 · 北京大学出版社 2007年10月 · 定价：22元</div>
+</div></div></div>
+
+  <div class="chapter-nav">
+    <a href="chapter-02.html">← 上一章</a>
+    <a href="../index.html#books" style="color:var(--muted);">书目档案</a>
+    <a href="chapter-04.html">下一章 →</a>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <p>原始内容来自《第一财经周刊》· 由 Conan Xin 整理</p>
+  <p>本项目为学习交流用途，不代表原出版方立场</p>
+  <div class="footer-links">
+    <a href="https://github.com/conanxin/2014books">GitHub</a>
+    <a href="../index.html">首页</a>
+  </div>
+</footer>
+
+<script>
+// Reading progress
+const progressBar = document.getElementById('readingProgress');
+window.addEventListener('scroll', () => {
+  const scrollTop = window.scrollY;
+  const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+  const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+  progressBar.style.width = pct + '%';
+});
+
+// Font size
+let currentSize = 17;
+function adjustFontSize(delta) {
+  currentSize += delta;
+  if (currentSize < 14) currentSize = 14;
+  if (currentSize > 24) currentSize = 24;
+  document.documentElement.style.fontSize = currentSize + 'px';
+  localStorage.setItem('2014books_font_size', currentSize);
+}
+
+// Theme
+function toggleTheme() {
+  const html = document.documentElement;
+  if (html.classList.contains('night')) {
+    html.classList.remove('night');
+    localStorage.setItem('2014books_theme', 'paper');
+  } else {
+    html.classList.add('night');
+    localStorage.setItem('2014books_theme', 'night');
+  }
+}
+
+// Restore preferences
+(function(){
+  const savedSize = localStorage.getItem('2014books_font_size');
+  if (savedSize) {
+    currentSize = parseInt(savedSize, 10);
+    document.documentElement.style.fontSize = currentSize + 'px';
+  }
+  const savedTheme = localStorage.getItem('2014books_theme');
+  if (savedTheme === 'night') {
+    document.documentElement.classList.add('night');
+  }
+})();
+
+// Drawer
+const drawer = document.getElementById('chapterDrawer');
+const overlay = document.getElementById('drawerOverlay');
+document.getElementById('drawerToggle').addEventListener('click', () => {
+  drawer.classList.add('open');
+  overlay.classList.add('open');
+});
+function closeDrawer() {
+  drawer.classList.remove('open');
+  overlay.classList.remove('open');
+}
+</script>
+
+</body>
+</html>

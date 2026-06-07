@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#faf8f3"/>
+  <rect x="60" y="60" width="1080" height="510" fill="none" stroke="#8b3a3a" stroke-width="2"/>
+  <line x1="60" y1="180" x2="1140" y2="180" stroke="#8b3a3a" stroke-width="1" opacity="0.3"/>
+  <text x="600" y="140" font-family="Georgia, serif" font-size="72" font-weight="700" fill="#1a1a1a" text-anchor="middle">2014</text>
+  <text x="600" y="260" font-family="Georgia, serif" font-size="42" font-weight="400" fill="#1a1a1a" text-anchor="middle">年度阅读特刊</text>
+  <text x="600" y="340" font-family="-apple-system, sans-serif" font-size="24" fill="#4a4a4a" text-anchor="middle">2014年值得你阅读的100本书</text>
+  <text x="600" y="460" font-family="-apple-system, sans-serif" font-size="18" fill="#8b3a3a" text-anchor="middle" letter-spacing="3">97 BOOKS VERIFIED</text>
+  <text x="600" y="510" font-family="-apple-system, sans-serif" font-size="14" fill="#7a7a7a" text-anchor="middle">Conan Xin · Markdown Book Project</text>
+</svg>

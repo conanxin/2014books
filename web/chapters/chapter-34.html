@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第34章：当范德比尔特最后一次经过码头（上） · 2014年值得你阅读的100本书</title>
+<meta property="og:title" content="第34章：当范德比尔特最后一次经过码头（上） · 2014年值得你阅读的100本书">
+<meta property="og:description" content="你知道什么才能叫高富帅吗？自从这个粗鄙的词流行起来之后，在我的脑海中就始终有一个人跟这个词牢牢地捆绑在了一起。按照哈佛商学院教授理查德·泰德罗的说法，他的一生就是“一个成功接着另一个成功”。">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://conanxin.github.io/2014books/assets/og-cover.svg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body class="chapter-page">
+
+<div class="reading-progress" id="readingProgress"></div>
+
+<nav class="top-nav">
+  <div style="display:flex;align-items:center;gap:0.8rem;">
+    <button class="btn btn-small" id="drawerToggle" style="padding:0.3rem 0.6rem;font-size:0.75rem;">目录</button>
+    <a href="../index.html" class="nav-title" style="border-bottom:none;">2014books</a>
+  </div>
+  <div class="reading-settings">
+    <button class="btn btn-small" onclick="adjustFontSize(-1)" title="减小字号">A-</button>
+    <button class="btn btn-small" onclick="adjustFontSize(1)" title="增大字号">A+</button>
+    <button class="btn btn-small" onclick="toggleTheme()" title="切换纸张/夜间">◐</button>
+  </div>
+</nav>
+
+<div class="drawer-overlay" id="drawerOverlay" onclick="closeDrawer()"></div>
+<div class="chapter-drawer" id="chapterDrawer">
+  <div class="drawer-header">
+    <span class="drawer-title">章节目录</span>
+    <button class="drawer-close" onclick="closeDrawer()">×</button>
+  </div>
+  <a href="chapter-01.html" class="drawer-item"><span class="drawer-num">01</span>我们如何来到现在</a>
+<a href="chapter-02.html" class="drawer-item"><span class="drawer-num">02</span>日光之下，并无新事</a>
+<a href="chapter-03.html" class="drawer-item"><span class="drawer-num">03</span>那些数学大师们</a>
+<a href="chapter-04.html" class="drawer-item"><span class="drawer-num">04</span>当心，被他们骗了</a>
+<a href="chapter-05.html" class="drawer-item"><span class="drawer-num">05</span>你从事的是娱乐业</a>
+<a href="chapter-06.html" class="drawer-item"><span class="drawer-num">06</span>人人都爱非理性</a>
+<a href="chapter-07.html" class="drawer-item"><span class="drawer-num">07</span>天才，还是该死的无耻之徒</a>
+<a href="chapter-08.html" class="drawer-item"><span class="drawer-num">08</span>伯恩斯坦错了吗</a>
+<a href="chapter-09.html" class="drawer-item"><span class="drawer-num">09</span>怎么就成了巴圣人了</a>
+<a href="chapter-10.html" class="drawer-item"><span class="drawer-num">10</span>为什么不为“民主化”投资</a>
+<a href="chapter-11.html" class="drawer-item"><span class="drawer-num">11</span>为什么对莫斯科维茨心生崇敬</a>
+<a href="chapter-12.html" class="drawer-item"><span class="drawer-num">12</span>我们这个时代最智慧的头脑</a>
+<a href="chapter-13.html" class="drawer-item"><span class="drawer-num">13</span>乔布斯的One More Thing</a>
+<a href="chapter-14.html" class="drawer-item"><span class="drawer-num">14</span>不要跟自己的肺生气</a>
+<a href="chapter-15.html" class="drawer-item"><span class="drawer-num">15</span>聪明的投资者</a>
+<a href="chapter-16.html" class="drawer-item"><span class="drawer-num">16</span>如果回到1997年</a>
+<a href="chapter-17.html" class="drawer-item"><span class="drawer-num">17</span></a>
+<a href="chapter-18.html" class="drawer-item"><span class="drawer-num">18</span>投资者从垄断公司那里得到什么</a>
+<a href="chapter-19.html" class="drawer-item"><span class="drawer-num">19</span>荒谬历史中的一点奇葩</a>
+<a href="chapter-20.html" class="drawer-item"><span class="drawer-num">20</span>从长远看，我们都是要死的</a>
+<a href="chapter-21.html" class="drawer-item"><span class="drawer-num">21</span>一个理想主义者的价值投资</a>
+<a href="chapter-22.html" class="drawer-item"><span class="drawer-num">22</span>大公司的边界</a>
+<a href="chapter-23.html" class="drawer-item"><span class="drawer-num">23</span>所以，它就安静地站着</a>
+<a href="chapter-24.html" class="drawer-item"><span class="drawer-num">24</span>富有的邻居和聪明的小贼们</a>
+<a href="chapter-25.html" class="drawer-item"><span class="drawer-num">25</span>通过欢乐获取力量</a>
+<a href="chapter-26.html" class="drawer-item"><span class="drawer-num">26</span>我们所热爱的青春期</a>
+<a href="chapter-27.html" class="drawer-item"><span class="drawer-num">27</span>为什么奥特曼不能在银行里下棋</a>
+<a href="chapter-28.html" class="drawer-item"><span class="drawer-num">28</span>它不像你想象的那么简单</a>
+<a href="chapter-29.html" class="drawer-item"><span class="drawer-num">29</span>工匠们创造的历史</a>
+<a href="chapter-30.html" class="drawer-item"><span class="drawer-num">30</span>有一些人值得为他起立鼓掌（上）</a>
+<a href="chapter-31.html" class="drawer-item"><span class="drawer-num">31</span>有一些人值得为他起立鼓掌（下）</a>
+<a href="chapter-32.html" class="drawer-item"><span class="drawer-num">32</span>“加里驾驶小飞机兜风那天”</a>
+<a href="chapter-33.html" class="drawer-item"><span class="drawer-num">33</span>你是智慧多一点，还是钱多一点</a>
+<a href="chapter-34.html" class="drawer-item" style="color:var(--accent);font-weight:600;"><span class="drawer-num">34</span>当范德比尔特最后一次经过码头（上）</a>
+<a href="chapter-35.html" class="drawer-item"><span class="drawer-num">35</span>当范德比尔特最后一次经过码头（下）</a>
+<a href="chapter-36.html" class="drawer-item"><span class="drawer-num">36</span>然后，他就开始沮丧起来</a>
+<a href="chapter-37.html" class="drawer-item"><span class="drawer-num">37</span>潘多拉的盒子是什么时候打开的（上）</a>
+<a href="chapter-38.html" class="drawer-item"><span class="drawer-num">38</span>潘多拉的盒子是什么时候打开的（下）</a>
+<a href="chapter-39.html" class="drawer-item"><span class="drawer-num">39</span>底特律到底发生了什么（上）</a>
+<a href="chapter-40.html" class="drawer-item"><span class="drawer-num">40</span>底特律到底发生了什么（下）</a>
+<a href="chapter-41.html" class="drawer-item"><span class="drawer-num">41</span>即使聪明如理查德·费曼……</a>
+<a href="chapter-42.html" class="drawer-item"><span class="drawer-num">42</span>听说你打算定制一个伟大习惯？</a>
+<a href="chapter-43.html" class="drawer-item"><span class="drawer-num">43</span>“这条贪婪的隧道尽头……”</a>
+<a href="chapter-44.html" class="drawer-item"><span class="drawer-num">44</span>“我知道事情真相啦”</a>
+<a href="chapter-45.html" class="drawer-item"><span class="drawer-num">45</span>我们只是想摆脱庸常生活</a>
+</div>
+
+<div class="chapter-container">
+  <div class="chapter-header">
+    <a href="../index.html#archive" class="back-link">← 返回首页</a>
+    <div class="chapter-num-display">Chapter 34 / 45</div>
+    <h1>当范德比尔特最后一次经过码头（上）</h1>
+  </div>
+
+  <div class="chapter-body-text" id="chapterBody">
+    <p>你知道什么才能叫高富帅吗？自从这个粗鄙的词流行起来之后，在我的脑海中就始终有一个人跟这个词牢牢地捆绑在了一起。按照哈佛商学院教授理查德·泰德罗的说法，他的一生就是“一个成功接着另一个成功”。</p>
+<p>从上学开始，他不仅成绩优异，而且还是戴着光环的成绩优异——他不是简单地从高中毕了业，而是毕业典礼上的致词者；他也不是从大学毕了业就了事，而是获得了美国优秀大学生的称号（我还真不知道美国也有这个评选）；他不是随便挑了一所学校做研究，而是一定要在麻省理工这样排名第一的工学院里搞到一个自然科学的博士学位。然后，他毕了业，去了当时还不错的飞歌公司，这当然不能算是一个好的选择，于是——罗伯特·诺伊斯决定跟随当年最有号召力的从贝尔实验室辞了职创业的物理学家威廉·肖克利，他刚刚作为晶体管的发明人而让世界瞩目。然后有一天，他从费城飞到硅谷——那个时候还不叫硅谷，硅谷是因为他才被叫起来的——在到达的当天上午，先找中介买了一个房子，然后下午去找肖克利面试……泰德罗也忍不住说：注意一下这个顺序！好吧，这个顺序可以秒杀所有自信心爆棚的人（这里插播另外一个故事，在另一个关于杰夫·贝佐斯的传说当中，当这个人决定远离东海岸的金融事业而到西部创业的时候，他找了一家搬家公司，告诉司机师傅们，你们往西开，搬到哪里我还没想好，这也是一个有趣的故事，只是后来贝佐斯也觉得这事跟实际出入太大）。</p>
+<p>总之，罗伯特·诺伊斯成功地获得了肖克利实验室的工作。</p>
+<p>接下来的故事就是大家都知道的，因为不满新科诺贝尔物理学奖获得者肖克利的无厘头管理方式，他和另外七个人一起叛逃成立了另外一家公司，这就是仙童半导体，这后来被称为硅谷摇篮；隔了几年，他又自己成立一家公司，叫做英特尔，有了英特尔，硅谷最终才得以被如此命名，所以罗伯特·诺伊斯是唯一那个可以被叫做“硅谷之父”的人。</p>
+<p>不仅仅是泰德罗，所有人都会遗憾的一件事是，他62岁的时候就英年早逝了，作为一枚高富帅，我觉得他的人生后来就有一点空虚。如果一直那么高歌猛进下去，我觉得他也不会这么早就死掉，如果他再多活10年，他一定会和德州仪器的杰克·基尔比共同获得诺贝尔物理学奖，因为他们分头在1958年发明了集成电路。</p>
+<p>我们还没说他能歌善舞、有专业的赛级滑雪水平以及还是一个熟练的飞行员和潜水员。高富帅嘛，样样不能落下，他要活在现代中国一定还可以参加中国好声音。</p>
+<p>这人生，看起来多少让人兴致勃勃。我们从小到大接受过的各种苦逼教育中，一帆风顺一定导致经不起挫折、小时了了大时未必、吃得苦中苦方为人上人之类的陈词滥调充斥了我们的生活，但我们还是得承认这世界上有一种高富帅，他们很让我们嫉妒，他们存在的意义就是让我们的生活黯然失色……好吧，这样的价值观是不对的，好在我们可以投资他们，某种意义上我还可以算做他们的老板，这样就皆大欢喜了。</p>
+<p>在各种创业并且大获成功的企业家中，这种中产阶层背景的企业创始人是我觉得最靠谱的。首先他们不是非创业不可，所以他们多少都具备了一点创业者必备的那种冲动；而他们受到的那种中产阶级的严格教育又总是会让他们练就出某种技术优势或者独特的竞争能力；如果他们再有一点经营管理的天赋——只要稍高于芸芸众生一点就足够了，在我看来这个最没有门槛了，那么他们的公司总是会有一点亮色的。</p>
+<p>虽然他们最靠谱，罗伯特·诺伊斯也是我最喜欢的几个企业家之一，但他们这种背景不是我最喜欢的。在我暗自给他们的分类里，另外两种背景，我们可以简单定义为草根和富二代。关于富二代，我说的是那些继承了家族生意的那些富二代，他们最重要的意义在于让你忘了“嫉妒”这两个字，然后换成另外两个难以名状的叫“家族”的字，这世界对他们来说，就是“天下是老子的”……当这些人主导一个公司的时候，你首先要关心的就是这个家伙到底是不是个败家子，以及他们是不是准备好了去管理，以及你什么时候准备逃出来——不管你是投资的，还是打工的。</p>
+<p>但这个通常也很难判断，比如小托马斯·沃森，小时候被老爹的威严吓出了抑郁症；上中学的时候，在回家路上走着走着，一想到要继承IBM这个庞然大物，就号啕大哭起来，作为一个不争气的儿子的典型而让所有人担惊受怕；直到二战之后，他才焕发出另外一种人生——你就想像一下迈克·柯里昂，阿尔·帕西诺塑造的那个年轻一代教父，他如何扞卫了家族荣誉，如何重振了黑帮事业，那么发生在IBM的故事与之相比就相差无几，甚至连小沃森如何对待他的亲兄弟的感觉都如出一辙。但在老教父没有遇到黑帮火拼之前，迈克看起来就像个文艺青年。</p>
+<p>还有一款富二代，是我们这些穷鬼比较讨厌的，就是会摆出那种一副不可一世的世家子的样子，也没有什么家族产业好继承，但就是有钱，也不愿意做小事，所以就总以看起来像是眼高手低的样子筹划一些大手笔的事的那些人……当然，也不是所有故事都是以败家来收场的。</p>
+<p>有一个叫胡安·特里普的家伙，他爸爸是华尔街的交易员，妈妈是做房产中介的，积累了好多财富。</p>
+<p>他跑到耶鲁上了学，同学都是亨利·卢斯、布里特·哈登这样的人物，一起玩的发小儿则是范德比尔特、洛克菲勒家的那些后代们。在他们上学的时候，参加第一次世界大战是每个耶鲁的爱国青年最热衷的一件事，他就决定加入海军，但视力不及格，于是他爹就只好找了当海军部副部长的富兰克林·罗斯福来打通关系……</p>
+<p>一战之后特里普从学校毕了业，自动把自己调到富家子胡乱做公司的频道里，买了七架旧飞机，做起了航空公司的生意，虽然那个时候航空公司也不是什么了不得的大生意。但搞定这些事的牌照和资金还是要下一点工夫的，好在他倒不缺投资，那几个发小儿都凑了钱给他。然后破产了，然后再做一个，竞争输掉了，然后再做，最后就成了泛美航空，当年全球最大的航空公司。</p>
+<p>这公子哥一直到65岁的时候还是同样的德性，他跟波音公司的老总比尔·艾伦想弄一种新的宽机身喷气机，大小是707的两倍，能运载400名乘客——这在当时来说完全是一种疯狂的想法。</p>
+<p>“一个想法便自然而然地在他们之间被交流起来。”后来他们之间的那段经典对话是这样的。特里普告诉艾伦，“如果你敢造出来，我就买下它。”而艾伦回敬说：“如果你敢买，我就敢造。”然后就有了波音747。</p>
+<p>好吧，这些喜欢吹牛，热爱各种新奇玩意，喜欢飙个车开个飞机之类，从小就跟这个世界一点也不见外的家伙，很多时候都是很讨厌的。但你要知道他们如果更用心一点，他从小受到的训练和视野对于他们掌管一个企业没有太大的坏处，很有可能还是一个好事。</p>
+<p>小沃森让IBM进入到计算机时代，就是富二代的机会和中产阶层受教育的敏锐性结合在一起的一个结果。而且，作为一个投资者，如果你有耐心，富二代看着不那么让人放心，你还可以等富三代——当然这就是另外一个企业中兴的话题了。</p>
+<p>不过，在这三种企业创始人中，他们还都不是最丰富多彩最让人感觉卓尔不凡的，真正的厉害角色当然还是那些白手起家的真正的混蛋们。</p>
+  </div>
+
+  <div class="chapter-books"><h3>本章推荐书目</h3><div class="book-grid" style="margin-top:1rem;"><div class="book-card">
+  <div class="book-title">《美国创新史》</div>
+  <div class="book-author">哈罗德·埃文斯 盖尔·巴克兰 戴维·列菲</div>
+  <div class="book-meta">哈罗德·埃文斯 盖尔·巴克兰 戴维·列菲 · 中信出版社 2011年4月 · 定价: 498元</div>
+</div>
+<div class="book-card">
+  <div class="book-title">《影响历史的商业七巨头》</div>
+  <div class="book-author">理查德·S·泰德罗</div>
+  <div class="book-meta">理查德·S·泰德罗 · 机械工业出版社 2003年2月 · 定价:33元</div>
+</div>
+<div class="book-card">
+  <div class="book-title">《硅谷巨人》</div>
+  <div class="book-author">汤姆·珀金斯</div>
+  <div class="book-meta">汤姆·珀金斯 · 中国青年出版社 2008年8月 · 定价: 36元</div>
+</div></div></div>
+
+  <div class="chapter-nav">
+    <a href="chapter-33.html">← 上一章</a>
+    <a href="../index.html#books" style="color:var(--muted);">书目档案</a>
+    <a href="chapter-35.html">下一章 →</a>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <p>原始内容来自《第一财经周刊》· 由 Conan Xin 整理</p>
+  <p>本项目为学习交流用途，不代表原出版方立场</p>
+  <div class="footer-links">
+    <a href="https://github.com/conanxin/2014books">GitHub</a>
+    <a href="../index.html">首页</a>
+  </div>
+</footer>
+
+<script>
+// Reading progress
+const progressBar = document.getElementById('readingProgress');
+window.addEventListener('scroll', () => {
+  const scrollTop = window.scrollY;
+  const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+  const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+  progressBar.style.width = pct + '%';
+});
+
+// Font size
+let currentSize = 17;
+function adjustFontSize(delta) {
+  currentSize += delta;
+  if (currentSize < 14) currentSize = 14;
+  if (currentSize > 24) currentSize = 24;
+  document.documentElement.style.fontSize = currentSize + 'px';
+  localStorage.setItem('2014books_font_size', currentSize);
+}
+
+// Theme
+function toggleTheme() {
+  const html = document.documentElement;
+  if (html.classList.contains('night')) {
+    html.classList.remove('night');
+    localStorage.setItem('2014books_theme', 'paper');
+  } else {
+    html.classList.add('night');
+    localStorage.setItem('2014books_theme', 'night');
+  }
+}
+
+// Restore preferences
+(function(){
+  const savedSize = localStorage.getItem('2014books_font_size');
+  if (savedSize) {
+    currentSize = parseInt(savedSize, 10);
+    document.documentElement.style.fontSize = currentSize + 'px';
+  }
+  const savedTheme = localStorage.getItem('2014books_theme');
+  if (savedTheme === 'night') {
+    document.documentElement.classList.add('night');
+  }
+})();
+
+// Drawer
+const drawer = document.getElementById('chapterDrawer');
+const overlay = document.getElementById('drawerOverlay');
+document.getElementById('drawerToggle').addEventListener('click', () => {
+  drawer.classList.add('open');
+  overlay.classList.add('open');
+});
+function closeDrawer() {
+  drawer.classList.remove('open');
+  overlay.classList.remove('open');
+}
+</script>
+
+</body>
+</html>
