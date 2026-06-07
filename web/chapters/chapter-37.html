@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第37章：潘多拉的盒子是什么时候打开的（上） · 2014年值得你阅读的100本书</title>
+<meta property="og:title" content="第37章：潘多拉的盒子是什么时候打开的（上） · 2014年值得你阅读的100本书">
+<meta property="og:description" content="话说在资本市场的田园牧歌时代，人们买一只股票的目的可能只是希望在每年的某个固定时间里，能够得到一次分红。你能想象得到当时的对话可能是“爷爷当年入股的Town上最好的磨坊分红不如去年了”，">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://conanxin.github.io/2014books/assets/og-cover.svg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body class="chapter-page">
+
+<div class="reading-progress" id="readingProgress"></div>
+
+<nav class="top-nav">
+  <div style="display:flex;align-items:center;gap:0.8rem;">
+    <button class="btn btn-small" id="drawerToggle" style="padding:0.3rem 0.6rem;font-size:0.75rem;">目录</button>
+    <a href="../index.html" class="nav-title" style="border-bottom:none;">2014books</a>
+  </div>
+  <div class="reading-settings">
+    <button class="btn btn-small" onclick="adjustFontSize(-1)" title="减小字号">A-</button>
+    <button class="btn btn-small" onclick="adjustFontSize(1)" title="增大字号">A+</button>
+    <button class="btn btn-small" onclick="toggleTheme()" title="切换纸张/夜间">◐</button>
+  </div>
+</nav>
+
+<div class="drawer-overlay" id="drawerOverlay" onclick="closeDrawer()"></div>
+<div class="chapter-drawer" id="chapterDrawer">
+  <div class="drawer-header">
+    <span class="drawer-title">章节目录</span>
+    <button class="drawer-close" onclick="closeDrawer()">×</button>
+  </div>
+  <a href="chapter-01.html" class="drawer-item"><span class="drawer-num">01</span>我们如何来到现在</a>
+<a href="chapter-02.html" class="drawer-item"><span class="drawer-num">02</span>日光之下，并无新事</a>
+<a href="chapter-03.html" class="drawer-item"><span class="drawer-num">03</span>那些数学大师们</a>
+<a href="chapter-04.html" class="drawer-item"><span class="drawer-num">04</span>当心，被他们骗了</a>
+<a href="chapter-05.html" class="drawer-item"><span class="drawer-num">05</span>你从事的是娱乐业</a>
+<a href="chapter-06.html" class="drawer-item"><span class="drawer-num">06</span>人人都爱非理性</a>
+<a href="chapter-07.html" class="drawer-item"><span class="drawer-num">07</span>天才，还是该死的无耻之徒</a>
+<a href="chapter-08.html" class="drawer-item"><span class="drawer-num">08</span>伯恩斯坦错了吗</a>
+<a href="chapter-09.html" class="drawer-item"><span class="drawer-num">09</span>怎么就成了巴圣人了</a>
+<a href="chapter-10.html" class="drawer-item"><span class="drawer-num">10</span>为什么不为“民主化”投资</a>
+<a href="chapter-11.html" class="drawer-item"><span class="drawer-num">11</span>为什么对莫斯科维茨心生崇敬</a>
+<a href="chapter-12.html" class="drawer-item"><span class="drawer-num">12</span>我们这个时代最智慧的头脑</a>
+<a href="chapter-13.html" class="drawer-item"><span class="drawer-num">13</span>乔布斯的One More Thing</a>
+<a href="chapter-14.html" class="drawer-item"><span class="drawer-num">14</span>不要跟自己的肺生气</a>
+<a href="chapter-15.html" class="drawer-item"><span class="drawer-num">15</span>聪明的投资者</a>
+<a href="chapter-16.html" class="drawer-item"><span class="drawer-num">16</span>如果回到1997年</a>
+<a href="chapter-17.html" class="drawer-item"><span class="drawer-num">17</span></a>
+<a href="chapter-18.html" class="drawer-item"><span class="drawer-num">18</span>投资者从垄断公司那里得到什么</a>
+<a href="chapter-19.html" class="drawer-item"><span class="drawer-num">19</span>荒谬历史中的一点奇葩</a>
+<a href="chapter-20.html" class="drawer-item"><span class="drawer-num">20</span>从长远看，我们都是要死的</a>
+<a href="chapter-21.html" class="drawer-item"><span class="drawer-num">21</span>一个理想主义者的价值投资</a>
+<a href="chapter-22.html" class="drawer-item"><span class="drawer-num">22</span>大公司的边界</a>
+<a href="chapter-23.html" class="drawer-item"><span class="drawer-num">23</span>所以，它就安静地站着</a>
+<a href="chapter-24.html" class="drawer-item"><span class="drawer-num">24</span>富有的邻居和聪明的小贼们</a>
+<a href="chapter-25.html" class="drawer-item"><span class="drawer-num">25</span>通过欢乐获取力量</a>
+<a href="chapter-26.html" class="drawer-item"><span class="drawer-num">26</span>我们所热爱的青春期</a>
+<a href="chapter-27.html" class="drawer-item"><span class="drawer-num">27</span>为什么奥特曼不能在银行里下棋</a>
+<a href="chapter-28.html" class="drawer-item"><span class="drawer-num">28</span>它不像你想象的那么简单</a>
+<a href="chapter-29.html" class="drawer-item"><span class="drawer-num">29</span>工匠们创造的历史</a>
+<a href="chapter-30.html" class="drawer-item"><span class="drawer-num">30</span>有一些人值得为他起立鼓掌（上）</a>
+<a href="chapter-31.html" class="drawer-item"><span class="drawer-num">31</span>有一些人值得为他起立鼓掌（下）</a>
+<a href="chapter-32.html" class="drawer-item"><span class="drawer-num">32</span>“加里驾驶小飞机兜风那天”</a>
+<a href="chapter-33.html" class="drawer-item"><span class="drawer-num">33</span>你是智慧多一点，还是钱多一点</a>
+<a href="chapter-34.html" class="drawer-item"><span class="drawer-num">34</span>当范德比尔特最后一次经过码头（上）</a>
+<a href="chapter-35.html" class="drawer-item"><span class="drawer-num">35</span>当范德比尔特最后一次经过码头（下）</a>
+<a href="chapter-36.html" class="drawer-item"><span class="drawer-num">36</span>然后，他就开始沮丧起来</a>
+<a href="chapter-37.html" class="drawer-item" style="color:var(--accent);font-weight:600;"><span class="drawer-num">37</span>潘多拉的盒子是什么时候打开的（上）</a>
+<a href="chapter-38.html" class="drawer-item"><span class="drawer-num">38</span>潘多拉的盒子是什么时候打开的（下）</a>
+<a href="chapter-39.html" class="drawer-item"><span class="drawer-num">39</span>底特律到底发生了什么（上）</a>
+<a href="chapter-40.html" class="drawer-item"><span class="drawer-num">40</span>底特律到底发生了什么（下）</a>
+<a href="chapter-41.html" class="drawer-item"><span class="drawer-num">41</span>即使聪明如理查德·费曼……</a>
+<a href="chapter-42.html" class="drawer-item"><span class="drawer-num">42</span>听说你打算定制一个伟大习惯？</a>
+<a href="chapter-43.html" class="drawer-item"><span class="drawer-num">43</span>“这条贪婪的隧道尽头……”</a>
+<a href="chapter-44.html" class="drawer-item"><span class="drawer-num">44</span>“我知道事情真相啦”</a>
+<a href="chapter-45.html" class="drawer-item"><span class="drawer-num">45</span>我们只是想摆脱庸常生活</a>
+</div>
+
+<div class="chapter-container">
+  <div class="chapter-header">
+    <a href="../index.html#archive" class="back-link">← 返回首页</a>
+    <div class="chapter-num-display">Chapter 37 / 45</div>
+    <h1>潘多拉的盒子是什么时候打开的（上）</h1>
+  </div>
+
+  <div class="chapter-body-text" id="chapterBody">
+    <p>话说在资本市场的田园牧歌时代，人们买一只股票的目的可能只是希望在每年的某个固定时间里，能够得到一次分红。你能想象得到当时的对话可能是“爷爷当年入股的Town上最好的磨坊分红不如去年了”，也有可能是“马丁退出的那100股我们要不要接手？一年至少能带回50美元红利。”</p>
+<p>后来，就大萧条了，再后来……也不知道是什么时候，你会发现市价比和每股盈余成为投资者最关注的指标，或许你可以理解成，市盈率这个更代表未来收益预期的数字更能表现供求关系的变化，你可以理解成，价格比价值更容易成为你投资的原因。</p>
+<p>当时间到了2007年的时候，你可能不知道你投资的公司到底是做什么的，甚至你都不知道自己是在投资什么，还有一种可能是连卖东西的人也不知道自己在卖什么。</p>
+<p>我一点也不觉得这事有点夸张。2007年次贷危机刚出来那会儿，对于隔岸观火的我们来说最痛苦的一件事莫过于，弄不懂什么叫次贷。</p>
+<p>在几年之后，这世界上有无数本书写次贷和次贷是怎么回事。我见过的最好的版本来自于查尔斯·塞费的《数字是靠不住的》。他用我们稍微熟悉一点的保险来解释次贷：假如火灾的风险是每万户中可能会发生40次火灾，每次火灾的赔偿额是2万美元，那么整体上会有80万美元的赔偿额发生；如果你有1万个客户，每个客户收100美元保费，那么你的收入是100万，当你付出80万美元之后，你有20万美元的毛利。</p>
+<p>但是如果你觉得赔偿起来太麻烦，可以把1万个保单捆绑销售给一个更大规模的再保险公司，你就不用为赔付这些事操心，当然你也要让一部分利给再保险公司，比如你们各自分了10万美元。这差不多是个皆大欢喜的结局。</p>
+<p>问题就在这里了，这20万元利润的前提在于风险——风险永远是我们在离开田园牧歌的资本市场之后最先要考虑的问题——的准确把控上，但如果1万用户是发生60起火灾呢？那就要赔付120万美元。对于你的保险公司来说，因为已经转让出去，所以毫发无损，而对于再保险公司来说，就要亏损了。</p>
+<p>这个时候风险就出现了，40起火灾是建立在你对客户的细致选择的基础上，一个独居的喜欢躺在床上抽烟的老头儿，你是不会把他当成你的客户的。但是如果你知道未来你会把保单整体打包卖给大公司，那你心里可就放松多了，因为这些风险反正又不会成为你的，所以你就把这些不那么优质的客户一起卖给了再保险大公司。</p>
+<p>然后，你就会知道那些原本要花200美元买一份保险的高风险客户，现在只要花100美元就可以有保障了……</p>
+<p>如果你把火灾保险替换成房屋贷款，就知道为什么美国人会突然“疯”掉了。唯一的不同在于，把房子卖给那些根本就不可能还上贷款的穷人，只需要有一个信念就行：房价永远在上涨。</p>
+<p>这个房价永远上涨的传说在我们这里也是存在的，与美国稍有不同的是，在一个70%的人有自有产权房屋并且已经实现了城市化的国家里，希望房价上涨的人永远是大多数。一个市场里如果所有人都盼望一个同样的好消息，那效果与好消息真的发生没有什么不一样，所以它一定所向披靡，无可阻挡。</p>
+<p>如果说在2007年的时候，有一个比“次贷”更能显示出得我们的无知的一个词存在的话，那一定是这个叫“信用违约掉期”的家伙。直到2012年，我每一次看到它都跟一个失忆症患者面对一个热情的老朋友一样，啊，是你，你到底是谁来着？并且像每个失忆症患者一样相信下次再见到它的时候就会认识了……</p>
+<p>关于这个万恶之源，还是贝萨尼·麦克莱恩和乔·诺塞拉最终治愈了我的失忆症。他们的解释可以这么理解：所有的问题都出在风险和风险的定价上；你不愿意承担风险的时候，很有可能有别人愿意承担风险，那你就卖给他好了。</p>
+<p>你看，就是这个东西。它这里牵扯到的最核心的一个东西就是，风险到底应该值多少钱。理论上买和卖的双方都有数学模型，如果有那么一个完美地综合了这个市场里所有因素的模型，那么其结论应该是一样的……当然，这些确实只是发生在理论上。真操作起来的时候，其实满不是那么回事，但我们可以确认的是，数学模型这种东西出现之后，我们就更大胆了。先知先觉的人比如约翰·保尔森开始操作他的对冲基金，并且拉上几个像高盛这样没有操守的公司来一起做局——在我看来，这基本上跟行骗没有什么两样；更多的人，他们跟我们前面说的那些大多数一样：只要房价上涨，还不上贷款就不是一个问题；或者只要不超过比如20%的违约率，就平安无事；或者只要AAA一直存在，就不会有任何风险……并且，以上所有这些，都有天才数学家们的模型支持。</p>
+<p>如果这些还不够，那么人类还有其他共识存在：“房价从大萧条以来一直处于上升中，没有经历过全国性的下降”，“没有哪个金融机构想要毁了自己”，“次贷对房地产市场的影响是有限的，不会带来太大的连带影响”，更重要的是“出现这种结果之前是一个漫长的过程，所以人们很容易就相信要摆脱它也需要一个漫长的过程。”</p>
+<p>数学家本来是跟华尔街没有任何关系的，拜电脑时代的来临，所有数据都可以得到处理，而对处理的数据如何解读，A数据和B数据是什么关系，人类就开始进入到一个想法大过理性的时代。也就是我们这个标题所说的，潘多拉的盒子在这个时候打开了。</p>
+<p>而这几乎一律来自于我们最优秀的那部分头脑，和最美好的希望。比如他们最初出现的时候，那应该是在20多年前了，刘易斯·拉涅利带领所罗门兄弟投资公司进入到一个伟大的未知市场里，而那个时候他们手中玩的扑克牌，与20几年之后的是一样的：美国人的住房按揭贷款，或者说美国人的自有产权房屋的社会和个人理想，或者干脆就是“美国梦”本身。而刘易斯·拉涅利所仰仗的，也是那些初出茅庐的数学家们。</p>
+<p>然后是美林证券，号称是为美国中产阶级带来证券福音的投资银行，那是个革命者的形象。然后是组合保险——又一个跟电脑和数学模型有关的。并且是又一个跟“躲避风险”的故事相关的发明……然后，人类或者说部分人类就进入到了一种独特风险的时代。他们就像某个电影里我们看到的搞笑桥段一样——你有了一件可以防御子弹的神秘紧身衣——然后，你闪亮登场了，然后，大胆地开始了实验，然后，咣地一声，死了。</p>
+<p>人在武装起来的时候，相信自己所向披靡。天才发明家们看着这个悲剧，他们想的不会是回到田园牧歌的时代，而是想我要做一件更好的紧身衣。</p>
+<p>于是，我们看到的后来30年的历史，就是一个防弹紧身衣不断推陈出新的时代。他们不会想到的是，让这个悲剧不断发生的原因并不是人类永不妥协永不服输的进取精神，而是贪婪。</p>
+<p>那应该是1980年代，一个让我们乐观开心，雄心勃勃的1980年代。</p>
+  </div>
+
+  <div class="chapter-books"><h3>本章推荐书目</h3><div class="book-grid" style="margin-top:1rem;"><div class="book-card">
+  <div class="book-title">《金融往事：恐慌、危机和迟来的复苏》</div>
+  <div class="book-author">迈克尔·刘易斯</div>
+  <div class="book-meta">迈克尔·刘易斯 · 中信出版社  2011年5月 · 定价：49元</div>
+</div>
+<div class="book-card">
+  <div class="book-title">《众魔在人间：华尔街的风云传奇》</div>
+  <div class="book-author">贝萨尼·麦克莱恩 / 乔·诺塞拉</div>
+  <div class="book-meta">贝萨尼·麦克莱恩 / 乔·诺塞拉 · 中信出版社  2011年12月 · 定价：68元</div>
+</div>
+<div class="book-card">
+  <div class="book-title">《数字是靠不住的》</div>
+  <div class="book-author">查尔斯·塞费</div>
+  <div class="book-meta">查尔斯·塞费 · 中信出版社  2011年9月 · 定价：42元</div>
+</div></div></div>
+
+  <div class="chapter-nav">
+    <a href="chapter-36.html">← 上一章</a>
+    <a href="../index.html#books" style="color:var(--muted);">书目档案</a>
+    <a href="chapter-38.html">下一章 →</a>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <p>原始内容来自《第一财经周刊》· 由 Conan Xin 整理</p>
+  <p>本项目为学习交流用途，不代表原出版方立场</p>
+  <div class="footer-links">
+    <a href="https://github.com/conanxin/2014books">GitHub</a>
+    <a href="../index.html">首页</a>
+  </div>
+</footer>
+
+<script>
+// Reading progress
+const progressBar = document.getElementById('readingProgress');
+window.addEventListener('scroll', () => {
+  const scrollTop = window.scrollY;
+  const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+  const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+  progressBar.style.width = pct + '%';
+});
+
+// Font size
+let currentSize = 17;
+function adjustFontSize(delta) {
+  currentSize += delta;
+  if (currentSize < 14) currentSize = 14;
+  if (currentSize > 24) currentSize = 24;
+  document.documentElement.style.fontSize = currentSize + 'px';
+  localStorage.setItem('2014books_font_size', currentSize);
+}
+
+// Theme
+function toggleTheme() {
+  const html = document.documentElement;
+  if (html.classList.contains('night')) {
+    html.classList.remove('night');
+    localStorage.setItem('2014books_theme', 'paper');
+  } else {
+    html.classList.add('night');
+    localStorage.setItem('2014books_theme', 'night');
+  }
+}
+
+// Restore preferences
+(function(){
+  const savedSize = localStorage.getItem('2014books_font_size');
+  if (savedSize) {
+    currentSize = parseInt(savedSize, 10);
+    document.documentElement.style.fontSize = currentSize + 'px';
+  }
+  const savedTheme = localStorage.getItem('2014books_theme');
+  if (savedTheme === 'night') {
+    document.documentElement.classList.add('night');
+  }
+})();
+
+// Drawer
+const drawer = document.getElementById('chapterDrawer');
+const overlay = document.getElementById('drawerOverlay');
+document.getElementById('drawerToggle').addEventListener('click', () => {
+  drawer.classList.add('open');
+  overlay.classList.add('open');
+});
+function closeDrawer() {
+  drawer.classList.remove('open');
+  overlay.classList.remove('open');
+}
+</script>
+
+</body>
+</html>

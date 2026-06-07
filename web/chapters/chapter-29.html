@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第29章：工匠们创造的历史 · 2014年值得你阅读的100本书</title>
+<meta property="og:title" content="第29章：工匠们创造的历史 · 2014年值得你阅读的100本书">
+<meta property="og:description" content="有没有过那种时候，有一个叨逼叨叨逼叨的人在你身边一直说啊说，你又说不过他，最后只好埋头去做给他看——当然，大多数时候那些没完没了的话你都可以视若无物，大多数人你更不要去理他，所以我可不主张去跟他们争口气。">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://conanxin.github.io/2014books/assets/og-cover.svg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body class="chapter-page">
+
+<div class="reading-progress" id="readingProgress"></div>
+
+<nav class="top-nav">
+  <div style="display:flex;align-items:center;gap:0.8rem;">
+    <button class="btn btn-small" id="drawerToggle" style="padding:0.3rem 0.6rem;font-size:0.75rem;">目录</button>
+    <a href="../index.html" class="nav-title" style="border-bottom:none;">2014books</a>
+  </div>
+  <div class="reading-settings">
+    <button class="btn btn-small" onclick="adjustFontSize(-1)" title="减小字号">A-</button>
+    <button class="btn btn-small" onclick="adjustFontSize(1)" title="增大字号">A+</button>
+    <button class="btn btn-small" onclick="toggleTheme()" title="切换纸张/夜间">◐</button>
+  </div>
+</nav>
+
+<div class="drawer-overlay" id="drawerOverlay" onclick="closeDrawer()"></div>
+<div class="chapter-drawer" id="chapterDrawer">
+  <div class="drawer-header">
+    <span class="drawer-title">章节目录</span>
+    <button class="drawer-close" onclick="closeDrawer()">×</button>
+  </div>
+  <a href="chapter-01.html" class="drawer-item"><span class="drawer-num">01</span>我们如何来到现在</a>
+<a href="chapter-02.html" class="drawer-item"><span class="drawer-num">02</span>日光之下，并无新事</a>
+<a href="chapter-03.html" class="drawer-item"><span class="drawer-num">03</span>那些数学大师们</a>
+<a href="chapter-04.html" class="drawer-item"><span class="drawer-num">04</span>当心，被他们骗了</a>
+<a href="chapter-05.html" class="drawer-item"><span class="drawer-num">05</span>你从事的是娱乐业</a>
+<a href="chapter-06.html" class="drawer-item"><span class="drawer-num">06</span>人人都爱非理性</a>
+<a href="chapter-07.html" class="drawer-item"><span class="drawer-num">07</span>天才，还是该死的无耻之徒</a>
+<a href="chapter-08.html" class="drawer-item"><span class="drawer-num">08</span>伯恩斯坦错了吗</a>
+<a href="chapter-09.html" class="drawer-item"><span class="drawer-num">09</span>怎么就成了巴圣人了</a>
+<a href="chapter-10.html" class="drawer-item"><span class="drawer-num">10</span>为什么不为“民主化”投资</a>
+<a href="chapter-11.html" class="drawer-item"><span class="drawer-num">11</span>为什么对莫斯科维茨心生崇敬</a>
+<a href="chapter-12.html" class="drawer-item"><span class="drawer-num">12</span>我们这个时代最智慧的头脑</a>
+<a href="chapter-13.html" class="drawer-item"><span class="drawer-num">13</span>乔布斯的One More Thing</a>
+<a href="chapter-14.html" class="drawer-item"><span class="drawer-num">14</span>不要跟自己的肺生气</a>
+<a href="chapter-15.html" class="drawer-item"><span class="drawer-num">15</span>聪明的投资者</a>
+<a href="chapter-16.html" class="drawer-item"><span class="drawer-num">16</span>如果回到1997年</a>
+<a href="chapter-17.html" class="drawer-item"><span class="drawer-num">17</span></a>
+<a href="chapter-18.html" class="drawer-item"><span class="drawer-num">18</span>投资者从垄断公司那里得到什么</a>
+<a href="chapter-19.html" class="drawer-item"><span class="drawer-num">19</span>荒谬历史中的一点奇葩</a>
+<a href="chapter-20.html" class="drawer-item"><span class="drawer-num">20</span>从长远看，我们都是要死的</a>
+<a href="chapter-21.html" class="drawer-item"><span class="drawer-num">21</span>一个理想主义者的价值投资</a>
+<a href="chapter-22.html" class="drawer-item"><span class="drawer-num">22</span>大公司的边界</a>
+<a href="chapter-23.html" class="drawer-item"><span class="drawer-num">23</span>所以，它就安静地站着</a>
+<a href="chapter-24.html" class="drawer-item"><span class="drawer-num">24</span>富有的邻居和聪明的小贼们</a>
+<a href="chapter-25.html" class="drawer-item"><span class="drawer-num">25</span>通过欢乐获取力量</a>
+<a href="chapter-26.html" class="drawer-item"><span class="drawer-num">26</span>我们所热爱的青春期</a>
+<a href="chapter-27.html" class="drawer-item"><span class="drawer-num">27</span>为什么奥特曼不能在银行里下棋</a>
+<a href="chapter-28.html" class="drawer-item"><span class="drawer-num">28</span>它不像你想象的那么简单</a>
+<a href="chapter-29.html" class="drawer-item" style="color:var(--accent);font-weight:600;"><span class="drawer-num">29</span>工匠们创造的历史</a>
+<a href="chapter-30.html" class="drawer-item"><span class="drawer-num">30</span>有一些人值得为他起立鼓掌（上）</a>
+<a href="chapter-31.html" class="drawer-item"><span class="drawer-num">31</span>有一些人值得为他起立鼓掌（下）</a>
+<a href="chapter-32.html" class="drawer-item"><span class="drawer-num">32</span>“加里驾驶小飞机兜风那天”</a>
+<a href="chapter-33.html" class="drawer-item"><span class="drawer-num">33</span>你是智慧多一点，还是钱多一点</a>
+<a href="chapter-34.html" class="drawer-item"><span class="drawer-num">34</span>当范德比尔特最后一次经过码头（上）</a>
+<a href="chapter-35.html" class="drawer-item"><span class="drawer-num">35</span>当范德比尔特最后一次经过码头（下）</a>
+<a href="chapter-36.html" class="drawer-item"><span class="drawer-num">36</span>然后，他就开始沮丧起来</a>
+<a href="chapter-37.html" class="drawer-item"><span class="drawer-num">37</span>潘多拉的盒子是什么时候打开的（上）</a>
+<a href="chapter-38.html" class="drawer-item"><span class="drawer-num">38</span>潘多拉的盒子是什么时候打开的（下）</a>
+<a href="chapter-39.html" class="drawer-item"><span class="drawer-num">39</span>底特律到底发生了什么（上）</a>
+<a href="chapter-40.html" class="drawer-item"><span class="drawer-num">40</span>底特律到底发生了什么（下）</a>
+<a href="chapter-41.html" class="drawer-item"><span class="drawer-num">41</span>即使聪明如理查德·费曼……</a>
+<a href="chapter-42.html" class="drawer-item"><span class="drawer-num">42</span>听说你打算定制一个伟大习惯？</a>
+<a href="chapter-43.html" class="drawer-item"><span class="drawer-num">43</span>“这条贪婪的隧道尽头……”</a>
+<a href="chapter-44.html" class="drawer-item"><span class="drawer-num">44</span>“我知道事情真相啦”</a>
+<a href="chapter-45.html" class="drawer-item"><span class="drawer-num">45</span>我们只是想摆脱庸常生活</a>
+</div>
+
+<div class="chapter-container">
+  <div class="chapter-header">
+    <a href="../index.html#archive" class="back-link">← 返回首页</a>
+    <div class="chapter-num-display">Chapter 29 / 45</div>
+    <h1>工匠们创造的历史</h1>
+  </div>
+
+  <div class="chapter-body-text" id="chapterBody">
+    <p>有没有过那种时候，有一个叨逼叨叨逼叨的人在你身边一直说啊说，你又说不过他，最后只好埋头去做给他看——当然，大多数时候那些没完没了的话你都可以视若无物，大多数人你更不要去理他，所以我可不主张去跟他们争口气。但一定有个别时候，你觉得值得这么做一下才可以让他闭嘴——我虽然一生所为离创造性的技术相去甚远，但我还是觉得技术这东西是身为人类值得迷恋的一种东西。简单点说，就是哪怕你是一个宏大事件的爱好者，成天研究的都是道，但你也不能把技术看成是一些可有可无的精巧的小玩意，它们有很多让人兴奋的元素，你不能简单把它们一律归为形而下者那一坨里去。</p>
+<p>这里有一个有趣的现象，如果用弗洛伊德这样的理论去套一下它的话，就是喜欢大词谈些主义的，总是跟精神分析派们爱提起的那些“口腔欲望期”有关。我总觉得接下来你长大成人，就应该真刀真枪地上了，就不能再耽于口唇之欲了。所以胡适与鲁迅当年的问题与主义之争，我的观感就是这有毛可争的，这是人的不同成长阶段啊，互相说服或批判都是使错了劲。</p>
+<p>话说在12到13世纪那一段时间，本笃会修道院的师父们觉得每天看太阳来算时间侍奉上帝，总是不够严肃，碰到个阴天就会感觉怠慢了上帝，于是觉得应该有一种计时工具来让修道院的日常事务有章可循。</p>
+<p>在这个时候，发明钟表相对于修道院来说，就是一个小玩意。但过了一百来年，钟表被工人和商人利用起来，再隔了几百年之后，一个叫刘易斯·芒德福的人说：“机械钟表使按部就班的生产、准确计时的工作和标准化的产品成为可能。”——如果没有钟表，资本主义的兴起是绝无可能的。</p>
+<p>我们用一些大词来为这事总结的话，就是历史变革背后的技术推动；用另外一个体系里的大词来说，就是，群众，人民群众创造了历史；如果平实一点，我们可以说：有的时候，什么Geek啊，Nerd啊，工匠啊，死宅技术派啊弄出来的一些新东西，也绝不简单。</p>
+<p>史蒂夫·沃兹尼亚克那种说得太多了，乔布斯要改变世界，你总得有个趁手的家什。阿基米德要把地球撬起来，沃兹就是乔布斯改变世界的那个支点。当然，沃兹不这么看，他觉得他是一个发现问题和解决问题的人——这对我们的启发就是，当年的问题与主义之争，另外一种解读方式是：问题有无和解决与否实际上就是主义本身。</p>
+<p>跟13世纪相去不远，还有一个技术控的例子。这个人叫约翰尼斯·古登堡。作为一个修道院的供应商，成天印赎罪券，他一定感觉又累又烦，重复劳动。同时作为一个爱动手的工匠，他就把一个酿酒机改成了活字印刷机，他的世界果然就焕然一新了——他还印了《圣经》，还印了“大便历”。前一个我们很容易理解，后一个粗俗一点说就是“今日宜大便”这样的玩意。我还没考证过中世纪的便秘情况，选个黄道吉日如厕轻身——这就是约翰尼斯·古登堡这个技术控对人类直接的重要的贡献。</p>
+<p>间接的，40年之后，印刷机进入6个国家的110座城市；50年之后，印刷书籍达到800多万册。过去人们无法得到的信息，涉及到法律、农业、开发、冶金等；商界迅速成为印刷品的世界，合同、契约、本票、期票和地图都普遍使用开来。“信息标准化了，且可以复制。在这样的文化里，地图绘制人在地图上剔除了天堂，因为天堂的位置太难以确定。”当然还有最着名的马丁·路德，他看不惯赎罪券赤裸裸的商业用意，于是发起了对天主教会的批评。1517年，他印刷了《九十五条论纲》，于是新教革命开始了。</p>
+<p>一个修道院的供应商，印赎罪券的家伙，就这样把自己的生意给毁掉了。所以你要说技术控们有多少胸怀大志，我就觉得这事不那么靠谱。但我总感觉他们虽然无意于这些伟大事业，但如果看到了一个天翻地覆的结果，他们会由衷地高兴。就像60来岁的沃兹总是乐颠颠地排队抢购苹果的新产品一样，这事还真是很值得高兴一下的。</p>
+<p>如果约翰·哈里森活到现在，他应该比沃兹还要高兴。有关这个人显然知道的人不多，我们可以把他看成是18世纪的Geek，他一辈子做的事就是做了4个航海钟。从这个意义上说他是一个表匠，但有一个插曲让我觉得他还是一个木匠。他为了让钟表走时更准确，找到一种解决方案——用木头做钟表的关键零件。木头跟所有的东西一样都有热胀冷缩的麻烦，于是他选用了不同膨胀系数的木材镶嵌在一起，让零件始终保持一个恒定的标准。我觉得这创意足够天才而且实在，除了作为一个木匠对木头的深刻理解，没有什么理由可以解释。当然，我说他是一个Geek的原因并不仅仅他是一个好表匠和好木匠，他做航海钟解决了计时准确性问题，但他的最终极目标是如何在航海过程中定位——人类很早就通过星座之类的定位解决了纬度问题，但经度问题的解决是在计时准确的基础之上。伽利略啊牛顿啊发现彗星的哈雷啊这些大人物都没有解决掉，就是因为他们不是一个好工匠，但哈里森是。所以我推荐一本叫《经度》的书，它就是讲这段故事的，如果你很懒，还可以到豆瓣上去找一个叫“远游人”的ID写的简介，我觉得一样很精彩。</p>
+<p>我觉得，约翰·哈里森差不多是工匠领域里的一个高峰，在他之后还有一个高峰是伊莱沙·奥的斯父子，他们是完全以工匠的标准、直觉和解决问题的方式一手创建了一种叫“电梯”的应用和行业，到现在我们还在用他们父子的产品。但这个高峰之后工匠师傅们就再没有这样的荣耀了。</p>
+<p>这事要归咎于亨利·福特，在他的生产线之前，拿一个榔头的工匠就是设计师和工程师，在他的生产线之后，那个工匠就是一个榔头或者扳手了。这也是一件很遗憾的事。</p>
+<p>好在Geek还在。现在一般把Geek跟程序员们联系在一起，我们都知道，程序员们相对来说喜欢自嘲一点，程序猿啊，码农啊，这些都是他们自己编出来的。我觉得这倒很可能来自于他们的前辈的基因。他们工作的特点、从事这个工作的职业态度和素质要求，还有他们的性格，似乎都跟我们人类工业革命前的那些工匠有相似之处。你也可以说程序员是智力劳动工作者，比如叫工程师，但有一点差别的是，他们分明是撸起袖子就要解决问题的——记住哦，不是给出解决方案，而是直接动手解决掉。他们显然不能被视为艺术范儿的设计师，但你看他们追求的东西往往又要好看又要实用又要简洁，这是对最好的设计师的要求，也是一个体面的工匠所要具备的素质。北方有谚语说，巧妇和面要有三光，手光面光案板光——这是对一种普通劳动的赞美，你看，把它送给程序员可以，给工匠也可以。</p>
+  </div>
+
+  <div class="chapter-books"><h3>本章推荐书目</h3><div class="book-grid" style="margin-top:1rem;"><div class="book-card">
+  <div class="book-title">《魔球》</div>
+  <div class="book-author">副标题：一个勇敢面对自己, 逆转胜的真实故事</div>
+  <div class="book-meta">副标题：一个勇敢面对自己, 逆转胜的真实故事 · 迈克尔·刘易斯 · 早安财经文化有限公司（台湾）</div>
+</div>
+<div class="book-card">
+  <div class="book-title">《IT不再重要》</div>
+  <div class="book-author">副标题：互联网大转换的制高点—云计算</div>
+  <div class="book-meta">副标题：互联网大转换的制高点—云计算 · 随着互联网的能力、范围和实用性的扩大，它最具有革命性的后果可能不是电脑开始像我们一样思维，而是我们将开始像电脑一样思维。 · 尼古拉斯·卡尔</div>
+</div></div></div>
+
+  <div class="chapter-nav">
+    <a href="chapter-28.html">← 上一章</a>
+    <a href="../index.html#books" style="color:var(--muted);">书目档案</a>
+    <a href="chapter-30.html">下一章 →</a>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <p>原始内容来自《第一财经周刊》· 由 Conan Xin 整理</p>
+  <p>本项目为学习交流用途，不代表原出版方立场</p>
+  <div class="footer-links">
+    <a href="https://github.com/conanxin/2014books">GitHub</a>
+    <a href="../index.html">首页</a>
+  </div>
+</footer>
+
+<script>
+// Reading progress
+const progressBar = document.getElementById('readingProgress');
+window.addEventListener('scroll', () => {
+  const scrollTop = window.scrollY;
+  const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+  const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+  progressBar.style.width = pct + '%';
+});
+
+// Font size
+let currentSize = 17;
+function adjustFontSize(delta) {
+  currentSize += delta;
+  if (currentSize < 14) currentSize = 14;
+  if (currentSize > 24) currentSize = 24;
+  document.documentElement.style.fontSize = currentSize + 'px';
+  localStorage.setItem('2014books_font_size', currentSize);
+}
+
+// Theme
+function toggleTheme() {
+  const html = document.documentElement;
+  if (html.classList.contains('night')) {
+    html.classList.remove('night');
+    localStorage.setItem('2014books_theme', 'paper');
+  } else {
+    html.classList.add('night');
+    localStorage.setItem('2014books_theme', 'night');
+  }
+}
+
+// Restore preferences
+(function(){
+  const savedSize = localStorage.getItem('2014books_font_size');
+  if (savedSize) {
+    currentSize = parseInt(savedSize, 10);
+    document.documentElement.style.fontSize = currentSize + 'px';
+  }
+  const savedTheme = localStorage.getItem('2014books_theme');
+  if (savedTheme === 'night') {
+    document.documentElement.classList.add('night');
+  }
+})();
+
+// Drawer
+const drawer = document.getElementById('chapterDrawer');
+const overlay = document.getElementById('drawerOverlay');
+document.getElementById('drawerToggle').addEventListener('click', () => {
+  drawer.classList.add('open');
+  overlay.classList.add('open');
+});
+function closeDrawer() {
+  drawer.classList.remove('open');
+  overlay.classList.remove('open');
+}
+</script>
+
+</body>
+</html>

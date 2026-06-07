@@ -26,12 +26,27 @@ Web 输出已升级为**杂志风格阅读体验**，包含：
 - **封面区（Hero Masthead）**：杂志式标题、导语、状态 badge、阅读入口
 - **编者序（Editor's Note）**：项目背景说明、97 本事实、缺失 3 本需核对
 - **精选章节（Featured Chapters）**：4~6 篇代表章节的大卡片，快速进入精彩内容
-- **章节目录（Chapters Archive）**：45 章完整目录，含章节摘要
+- **章节目录（Chapters Archive）**：45 章完整目录，含章节摘要，点击标题进入独立章节页
+- **阅读路线（Reading Paths）**：按主题分类的阅读路线，不必按顺序读完 45 章
 - **书目检索（Book Archive）**：正式 97 本书目，支持按书名/作者实时搜索
 - **研究附录（Research Appendix）**：待核实候选书目，明确隔离于正式书单
 - **完整正文（Full Text）**：按章节顺序呈现全部正文内容
 
 设计特点：暖白纸张底色、衬线标题字体、充足留白、轻量卡片阴影、响应式布局。无外部 CDN，纯静态文件，可离线使用。
+
+### 独立章节页（Phase F）
+
+每章拥有独立 URL，支持：
+
+- **独立章节页**：`web/chapters/chapter-01.html` ~ `chapter-45.html`
+- **阅读进度条**：顶部固定进度条，随滚动实时更新
+- **阅读模式**：A-/A+ 字号调节、纸张/夜间模式切换，偏好保存到 localStorage
+- **移动端目录**：目录按钮打开侧滑 drawer，列出 45 章，点击跳转
+- **上一章/下一章**：章节页底部导航
+- **OG 分享信息**：每章独立 og:title / og:description，支持社交媒体卡片分享
+- **返回首页**：章节页顶部始终有返回首页链接
+
+首页的精选章节和章节目录链接已优先指向独立章节页，同时保留锚点 fallback。
 
 ## GitHub Pages 自动部署
 
@@ -90,7 +105,8 @@ bash ./mmd2bok
 │   └── 2-appendix*.markdown
 ├── data/              # 书目元数据增强（人工/半人工入口）
 │   ├── book_metadata_overrides.json
-│   └── missing_book_candidates.json
+│   ├── missing_book_candidates.json
+│   └── reading_paths.json
 ├── template/          # LaTeX 模板文件
 ├── latex/             # LaTeX 构建工作目录
 ├── scripts/           # 现代构建脚本
@@ -101,8 +117,13 @@ bash ./mmd2bok
 ├── web/               # 生成的静态网页输出
 │   ├── index.html
 │   ├── .nojekyll
-│   ├── assets/style.css
-│   └── data/books.json
+│   ├── assets/
+│   │   ├── style.css
+│   │   └── og-cover.svg
+│   ├── data/books.json
+│   └── chapters/        # 独立章节页（Phase F）
+│       ├── chapter-01.html
+│       └── ...
 ├── dist/              # 生成的 PDF/EPUB/Release 输出
 │   ├── 2014books.pdf
 │   ├── 2014books.epub
@@ -130,7 +151,7 @@ bash ./mmd2bok
 
 ## 下一阶段路线图
 
-- **Phase F**：补齐剩余 3 本书目缺口（需外部原始来源核对）；增强书籍元数据（ISBN、出版社等）；优化封面设计。
+- **Phase G**：增强书籍元数据（ISBN、出版社等）；优化封面设计；添加更多阅读路线。
 
 ---
 

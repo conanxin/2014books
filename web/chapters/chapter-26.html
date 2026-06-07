@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第26章：我们所热爱的青春期 · 2014年值得你阅读的100本书</title>
+<meta property="og:title" content="第26章：我们所热爱的青春期 · 2014年值得你阅读的100本书">
+<meta property="og:description" content="最近关于理性、爱、国家、热情等等之类的词很泛滥，我还在视频截图上看到一些脸，当然，你可以读出来一些邪恶、暴戾，你也可以不按文字的指示读出热情、冲动，更有一种可能那就是一些无所事事、迷茫而且年轻的脸。">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://conanxin.github.io/2014books/assets/og-cover.svg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body class="chapter-page">
+
+<div class="reading-progress" id="readingProgress"></div>
+
+<nav class="top-nav">
+  <div style="display:flex;align-items:center;gap:0.8rem;">
+    <button class="btn btn-small" id="drawerToggle" style="padding:0.3rem 0.6rem;font-size:0.75rem;">目录</button>
+    <a href="../index.html" class="nav-title" style="border-bottom:none;">2014books</a>
+  </div>
+  <div class="reading-settings">
+    <button class="btn btn-small" onclick="adjustFontSize(-1)" title="减小字号">A-</button>
+    <button class="btn btn-small" onclick="adjustFontSize(1)" title="增大字号">A+</button>
+    <button class="btn btn-small" onclick="toggleTheme()" title="切换纸张/夜间">◐</button>
+  </div>
+</nav>
+
+<div class="drawer-overlay" id="drawerOverlay" onclick="closeDrawer()"></div>
+<div class="chapter-drawer" id="chapterDrawer">
+  <div class="drawer-header">
+    <span class="drawer-title">章节目录</span>
+    <button class="drawer-close" onclick="closeDrawer()">×</button>
+  </div>
+  <a href="chapter-01.html" class="drawer-item"><span class="drawer-num">01</span>我们如何来到现在</a>
+<a href="chapter-02.html" class="drawer-item"><span class="drawer-num">02</span>日光之下，并无新事</a>
+<a href="chapter-03.html" class="drawer-item"><span class="drawer-num">03</span>那些数学大师们</a>
+<a href="chapter-04.html" class="drawer-item"><span class="drawer-num">04</span>当心，被他们骗了</a>
+<a href="chapter-05.html" class="drawer-item"><span class="drawer-num">05</span>你从事的是娱乐业</a>
+<a href="chapter-06.html" class="drawer-item"><span class="drawer-num">06</span>人人都爱非理性</a>
+<a href="chapter-07.html" class="drawer-item"><span class="drawer-num">07</span>天才，还是该死的无耻之徒</a>
+<a href="chapter-08.html" class="drawer-item"><span class="drawer-num">08</span>伯恩斯坦错了吗</a>
+<a href="chapter-09.html" class="drawer-item"><span class="drawer-num">09</span>怎么就成了巴圣人了</a>
+<a href="chapter-10.html" class="drawer-item"><span class="drawer-num">10</span>为什么不为“民主化”投资</a>
+<a href="chapter-11.html" class="drawer-item"><span class="drawer-num">11</span>为什么对莫斯科维茨心生崇敬</a>
+<a href="chapter-12.html" class="drawer-item"><span class="drawer-num">12</span>我们这个时代最智慧的头脑</a>
+<a href="chapter-13.html" class="drawer-item"><span class="drawer-num">13</span>乔布斯的One More Thing</a>
+<a href="chapter-14.html" class="drawer-item"><span class="drawer-num">14</span>不要跟自己的肺生气</a>
+<a href="chapter-15.html" class="drawer-item"><span class="drawer-num">15</span>聪明的投资者</a>
+<a href="chapter-16.html" class="drawer-item"><span class="drawer-num">16</span>如果回到1997年</a>
+<a href="chapter-17.html" class="drawer-item"><span class="drawer-num">17</span></a>
+<a href="chapter-18.html" class="drawer-item"><span class="drawer-num">18</span>投资者从垄断公司那里得到什么</a>
+<a href="chapter-19.html" class="drawer-item"><span class="drawer-num">19</span>荒谬历史中的一点奇葩</a>
+<a href="chapter-20.html" class="drawer-item"><span class="drawer-num">20</span>从长远看，我们都是要死的</a>
+<a href="chapter-21.html" class="drawer-item"><span class="drawer-num">21</span>一个理想主义者的价值投资</a>
+<a href="chapter-22.html" class="drawer-item"><span class="drawer-num">22</span>大公司的边界</a>
+<a href="chapter-23.html" class="drawer-item"><span class="drawer-num">23</span>所以，它就安静地站着</a>
+<a href="chapter-24.html" class="drawer-item"><span class="drawer-num">24</span>富有的邻居和聪明的小贼们</a>
+<a href="chapter-25.html" class="drawer-item"><span class="drawer-num">25</span>通过欢乐获取力量</a>
+<a href="chapter-26.html" class="drawer-item" style="color:var(--accent);font-weight:600;"><span class="drawer-num">26</span>我们所热爱的青春期</a>
+<a href="chapter-27.html" class="drawer-item"><span class="drawer-num">27</span>为什么奥特曼不能在银行里下棋</a>
+<a href="chapter-28.html" class="drawer-item"><span class="drawer-num">28</span>它不像你想象的那么简单</a>
+<a href="chapter-29.html" class="drawer-item"><span class="drawer-num">29</span>工匠们创造的历史</a>
+<a href="chapter-30.html" class="drawer-item"><span class="drawer-num">30</span>有一些人值得为他起立鼓掌（上）</a>
+<a href="chapter-31.html" class="drawer-item"><span class="drawer-num">31</span>有一些人值得为他起立鼓掌（下）</a>
+<a href="chapter-32.html" class="drawer-item"><span class="drawer-num">32</span>“加里驾驶小飞机兜风那天”</a>
+<a href="chapter-33.html" class="drawer-item"><span class="drawer-num">33</span>你是智慧多一点，还是钱多一点</a>
+<a href="chapter-34.html" class="drawer-item"><span class="drawer-num">34</span>当范德比尔特最后一次经过码头（上）</a>
+<a href="chapter-35.html" class="drawer-item"><span class="drawer-num">35</span>当范德比尔特最后一次经过码头（下）</a>
+<a href="chapter-36.html" class="drawer-item"><span class="drawer-num">36</span>然后，他就开始沮丧起来</a>
+<a href="chapter-37.html" class="drawer-item"><span class="drawer-num">37</span>潘多拉的盒子是什么时候打开的（上）</a>
+<a href="chapter-38.html" class="drawer-item"><span class="drawer-num">38</span>潘多拉的盒子是什么时候打开的（下）</a>
+<a href="chapter-39.html" class="drawer-item"><span class="drawer-num">39</span>底特律到底发生了什么（上）</a>
+<a href="chapter-40.html" class="drawer-item"><span class="drawer-num">40</span>底特律到底发生了什么（下）</a>
+<a href="chapter-41.html" class="drawer-item"><span class="drawer-num">41</span>即使聪明如理查德·费曼……</a>
+<a href="chapter-42.html" class="drawer-item"><span class="drawer-num">42</span>听说你打算定制一个伟大习惯？</a>
+<a href="chapter-43.html" class="drawer-item"><span class="drawer-num">43</span>“这条贪婪的隧道尽头……”</a>
+<a href="chapter-44.html" class="drawer-item"><span class="drawer-num">44</span>“我知道事情真相啦”</a>
+<a href="chapter-45.html" class="drawer-item"><span class="drawer-num">45</span>我们只是想摆脱庸常生活</a>
+</div>
+
+<div class="chapter-container">
+  <div class="chapter-header">
+    <a href="../index.html#archive" class="back-link">← 返回首页</a>
+    <div class="chapter-num-display">Chapter 26 / 45</div>
+    <h1>我们所热爱的青春期</h1>
+  </div>
+
+  <div class="chapter-body-text" id="chapterBody">
+    <p>最近关于理性、爱、国家、热情等等之类的词很泛滥，我还在视频截图上看到一些脸，当然，你可以读出来一些邪恶、暴戾，你也可以不按文字的指示读出热情、冲动，更有一种可能那就是一些无所事事、迷茫而且年轻的脸。</p>
+<p>几年前看过一本叫《青春无羁》的书，不那么好看，感觉就是一个才力不逮的乐评人把自己对这个世界中有关青春的历史和知识做了一个总结。事后想来，这本导致我很困惑的书并非是作者的脑子有多糊涂，而是青春和青春期的表现形式实在是过于多元了，这本来也是一个很难被定义的东西。比如，他写到一战结束之后的德国的一群年轻人，他们才刚刚说完“我们必须有勇气与祖国保持一定的距离，与强制灌输给我们却不让我们思考的爱国主义保持距离。”之后几年工夫就成就了“德国青年联盟”，然后服膺于纳粹的光环……在书里提到的一种解释是，在他们这群“保持距离”的青春期家伙中，另一条发展脉络是彼得·潘、童子军，然后是候鸟运动，这听起来就又红又专，他们也是追求一种纯洁——纯洁导致排斥，导致独裁，这个应该不难理解，但如何就成为工具了，成年人又是如何“引导”和“利用”的，他们在这里究竟做了什么，我是没弄大清楚的。</p>
+<p>相比之下，我还是审慎地对彼得·潘表示一点敬仰，龌龊的成人世界啊，请迟一些向我走来。但是，如果你知道《彼得·潘》的作者悲催的人生和不明不白不清不楚的性取向，你多少还是会有一点绝望的。好吧，我本来不想提这个事的。</p>
+<p>关于青春期，我很喜欢安迪·沃霍尔的一句话。“对于青春期我记得的不多。由于体弱多病老跟查理·麦卡锡玩偶躺在床上，我大概错过了绝大部分的青春期，就像我错过了《白雪公主》一样。我一直到45岁才看了《白雪公主》……我等了这么久或许是件好事，因为我想我不可能有比当时更兴奋的了。”我把这句话理解成是另外一种向彼得·潘致敬的方式。安迪·沃霍尔觉得既然如今我们活得长命得多，我们停留在婴儿期的时间真该拉长一点。</p>
+<p>按照《青春无羁》所暗示的，社会节奏加快，让一代人与上一代人之间看世界的方式发生剧烈变化，所以代沟啊、反叛啊就产生了。这种说法当然也是对的，但显然保罗·格雷厄姆这个非青春期研究者的说法更靠谱：为什么青少年会有各种与成年人世界相冲突的地方？因为整个世界正处于越来越严重的“专业化”趋势当中，当工作专业化程度越来越高的时候，就必须接受更长时间的训练。在工业化之前，儿童14岁就要参加工作，阿尔·卡彭当芝加哥黑手党老大的时候才25岁，杰西·利弗莫尔15岁就已经开始炒股票了，22岁的时候已经作为着名股票作手破产一回了，亨利·卢斯虽然14岁还在念高中，但已经与他老爸平起平坐地探讨中国、美国以及人生的问题……保罗·格雷厄姆觉得，“如果性和心理的成熟时间都发生在他与成年人的社会建立起关联之后，他更应该做的似乎是适应成年人。坏处是来不及思考，他就已经融入到这样的生活里去了，好处是不会为太多青春期的压力而发愁。”现在呢，你要接受一个最基本的教育也要到22岁，否则你是没办法跟上这个社会的节奏和脚步的，哪怕你是一个富二代或者官二代，这必备的流程也是不能少的。你觉得你生理上已经成熟了，但你却是一个既赚不了钱也不能给社会带来价值和财富的无业青年，你还要处处受制于父母、学校和社会的管制。这是一种发展速度不匹配的结果，不叛逆才怪。</p>
+<p>现在，我们再也找不到25岁做黑社会老大、22岁大生意破产一回这样的机会了。但我觉得还是不能妨碍那些冲动的天才偶尔划过夜空出现在我们的世界当中，否则就难以理解为什么哈佛的比尔·盖茨和马克·扎克伯格会退学，史蒂夫·乔布斯也会觉得在里德学院无所事事无聊到爆，他们的青春期如此澎湃，根本等不得拿个什么寻常的文凭，直接就让青春期的荷尔蒙与改变世界的宏大理想搞在一起了。</p>
+<p>我觉得这种顺应青春期的召唤是我们地球上最美好的事情之一。当我们发现有这样的迹象发生在我们的身边或者我们的时代时，我们无论如何不能错过。林恩·马古利斯这个进化论学者认为青春期的身体最富魅力，但是在进化过程当中，这个身体也是最具反叛性的时候，“对于动物的身体状况来说，青春常驻，长生不死这个愿望是无法实现的。但我们个体的失败却是细菌的胜利，因为它们会将我们体内的碳氢化合物回归于生生不息的大自然。细菌与生命的原始状态更为接近，它们不像我们一样必然死亡。除非发生意外事故、突变或与其他细菌发生基因交换，单个的细菌都可以其原始形态依靠细胞分裂而一代一接一代地复制自身，‘永生’下去。”</p>
+<p>看到了吧，这种劲头如果我们愿意赞美他们，那就是这帮家伙，他们对抗的是整个人类和进化的那种循规蹈矩：虽然我们每个人都经历过那种大逆不道的时候，虽然青春期面前人人平等，我们每个人都有足够的资本来炫耀挥霍我们的青春期，但只有他们让这种青春期绵延于他们的生命始终，始终显示出超凡的力量。</p>
+<p>我得承认，虽然青春期这玩意难免与冲动和破坏性搞在一起，有的时候还显示出一种脑残的味道，但因为它乱糟糟的美感是我们的生活中所缺少的而让我迷恋。我能回忆起来的是1980年代，怎么说呢，那个时候又谦虚又冲动，又违和又有上进心，迷茫么总是有的，但更多的则是带着一点酒劲的，狄奥尼索斯式的混不吝往前走的感觉。我觉得那也是中国的青春期。</p>
+<p>当然，戛然而止的青春期，狄奥尼索斯们巨大的失望会扭曲一个时代。在我看《青春无羁》的时候，最大的担忧如影随行：那些神采飞扬的青春一代，当他们于失望当中世故庸俗犬儒主义起来，青春期所积聚的幻灭和失落会凝结成多大的恶呢？</p>
+<p>好在我们还有像刘易斯·托马斯这样的人，他说，“可是我们也不像有些人说的那样坏。一个世纪以来，时兴贬低人类，说我们是一次失败的尝试，是一场必输的游戏。我不同意。往顶坏里说，我们也许正在度过一个物种的青少年前期，这个时期什么感觉，想必人人还清楚记得。成长的烦恼，对于个人来说固然艰难，对整个物种就更是长期的磨难，对于一个像我们似的聪明又敏感的物种就更是如此。假如我们能平安度过这个阶段，甩掉这个世纪的记忆，静待一段时间，或许就会柳暗花明，再度起步上路了……只有一个理由让我能原谅我们自己，就是，我们是游戏中的新来者，还没有怎么学会它。我们来这儿没多久，没资格用古生物学者和地质学者的语言去谈论自己的生活习惯。我们几乎是刚出炉的，说这个物种尚处于青春期，似乎还未免有僭越之嫌。”</p>
+<p>这话说得真好。但乔治·卢卡斯或者道格拉斯·亚当斯，那么多人的想象还没有实现，我们就真的已经到了青春期？我也觉得还远着呢。不过，没关系，你我反正活不到人类尽头，在我们的生活当中，有我们自己的反叛的teenage的青春，有经历过中国的迷人的1980年代，有现在的纠结反思自己做得不够好的人类……它总还是迷人的。与那个让人绝望的成人世界，我们还有距离，这就是我们的好世界。</p>
+  </div>
+
+  <div class="chapter-books"><h3>本章推荐书目</h3><div class="book-grid" style="margin-top:1rem;"><div class="book-card">
+  <div class="book-title">《青春无羁》</div>
+  <div class="book-author">乔恩·萨维奇</div>
+  <div class="book-meta">乔恩·萨维奇 · 吉林出版集团有限公司  2010年4月 · 定价：54元</div>
+</div></div></div>
+
+  <div class="chapter-nav">
+    <a href="chapter-25.html">← 上一章</a>
+    <a href="../index.html#books" style="color:var(--muted);">书目档案</a>
+    <a href="chapter-27.html">下一章 →</a>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <p>原始内容来自《第一财经周刊》· 由 Conan Xin 整理</p>
+  <p>本项目为学习交流用途，不代表原出版方立场</p>
+  <div class="footer-links">
+    <a href="https://github.com/conanxin/2014books">GitHub</a>
+    <a href="../index.html">首页</a>
+  </div>
+</footer>
+
+<script>
+// Reading progress
+const progressBar = document.getElementById('readingProgress');
+window.addEventListener('scroll', () => {
+  const scrollTop = window.scrollY;
+  const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+  const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+  progressBar.style.width = pct + '%';
+});
+
+// Font size
+let currentSize = 17;
+function adjustFontSize(delta) {
+  currentSize += delta;
+  if (currentSize < 14) currentSize = 14;
+  if (currentSize > 24) currentSize = 24;
+  document.documentElement.style.fontSize = currentSize + 'px';
+  localStorage.setItem('2014books_font_size', currentSize);
+}
+
+// Theme
+function toggleTheme() {
+  const html = document.documentElement;
+  if (html.classList.contains('night')) {
+    html.classList.remove('night');
+    localStorage.setItem('2014books_theme', 'paper');
+  } else {
+    html.classList.add('night');
+    localStorage.setItem('2014books_theme', 'night');
+  }
+}
+
+// Restore preferences
+(function(){
+  const savedSize = localStorage.getItem('2014books_font_size');
+  if (savedSize) {
+    currentSize = parseInt(savedSize, 10);
+    document.documentElement.style.fontSize = currentSize + 'px';
+  }
+  const savedTheme = localStorage.getItem('2014books_theme');
+  if (savedTheme === 'night') {
+    document.documentElement.classList.add('night');
+  }
+})();
+
+// Drawer
+const drawer = document.getElementById('chapterDrawer');
+const overlay = document.getElementById('drawerOverlay');
+document.getElementById('drawerToggle').addEventListener('click', () => {
+  drawer.classList.add('open');
+  overlay.classList.add('open');
+});
+function closeDrawer() {
+  drawer.classList.remove('open');
+  overlay.classList.remove('open');
+}
+</script>
+
+</body>
+</html>

@@ -27,3 +27,7 @@ latex/appendix.tex
 latex/preface.tex
 latex/template.tex
 latex/template-win.tex
+
+# Generated release packages
+dist/release/
+dist/**/*.zip
