@@ -1,0 +1,54 @@
+name: Build Check
+
+on:
+  push:
+    branches: [master, phase/*]
+  pull_request:
+    branches: [master, phase/*]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc
+
+      - name: Check shell script syntax
+        run: |
+          bash -n mmd2bok
+          bash -n scripts/build_pdf.sh
+          bash -n scripts/build_epub.sh
+
+      - name: Check Python syntax
+        run: |
+          python3 -m py_compile scripts/generate_web.py
+
+      - name: Build web
+        run: |
+          python3 scripts/generate_web.py
+          test -f web/index.html
+          test -f web/data/books.json
+
+      - name: Build EPUB
+        run: |
+          make epub
+          test -f dist/2014books.epub
+
+      # PDF build requires texlive-xetex which is heavy (~1.3GB).
+      # Skip in CI for speed; PDF is verified locally in Phase B/C.
+      # Uncomment below if PDF CI is needed:
+      # - name: Build PDF
+      #   run: |
+      #     sudo apt-get install -y texlive-xetex texlive-latex-recommended texlive-latex-extra texlive-lang-chinese fonts-noto-cjk
+      #     make pdf
+      #     test -f dist/2014books.pdf

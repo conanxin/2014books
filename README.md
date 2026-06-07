@@ -11,12 +11,13 @@
 - 整理者：Conan Xin
 - 源码仓库：https://github.com/conanxin/2014books
 
-## 现在可以生成 PDF 和 Web
+## 现在可以生成 PDF、Web 和 EPUB
 
 本项目已从原始的单一脚本构建升级为支持多种输出格式：
 
 - **PDF**：通过 `pandoc` + `xelatex` 生成排版精美的中文 PDF
 - **静态网页**：通过 Python 标准库生成可离线浏览的静态网页，支持搜索和筛选
+- **EPUB**：通过 `pandoc` 生成电子书，兼容主流阅读器
 
 ## 本地构建方法
 
@@ -24,7 +25,7 @@
 
 ```bash
 sudo apt-get install pandoc texlive-xetex texlive-latex-recommended texlive-latex-extra
-sudo apt-get install ttf-wqy-microhei ttf-wqy-zenhei
+sudo apt-get install fonts-noto-cjk fonts-wqy-microhei fonts-wqy-zenhei
 ```
 
 ### 构建命令
@@ -36,7 +37,10 @@ make pdf
 # 生成静态网页
 make web
 
-# 同时生成 PDF 和网页
+# 生成 EPUB
+make epub
+
+# 同时生成所有输出
 make all
 
 # 清理构建产物
@@ -61,13 +65,16 @@ bash ./mmd2bok
 ├── latex/             # LaTeX 构建工作目录
 ├── scripts/           # 现代构建脚本
 │   ├── build_pdf.sh   # PDF 构建入口
+│   ├── build_epub.sh  # EPUB 构建入口
 │   └── generate_web.py # 静态网页生成器
 ├── web/               # 生成的静态网页输出
 │   ├── index.html
+│   ├── .nojekyll
 │   ├── assets/style.css
 │   └── data/books.json
-├── dist/              # 生成的 PDF 输出
-│   └── 2014books.pdf
+├── dist/              # 生成的 PDF/EPUB 输出
+│   ├── 2014books.pdf
+│   └── 2014books.epub
 ├── mmd2bok            # 传统 PDF 构建脚本（已修复章节排序）
 ├── Makefile           # 现代构建入口
 └── README.md          # 本文件
@@ -75,16 +82,19 @@ bash ./mmd2bok
 
 ## 已知限制
 
-1. **PDF 字体依赖**：需要系统中安装 WenQuanYi 系列中文字体，否则 xelatex 编译可能失败
-2. **封面图片**：模板中引用的 `img/cover.pdf` 需要自行准备，当前仓库中可能缺失
-3. **网页搜索**：静态网页的搜索功能为前端 JavaScript 实现，无需后端服务，但仅支持当前页面已加载的内容
-4. **章节排序**：已修复原始脚本中 `1-chapter10` 排在 `1-chapter2` 之前的排序问题
+1. **书单完整性**：当前已从附录结构化整理 **97 本** 书目。项目标题中的"100本"为原始专题名称，实际可验证数量为 97 本，剩余 3 本需对照原始《第一财经周刊》专题进一步核对。
+2. **PDF 字体依赖**：需要系统中安装 WenQuanYi 或 Noto CJK 系列中文字体，否则 xelatex 编译可能失败。模板已添加字体回退链。
+3. **封面图片**：模板支持 `img/cover.pdf` 封面；若缺失则自动生成文字封面。
+4. **网页搜索**：静态网页的搜索功能为前端 JavaScript 实现，无需后端服务，但仅支持当前页面已加载的内容。
+5. **章节排序**：已修复原始脚本中 `1-chapter10` 排在 `1-chapter2` 之前的排序问题。
+
+## GitHub Pages 发布
+
+`web/` 目录已准备为可直接发布的静态站点。详见 [docs/GITHUB_PAGES_DEPLOYMENT.md](docs/GITHUB_PAGES_DEPLOYMENT.md)。
 
 ## 下一阶段路线图
 
-- **Phase B**：修复 LaTeX 模板中的字体和布局问题，优化中文排版
-- **Phase C**：增加 EPUB 电子书输出支持
-- **Phase D**：完善封面生成和书籍元数据（ISBN、出版社等）结构化
+- **Phase D**：完善封面生成和书籍元数据（ISBN、出版社等）结构化；补齐剩余 3 本书目缺口；添加 GitHub Actions 自动部署。
 
 ---
 

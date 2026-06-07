@@ -14,3 +14,16 @@ dist/tmp/
 
 # We intentionally track dist/2014books.pdf if present
 __pycache__/
+
+# Generated LaTeX source files (rebuilt from markdown by mmd2bok)
+latex/2014books.tex
+latex/2014books.aux
+latex/2014books.log
+latex/2014books.out
+latex/2014books.toc
+latex/2014books.pdf
+latex/chapters.tex
+latex/appendix.tex
+latex/preface.tex
+latex/template.tex
+latex/template-win.tex
