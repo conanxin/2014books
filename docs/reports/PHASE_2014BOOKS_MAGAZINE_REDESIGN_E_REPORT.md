@@ -22,7 +22,7 @@ phase/2014books-magazine-redesign-e
 
 ## IMPLEMENTATION_COMMIT
 
-(To be filled after implementation commit)
+6caffd2dec0a36f3e7acc59d42ae74a352b69947 Phase E: redesign web experience in magazine style
 
 ## DESIGN_PROBLEMS_IDENTIFIED
 
