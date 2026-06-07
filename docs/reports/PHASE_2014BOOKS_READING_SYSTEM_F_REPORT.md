@@ -18,7 +18,7 @@ phase/2014books-reading-system-f
 
 ## IMPLEMENTATION_COMMIT
 
-(To be filled after implementation commit)
+5ef35dcd3e85d81ae387dde3d6cbef588808ec61 Phase F: add magazine reading system
 
 ## DESIGN_PROBLEMS_IDENTIFIED
 
@@ -122,7 +122,7 @@ PASS — make epub produces dist/2014books.epub. EPUB build logic unchanged.
 
 ## PUSHED
 
-Yes — branch pushed to origin.
+Yes — pushed to origin/phase/2014books-reading-system-f
 
 ## RECOMMENDED_NEXT_PHASE
 
