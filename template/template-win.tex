@@ -47,8 +47,28 @@ framexleftmargin=20pt
 
 \definecolor{shadecolor}{gray}{0.90}
 
-\setromanfont[Mapping=tex-text,BoldFont=Microsoft YaHei]{Microsoft YaHei}
-\setmonofont{Microsoft JhengHei}
+\usepackage{fontspec}
+
+% Font fallback chain for Chinese typesetting (Windows template)
+\IfFontExistsTF{Microsoft YaHei}{%
+  \setromanfont[Mapping=tex-text,BoldFont=Microsoft YaHei]{Microsoft YaHei}%
+}{%
+  \IfFontExistsTF{Noto Serif CJK SC}{%
+    \setromanfont[Mapping=tex-text,BoldFont=Noto Sans CJK SC]{Noto Serif CJK SC}%
+  }{%
+    \setromanfont[Mapping=tex-text,BoldFont=WenQuanYi Micro Hei]{WenQuanYi Zen Hei}%
+  }%
+}
+
+\IfFontExistsTF{Microsoft JhengHei}{%
+  \setmonofont{Microsoft JhengHei}%
+}{%
+  \IfFontExistsTF{Noto Sans CJK SC}{%
+    \setmonofont{Noto Sans CJK SC}%
+  }{%
+    \setmonofont{WenQuanYi Zen Hei Mono}%
+  }%
+}
 
 \XeTeXlinebreaklocale{zh}
 \XeTeXlinebreakskip=0em plus 0.1em minus 0.01em
@@ -211,9 +231,21 @@ framexleftmargin=20pt
 \linespread{1.3}
 
 \begin{document}
-%\maketitle
-% includes cover directly, pdf is generated from slides (could be word and others)
-\includegraphics[scale=0.8]{img/cover.pdf}
+% Cover: use img/cover.pdf if available, otherwise generate text cover
+\IfFileExists{img/cover.pdf}{%
+  \includegraphics[scale=0.8]{img/cover.pdf}%
+}{%
+  \thispagestyle{empty}%
+  \vspace*{\fill}%
+  \begin{center}%
+    {\Huge\bfseries\color{colorchapter} 2014年值得你阅读的100本书}\\[2em]%
+    {\Large Conan Xin}\\[1em]%
+    {\large Markdown Book Project}\\[3em]%
+    {\normalsize 整理自第一财经周刊专题}%
+  \end{center}%
+  \vspace*{\fill}%
+  \newpage%
+}
 
 \thispagestyle{empty}
 \setcounter{tocdepth}{4}

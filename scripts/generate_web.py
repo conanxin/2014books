@@ -119,6 +119,39 @@ def parse_preface(md: str) -> str:
     return "\n".join(paragraphs)
 
 
+def parse_appendix(md: str) -> list[dict]:
+    """Parse appendix markdown into structured book entries.
+
+    Format per line:
+        1、书名 作者
+    Returns list of dicts with keys: id, title, author, raw, source, confidence
+    """
+    books = []
+    for line in md.splitlines():
+        stripped = line.strip()
+        m = re.match(r'^(\d+)[、.](.+)$', stripped)
+        if not m:
+            continue
+        num = m.group(1)
+        raw = m.group(2).strip()
+        # Try to split title and author at the last space
+        parts = raw.rsplit(' ', 1)
+        if len(parts) == 2 and len(parts[1]) <= 25:
+            title, author = parts
+        else:
+            title = raw
+            author = ""
+        books.append({
+            "id": num,
+            "title": title,
+            "author": author,
+            "raw": raw,
+            "source": "appendix",
+            "confidence": "high" if author else "medium",
+        })
+    return books
+
+
 def generate_css() -> str:
     return """/* 2014books static web styles */
 :root {
@@ -315,7 +348,7 @@ footer {
 """
 
 
-def generate_html(preface_html: str, chapters: list[dict]) -> str:
+def generate_html(preface_html: str, chapters: list[dict], total_books: int) -> str:
     nav_items = []
     chapter_sections = []
     all_books = []
@@ -373,6 +406,7 @@ def generate_html(preface_html: str, chapters: list[dict]) -> str:
 <header>
   <h1>2014年值得你阅读的100本书</h1>
   <p>一个被重新整理的 Markdown 制书项目 · 第一财经周刊专题回顾</p>
+  <p style="margin-top:0.5rem;font-size:0.9rem;color:var(--muted);">当前已结构化整理 {total_books} 本</p>
 </header>
 
 <div class="container">
@@ -473,26 +507,33 @@ def main() -> int:
     assets_dir.mkdir(parents=True, exist_ok=True)
     data_dir.mkdir(parents=True, exist_ok=True)
 
-    html = generate_html(preface_html, chapters)
+    # Parse appendix for authoritative book list
+    appendix_files = natural_sort(list(contents_dir.glob("2-appendix*.markdown")))
+    appendix_books = []
+    if appendix_files:
+        appendix_books = parse_appendix(read_markdown(appendix_files[0]))
+
+    # Build books.json from appendix (authoritative source)
+    all_books = []
+    for b in appendix_books:
+        all_books.append({
+            "id": b.get("id", ""),
+            "title": b.get("title", ""),
+            "author": b.get("author", ""),
+            "raw": b.get("raw", ""),
+            "source": b.get("source", "appendix"),
+            "confidence": b.get("confidence", "medium"),
+        })
+
+    total_books = len(all_books)
+
+    html = generate_html(preface_html, chapters, total_books)
     with open(web_dir / "index.html", "w", encoding="utf-8") as f:
         f.write(html)
 
     css = generate_css()
     with open(assets_dir / "style.css", "w", encoding="utf-8") as f:
         f.write(css)
-
-    # Build books.json
-    all_books = []
-    for ch in chapters:
-        for b in ch["books"]:
-            all_books.append({
-                "title": b.get("title", ""),
-                "author": b.get("author", ""),
-                "publisher": b.get("publisher", ""),
-                "price": b.get("price", ""),
-                "chapter": ch["chapter_num"],
-                "chapter_title": ch["title"],
-            })
 
     with open(data_dir / "books.json", "w", encoding="utf-8") as f:
         json.dump(all_books, f, ensure_ascii=False, indent=2)
@@ -501,7 +542,7 @@ def main() -> int:
     print(f"Generated: {assets_dir / 'style.css'}")
     print(f"Generated: {data_dir / 'books.json'}")
     print(f"Total chapters: {len(chapters)}")
-    print(f"Total books: {len(all_books)}")
+    print(f"Total books: {total_books}")
     return 0
 
 

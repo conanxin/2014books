@@ -1,586 +1,778 @@
 [
   {
-    "title": "沃森父子与IBM王朝",
-    "author": "理查德·泰德洛",
-    "publisher": "中国人民大学出版社 2005年10月",
-    "price": "定价：29元",
-    "chapter": 1,
-    "chapter_title": "我们如何来到现在"
+    "id": "1",
+    "title": "刺耳的繁荣：超音速经济为我们带来了什么",
+    "author": "格雷格·伊斯特布鲁克",
+    "raw": "刺耳的繁荣：超音速经济为我们带来了什么 格雷格·伊斯特布鲁克",
+    "source": "appendix",
+    "confidence": "high"
   },
   {
-    "title": "压垮世界的泡沫",
-    "author": "加雷·加勒特",
-    "publisher": "法律出版社 2010年12月",
-    "price": "定价：32元",
-    "chapter": 1,
-    "chapter_title": "我们如何来到现在"
+    "id": "2",
+    "title": "浅薄：互联网如何毒化了我们的大脑",
+    "author": "尼古拉斯·卡尔",
+    "raw": "浅薄：互联网如何毒化了我们的大脑 尼古拉斯·卡尔",
+    "source": "appendix",
+    "confidence": "high"
   },
   {
-    "title": "我们如何来到现在",
-    "author": "安迪·凯斯勒",
-    "publisher": "机械工业出版社 2011年1月",
-    "price": "定价：36元",
-    "chapter": 1,
-    "chapter_title": "我们如何来到现在"
+    "id": "3",
+    "title": "仅仅是昨天",
+    "author": "弗雷德里克·刘易斯·艾伦",
+    "raw": "仅仅是昨天 弗雷德里克·刘易斯·艾伦",
+    "source": "appendix",
+    "confidence": "high"
   },
   {
-    "title": "世界是平的",
-    "author": "托马斯·弗里德曼",
-    "publisher": "湖南科学技术出版社 2008年9月",
-    "price": "定价：58元",
-    "chapter": 2,
-    "chapter_title": "日光之下，并无新事"
+    "id": "4",
+    "title": "聪明的投资者",
+    "author": "本杰明·格雷厄姆",
+    "raw": "聪明的投资者 本杰明·格雷厄姆",
+    "source": "appendix",
+    "confidence": "high"
   },
   {
-    "title": "通用汽车的缔造者",
-    "author": "劳伦斯·古斯廷",
-    "publisher": "上海远东出版社 2008年8月",
-    "price": "定价：39元",
-    "chapter": 2,
-    "chapter_title": "日光之下，并无新事"
+    "id": "5",
+    "title": "别让钞票变废纸",
+    "author": "贾森·茨威格",
+    "raw": "别让钞票变废纸 贾森·茨威格",
+    "source": "appendix",
+    "confidence": "high"
   },
   {
-    "title": "大癫狂——非同寻常的大众幻想与全民疯狂",
-    "author": "查尔斯·麦基",
-    "publisher": "北京邮电大学出版社 2009年1月",
-    "price": "定价：39元",
-    "chapter": 2,
-    "chapter_title": "日光之下，并无新事"
-  },
-  {
-    "title": "数学那些事儿：思想、发现、人物和历史",
-    "author": "威廉·邓纳姆",
-    "publisher": "人民邮电出版社 2011年3月",
-    "price": "定价：39元",
-    "chapter": 3,
-    "chapter_title": "那些数学大师们"
-  },
-  {
-    "title": "技术垄断",
-    "author": "尼尔·波斯曼",
-    "publisher": "北京大学出版社 2007年10月",
-    "price": "定价：22元",
-    "chapter": 3,
-    "chapter_title": "那些数学大师们"
-  },
-  {
-    "title": "广告大师奥格威",
-    "author": "大卫·奥格威",
-    "publisher": "生活读书新知三联书店",
-    "price": "2003年9月",
-    "chapter": 4,
-    "chapter_title": "当心，被他们骗了"
-  },
-  {
-    "title": "投资者宣言",
-    "author": "威廉·伯恩斯坦",
-    "publisher": "机械工业出版社 2011年2月",
-    "price": "定价：35元",
-    "chapter": 4,
-    "chapter_title": "当心，被他们骗了"
-  },
-  {
+    "id": "6",
     "title": "非理性繁荣",
     "author": "罗伯特·希勒",
-    "publisher": "中国人民大学出版社 2001年4月",
-    "price": "定价：30元",
-    "chapter": 4,
-    "chapter_title": "当心，被他们骗了"
+    "raw": "非理性繁荣 罗伯特·希勒",
+    "source": "appendix",
+    "confidence": "high"
   },
   {
-    "title": "只有偏执狂才能生存",
-    "author": "安迪·格鲁夫",
-    "publisher": "中信出版社 辽宁教育出版社",
-    "price": "2002年8月",
-    "chapter": 5,
-    "chapter_title": "你从事的是娱乐业"
+    "id": "7",
+    "title": "庞兹的骗局",
+    "author": "米切尔·朱科夫",
+    "raw": "庞兹的骗局 米切尔·朱科夫",
+    "source": "appendix",
+    "confidence": "high"
   },
   {
+    "id": "8",
+    "title": "沃森父子与IBM王朝",
+    "author": "理查德·泰德洛",
+    "raw": "沃森父子与IBM王朝 理查德·泰德洛",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "9",
+    "title": "压垮世界的泡沫",
+    "author": "加雷·加勒特",
+    "raw": "压垮世界的泡沫 加雷·加勒特",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "10",
+    "title": "我们如何来到现在",
+    "author": "安迪·凯斯勒",
+    "raw": "我们如何来到现在 安迪·凯斯勒",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "11",
+    "title": "大癫狂：非同寻常的大众幻想与全民疯狂",
+    "author": "查尔斯·麦基",
+    "raw": "大癫狂：非同寻常的大众幻想与全民疯狂 查尔斯·麦基",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "12",
+    "title": "铁路大亨：范德比尔特的财富人生",
+    "author": "爱德华·雷内汉",
+    "raw": "铁路大亨：范德比尔特的财富人生 爱德华·雷内汉",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "13",
+    "title": "数学那些事儿：思想、发现、人物和历史",
+    "author": "威廉·邓纳姆",
+    "raw": "数学那些事儿：思想、发现、人物和历史 威廉·邓纳姆",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "14",
+    "title": "技术垄断",
+    "author": "尼尔·波斯曼",
+    "raw": "技术垄断 尼尔·波斯曼",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "15",
+    "title": "高盛帝国（上、下）",
+    "author": "查尔斯·埃利斯",
+    "raw": "高盛帝国（上、下） 查尔斯·埃利斯",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "16",
+    "title": "广告大师奥格威：未公诸于世的选集",
+    "author": "大卫·奥格威",
+    "raw": "广告大师奥格威：未公诸于世的选集 大卫·奥格威",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "17",
+    "title": "投资者宣言",
+    "author": "威廉·伯恩斯坦",
+    "raw": "投资者宣言 威廉·伯恩斯坦",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "18",
+    "title": "华尔街的肉：我从股市绞肉机中死里逃生",
+    "author": "安迪·凯斯勒",
+    "raw": "华尔街的肉：我从股市绞肉机中死里逃生 安迪·凯斯勒",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "19",
     "title": "大空头",
     "author": "迈克尔·刘易斯",
-    "publisher": "中信出版社 2011年1月",
-    "price": "定价：42元",
-    "chapter": 5,
-    "chapter_title": "你从事的是娱乐业"
+    "raw": "大空头 迈克尔·刘易斯",
+    "source": "appendix",
+    "confidence": "high"
   },
   {
-    "title": "华尔街的肉—我从股市绞肉机中死里逃生",
-    "author": "安迪·凯斯勒",
-    "publisher": "上海人民出版社 2006年11月",
-    "price": "定价：22元",
-    "chapter": 5,
-    "chapter_title": "你从事的是娱乐业"
-  },
-  {
-    "title": "为什么是欧洲？——世界史视角下的西方崛起",
-    "author": "杰克·戈德斯通",
-    "publisher": "浙江大学出版社 2010年7月",
-    "price": "定价：34元",
-    "chapter": 6,
-    "chapter_title": "人人都爱非理性"
-  },
-  {
-    "title": "怪诞行为学——可预测的非理性",
-    "author": "中信出版社 2010年19月",
-    "publisher": "定价：45元",
-    "price": "",
-    "chapter": 6,
-    "chapter_title": "人人都爱非理性"
-  },
-  {
-    "title": "群体的智慧——如何做出最聪明的决策",
-    "author": "詹姆斯·索罗维基",
-    "publisher": "中信出版社 2010年10月",
-    "price": "定价：33元",
-    "chapter": 6,
-    "chapter_title": "人人都爱非理性"
-  },
-  {
-    "title": "不顾诸神——现代印度的奇怪崛起",
-    "author": "爱德华·卢斯",
-    "publisher": "中信出版社 2007年11月",
-    "price": "定价：39元",
-    "chapter": 8,
-    "chapter_title": "伯恩斯坦错了吗"
-  },
-  {
-    "title": "赤道之南——巴西的新兴与光芒",
-    "author": "中信出版社 2011年8月",
-    "publisher": "定价：39元",
-    "price": "",
-    "chapter": 8,
-    "chapter_title": "伯恩斯坦错了吗"
-  },
-  {
-    "title": "与全世界做生意——一个经济学家的环球冒险",
-    "author": "柯纳·伍德曼",
-    "publisher": "机械工业出版社 2010年10月",
-    "price": "定价：32元",
-    "chapter": 8,
-    "chapter_title": "伯恩斯坦错了吗"
-  },
-  {
-    "title": "一件T恤的全球经济之旅",
-    "author": "皮翠拉·瑞沃莉",
-    "publisher": "中信出版社 2011年1月",
-    "price": "定价：39元",
-    "chapter": 8,
-    "chapter_title": "伯恩斯坦错了吗"
-  },
-  {
-    "title": "工商巨子",
-    "author": "荣·切尔诺",
-    "publisher": "海南出版社 2000年6月",
-    "price": "定价：65元",
-    "chapter": 9,
-    "chapter_title": "怎么就成了巴圣人了"
-  },
-  {
-    "title": "被谷歌",
-    "author": "肯·奥莱塔",
-    "publisher": "中信出版社 2010年9月",
-    "price": "定价：39元",
-    "chapter": 12,
-    "chapter_title": "我们这个时代最智慧的头脑"
-  },
-  {
-    "title": "乔布斯传",
-    "author": "沃尔特·艾萨克森",
-    "publisher": "中信出版社 2011年10月",
-    "price": "定价：68元",
-    "chapter": 12,
-    "chapter_title": "我们这个时代最智慧的头脑"
-  },
-  {
-    "title": "房间里最精明的人—安然破产案始末",
-    "author": "贝萨妮·麦克莱恩，彼得·埃尔金德",
-    "publisher": "中国社会科学出版社 2007年2月",
-    "price": "定价：42元",
-    "chapter": 12,
-    "chapter_title": "我们这个时代最智慧的头脑"
-  },
-  {
-    "title": "股票大作手回忆录",
-    "author": "埃德温·勒菲弗",
-    "publisher": "万卷出版社 2010年11月",
-    "price": "定价：48元",
-    "chapter": 14,
-    "chapter_title": "不要跟自己的肺生气"
-  },
-  {
-    "title": "大富时代",
-    "author": "那时候大富豪们似乎是在金钱和财富玩具中游泳：任性的石油商们为了实现每个费伯式的神话，像收集糖果一样收集飞机、牧场和艺术品。",
-    "publisher": "布赖恩·伯勒",
-    "price": "中信出版社 2010年12月",
-    "chapter": 15,
-    "chapter_title": "聪明的投资者"
-  },
-  {
-    "title": "创新者的窘境",
-    "author": "克莱顿·克里斯坦森",
-    "publisher": "中信出版社 2010年6月",
-    "price": "定价：38元",
-    "chapter": 16,
-    "chapter_title": "如果回到1997年"
-  },
-  {
-    "title": "创新者的解答",
-    "author": "克莱顿·克里斯坦森",
-    "publisher": "中信出版社 2010年6月",
-    "price": "定价：38元",
-    "chapter": 16,
-    "chapter_title": "如果回到1997年"
-  },
-  {
-    "title": "创新者的窘境",
-    "author": "克莱顿·克里斯坦森",
-    "publisher": "中信出版社 2010年6月",
-    "price": "定价：38元",
-    "chapter": 17,
-    "chapter_title": ""
-  },
-  {
+    "id": "20",
     "title": "只有偏执狂才能生存",
     "author": "安迪·格鲁夫",
-    "publisher": "中信出版社 2002年8月",
-    "price": "定价：22元",
-    "chapter": 17,
-    "chapter_title": ""
+    "raw": "只有偏执狂才能生存 安迪·格鲁夫",
+    "source": "appendix",
+    "confidence": "high"
   },
   {
+    "id": "21",
+    "title": "为什么是欧洲：世界史视角下的西方崛起（1500-1850）",
+    "author": "杰克·戈德斯通",
+    "raw": "为什么是欧洲：世界史视角下的西方崛起（1500-1850） 杰克·戈德斯通",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "22",
+    "title": "蔚蓝诡计 乔治·路易斯",
+    "author": "比尔·皮茨",
+    "raw": "蔚蓝诡计 乔治·路易斯 比尔·皮茨",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "23",
+    "title": "一万小时天才理论",
+    "author": "丹尼尔·科伊尔",
+    "raw": "一万小时天才理论 丹尼尔·科伊尔",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "24",
+    "title": "设计师不读书",
+    "author": "奥斯汀·豪",
+    "raw": "设计师不读书 奥斯汀·豪",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "25",
+    "title": "不顾诸神：现代印度的奇怪崛起",
+    "author": "爱德华·卢斯",
+    "raw": "不顾诸神：现代印度的奇怪崛起 爱德华·卢斯",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "26",
+    "title": "创业的国度 丹·塞诺",
+    "author": "索尔·辛格",
+    "raw": "创业的国度 丹·塞诺 索尔·辛格",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "27",
+    "title": "赤道之南：巴西的新兴与光芒",
+    "author": "罗伟林",
+    "raw": "赤道之南：巴西的新兴与光芒 罗伟林",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "28",
+    "title": "一件T恤的全球经济之旅",
+    "author": "皮翠拉·瑞沃莉",
+    "raw": "一件T恤的全球经济之旅 皮翠拉·瑞沃莉",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "29",
+    "title": "与全世界做生意：一个经济学家的环球冒险",
+    "author": "柯纳·伍德曼",
+    "raw": "与全世界做生意：一个经济学家的环球冒险 柯纳·伍德曼",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "30",
+    "title": "摩根全传（上、下）",
+    "author": "罗恩·彻诺",
+    "raw": "摩根全传（上、下） 罗恩·彻诺",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "31",
+    "title": "工商巨子",
+    "author": "罗恩·彻诺",
+    "raw": "工商巨子 罗恩·彻诺",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "32",
+    "title": "我是布隆伯格",
+    "author": "迈克尔·布隆伯格",
+    "raw": "我是布隆伯格 迈克尔·布隆伯格",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "33",
+    "title": "我在通用汽车的岁月：斯隆自传",
+    "author": "小艾尔弗雷德·斯隆",
+    "raw": "我在通用汽车的岁月：斯隆自传 小艾尔弗雷德·斯隆",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "34",
+    "title": "萨姆·沃尔顿自传 萨姆·沃尔顿",
+    "author": "约翰·休伊",
+    "raw": "萨姆·沃尔顿自传 萨姆·沃尔顿 约翰·休伊",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "35",
+    "title": "乔布斯传",
+    "author": "沃尔特·艾萨克森",
+    "raw": "乔布斯传 沃尔特·艾萨克森",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "36",
+    "title": "爱因斯坦：生活和宇宙",
+    "author": "沃尔特·艾萨克森",
+    "raw": "爱因斯坦：生活和宇宙 沃尔特·艾萨克森",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "37",
+    "title": "Facebook效应",
+    "author": "大卫·柯克帕特里克",
+    "raw": "Facebook效应 大卫·柯克帕特里克",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "38",
+    "title": "被谷歌",
+    "author": "肯·奥特莱",
+    "raw": "被谷歌 肯·奥特莱",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "39",
+    "title": "Facebook：关于性、金钱、天才和背叛",
+    "author": "本·麦兹里奇",
+    "raw": "Facebook：关于性、金钱、天才和背叛 本·麦兹里奇",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "40",
+    "title": "房间里最精明的人：安然破产案始末 贝萨妮·麦克莱恩",
+    "author": "彼得·埃尔金德",
+    "raw": "房间里最精明的人：安然破产案始末 贝萨妮·麦克莱恩 彼得·埃尔金德",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "41",
+    "title": "两个人的帝国",
+    "author": "迈克尔·马龙",
+    "raw": "两个人的帝国 迈克尔·马龙",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "42",
+    "title": "公司的历史",
+    "author": "米克斯维特·伍尔德维奇",
+    "raw": "公司的历史 米克斯维特·伍尔德维奇",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "43",
+    "title": "硅谷巨人",
+    "author": "汤姆·珀金斯",
+    "raw": "硅谷巨人 汤姆·珀金斯",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "44",
+    "title": "股票大作手回忆录",
+    "author": "埃德温·勒菲弗",
+    "raw": "股票大作手回忆录 埃德温·勒菲弗",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "45",
+    "title": "大富时代",
+    "author": "布赖恩·伯勒",
+    "raw": "大富时代 布赖恩·伯勒",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "46",
     "title": "创新者的解答",
     "author": "克莱顿·克里斯坦森",
-    "publisher": "中信出版社 2010年6月",
-    "price": "定价：38元",
-    "chapter": 17,
-    "chapter_title": ""
+    "raw": "创新者的解答 克莱顿·克里斯坦森",
+    "source": "appendix",
+    "confidence": "high"
   },
   {
-    "title": "大设计—BBC写给大众的设计史",
+    "id": "47",
+    "title": "创新者的窘境",
+    "author": "克莱顿·克里斯坦森",
+    "raw": "创新者的窘境 克莱顿·克里斯坦森",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "48",
+    "title": "巴菲特传 : 一个美国资本家的成长",
+    "author": "罗杰·洛温斯坦",
+    "raw": "巴菲特传 : 一个美国资本家的成长 罗杰·洛温斯坦",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "49",
+    "title": "总开关",
+    "author": "吴修铭",
+    "raw": "总开关 吴修铭",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "50",
+    "title": "谁说大象不能跳舞",
+    "author": "郭士纳",
+    "raw": "谁说大象不能跳舞 郭士纳",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "51",
+    "title": "沃尔玛效应",
+    "author": "查尔斯·费什曼",
+    "raw": "沃尔玛效应 查尔斯·费什曼",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "52",
+    "title": "传播学史",
+    "author": "E·M·罗杰斯",
+    "raw": "传播学史 E·M·罗杰斯",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "53",
+    "title": "新政与大萧条",
+    "author": "阿米蒂·什莱斯",
+    "raw": "新政与大萧条 阿米蒂·什莱斯",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "54",
+    "title": "光明之子与黑暗之子",
+    "author": "莱因霍尔德·尼布尔",
+    "raw": "光明之子与黑暗之子 莱因霍尔德·尼布尔",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "55",
+    "title": "搜",
+    "author": "约翰·巴特尔",
+    "raw": "搜 约翰·巴特尔",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "56",
+    "title": "梦断硅谷",
+    "author": "乔希·勒纳",
+    "raw": "梦断硅谷 乔希·勒纳",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "57",
+    "title": "阿司匹林传奇",
+    "author": "杰弗里斯",
+    "raw": "阿司匹林传奇 杰弗里斯",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "58",
+    "title": "演化，跨越40亿年的生命记录",
+    "author": "卡尔·齐默",
+    "raw": "演化，跨越40亿年的生命记录 卡尔·齐默",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "59",
+    "title": "我是谁：闻所未闻的生命故事 林恩·马古利斯",
+    "author": "多里昂·萨根",
+    "raw": "我是谁：闻所未闻的生命故事 林恩·马古利斯 多里昂·萨根",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "60",
+    "title": "植物的欲望",
+    "author": "迈克尔·波伦",
+    "raw": "植物的欲望 迈克尔·波伦",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "61",
+    "title": "玩转金钱",
+    "author": "安迪·凯斯勒",
+    "raw": "玩转金钱 安迪·凯斯勒",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "62",
+    "title": "大设计：BBC写给大众的设计史",
     "author": "彭妮·斯帕克",
-    "publisher": "广西师范大学出版社  2012年1月",
-    "price": "定价：168元",
-    "chapter": 25,
-    "chapter_title": "通过欢乐获取力量"
+    "raw": "大设计：BBC写给大众的设计史 彭妮·斯帕克",
+    "source": "appendix",
+    "confidence": "high"
   },
   {
+    "id": "63",
     "title": "青春无羁",
     "author": "乔恩·萨维奇",
-    "publisher": "吉林出版集团有限公司  2010年4月",
-    "price": "定价：54元",
-    "chapter": 26,
-    "chapter_title": "我们所热爱的青春期"
+    "raw": "青春无羁 乔恩·萨维奇",
+    "source": "appendix",
+    "confidence": "high"
   },
   {
+    "id": "64",
+    "title": "自食恶果：欧债风暴与新第三世界之旅",
+    "author": "迈克尔·刘易斯",
+    "raw": "自食恶果：欧债风暴与新第三世界之旅 迈克尔·刘易斯",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "65",
+    "title": "僵尸生存指南：如何在活死人横行的疯狂世界求生",
+    "author": "马克斯·布鲁克斯",
+    "raw": "僵尸生存指南：如何在活死人横行的疯狂世界求生 马克斯·布鲁克斯",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "66",
     "title": "沉疴遍地",
     "author": "托尼·朱特",
-    "publisher": "新星出版社 2012年3月",
-    "price": "定价：25元",
-    "chapter": 27,
-    "chapter_title": "为什么奥特曼不能在银行里下棋"
+    "raw": "沉疴遍地 托尼·朱特",
+    "source": "appendix",
+    "confidence": "high"
   },
   {
-    "title": "自食恶果——欧债风暴与新第三世界之旅",
-    "author": "迈克尔·刘易斯",
-    "publisher": "财信出版 2011年12月",
-    "price": "定价：新台币280元（合人民币60元）",
-    "chapter": 27,
-    "chapter_title": "为什么奥特曼不能在银行里下棋"
-  },
-  {
-    "title": "最年轻的科学",
-    "author": "刘易斯·托马斯",
-    "publisher": "湖南科学技术出版社 2011年10月",
-    "price": "定价：48元",
-    "chapter": 28,
-    "chapter_title": "它不像你想象的那么简单"
-  },
-  {
-    "title": "过度互联",
-    "author": "副标题：互联网的奇迹与威胁",
-    "publisher": "威廉姆·戴维德",
-    "price": "中信出版社 2012年8月",
-    "chapter": 28,
-    "chapter_title": "它不像你想象的那么简单"
-  },
-  {
-    "title": "僵尸生存指南",
-    "author": "副标题：如何在活死人横行的疯狂世界求生",
-    "publisher": "巫毒僵尸通常都在以下地区遇到：撒哈拉沙漠以南地区，加勒比海，中美洲和南美洲，美国南部地区。 马克斯·布鲁克斯",
-    "price": "江苏人民出版社 2011年12月",
-    "chapter": 28,
-    "chapter_title": "它不像你想象的那么简单"
-  },
-  {
-    "title": "魔球",
-    "author": "副标题：一个勇敢面对自己, 逆转胜的真实故事",
-    "publisher": "迈克尔·刘易斯",
-    "price": "早安财经文化有限公司（台湾）",
-    "chapter": 29,
-    "chapter_title": "工匠们创造的历史"
-  },
-  {
-    "title": "IT不再重要",
-    "author": "副标题：互联网大转换的制高点—云计算",
-    "publisher": "随着互联网的能力、范围和实用性的扩大，它最具有革命性的后果可能不是电脑开始像我们一样思维，而是我们将开始像电脑一样思维。",
-    "price": "尼古拉斯·卡尔",
-    "chapter": 29,
-    "chapter_title": "工匠们创造的历史"
-  },
-  {
-    "title": "倒带人生",
-    "author": "肯恩·格林伍德",
-    "publisher": "译林出版社，2010年11月",
-    "price": "定价：25元",
-    "chapter": 30,
-    "chapter_title": "有一些人值得为他起立鼓掌（上）"
-  },
-  {
-    "title": "巴里·迪勒",
-    "author": "副标题：美国娱乐业巨亨沉浮录",
-    "publisher": "乔治·梅尔",
-    "price": "上海财经大学出版社，2010年5月",
-    "chapter": 30,
-    "chapter_title": "有一些人值得为他起立鼓掌（上）"
-  },
-  {
-    "title": "倒带人生",
-    "author": "肯恩·格林伍德",
-    "publisher": "译林出版社，2010年11月",
-    "price": "定价：25元",
-    "chapter": 31,
-    "chapter_title": "有一些人值得为他起立鼓掌（下）"
-  },
-  {
-    "title": "巴里·迪勒：美国娱乐业巨亨沉浮录",
-    "author": "乔治·梅尔",
-    "publisher": "上海财经大学出版社，2010年5月",
-    "price": "定价：36元",
-    "chapter": 31,
-    "chapter_title": "有一些人值得为他起立鼓掌（下）"
-  },
-  {
-    "title": "别对我撒谎：23篇震撼世界的新闻调查报道",
-    "author": "即使有一天，网络作为媒介取代了传统媒体，记者的正义感、勇气、思想、采访技巧、文字表达能力仍是这个领域最重要的资源。",
-    "publisher": "约翰·皮尔格",
-    "price": "华东师范大学出版社 2010年3月",
-    "chapter": 33,
-    "chapter_title": "你是智慧多一点，还是钱多一点"
-  },
-  {
-    "title": "拯救华尔街：长期资本管理公司的崛起与陨落",
-    "author": "如果说，约翰·麦利威瑟在所罗门兄弟公司得到了什么秘诀的话，这个秘诀就是：千万不要放弃你的损失，直到它转变成为你的盈利。",
-    "publisher": "罗杰·洛温斯坦",
-    "price": "广东经济出版社  2009年3月",
-    "chapter": 33,
-    "chapter_title": "你是智慧多一点，还是钱多一点"
-  },
-  {
-    "title": "美国创新史",
-    "author": "哈罗德·埃文斯 盖尔·巴克兰 戴维·列菲",
-    "publisher": "中信出版社 2011年4月",
-    "price": "定价: 498元",
-    "chapter": 34,
-    "chapter_title": "当范德比尔特最后一次经过码头（上）"
-  },
-  {
-    "title": "影响历史的商业七巨头",
-    "author": "理查德·S·泰德罗",
-    "publisher": "机械工业出版社 2003年2月",
-    "price": "定价:33元",
-    "chapter": 34,
-    "chapter_title": "当范德比尔特最后一次经过码头（上）"
-  },
-  {
-    "title": "硅谷巨人",
-    "author": "汤姆·珀金斯",
-    "publisher": "中国青年出版社 2008年8月",
-    "price": "定价: 36元",
-    "chapter": 34,
-    "chapter_title": "当范德比尔特最后一次经过码头（上）"
-  },
-  {
-    "title": "美国创新史",
-    "author": "哈罗德·埃文斯 盖尔·巴克兰 戴维·列菲",
-    "publisher": "中信出版社 2011年4月",
-    "price": "定价: 498元",
-    "chapter": 35,
-    "chapter_title": "当范德比尔特最后一次经过码头（下）"
-  },
-  {
-    "title": "影响历史的商业七巨头",
-    "author": "理查德·S·泰德罗",
-    "publisher": "机械工业出版社 2003年2月",
-    "price": "定价:33元",
-    "chapter": 35,
-    "chapter_title": "当范德比尔特最后一次经过码头（下）"
-  },
-  {
-    "title": "硅谷巨人",
-    "author": "汤姆·珀金斯",
-    "publisher": "中国青年出版社 2008年8月",
-    "price": "定价: 36元",
-    "chapter": 35,
-    "chapter_title": "当范德比尔特最后一次经过码头（下）"
-  },
-  {
-    "title": "寻路中国：从乡村到工厂的自驾之旅",
-    "author": "彼得·海斯勒",
-    "publisher": "上海译文出版社  2011年1月",
-    "price": "定价: 33元",
-    "chapter": 36,
-    "chapter_title": "然后，他就开始沮丧起来"
-  },
-  {
-    "title": "江城",
-    "author": "彼得·海斯勒",
-    "publisher": "上海译文出版社  2012年1月",
-    "price": "定价:36元",
-    "chapter": 36,
-    "chapter_title": "然后，他就开始沮丧起来"
-  },
-  {
-    "title": "美丽与诅咒：全球化时代的印度",
-    "author": "西达尔塔·德布",
-    "publisher": "中信出版社  2012年5月",
-    "price": "定价: 38元",
-    "chapter": 36,
-    "chapter_title": "然后，他就开始沮丧起来"
-  },
-  {
-    "title": "金融往事：恐慌、危机和迟来的复苏",
-    "author": "迈克尔·刘易斯",
-    "publisher": "中信出版社  2011年5月",
-    "price": "定价：49元",
-    "chapter": 37,
-    "chapter_title": "潘多拉的盒子是什么时候打开的（上）"
-  },
-  {
-    "title": "众魔在人间：华尔街的风云传奇",
-    "author": "贝萨尼·麦克莱恩 / 乔·诺塞拉",
-    "publisher": "中信出版社  2011年12月",
-    "price": "定价：68元",
-    "chapter": 37,
-    "chapter_title": "潘多拉的盒子是什么时候打开的（上）"
-  },
-  {
-    "title": "数字是靠不住的",
-    "author": "查尔斯·塞费",
-    "publisher": "中信出版社  2011年9月",
-    "price": "定价：42元",
-    "chapter": 37,
-    "chapter_title": "潘多拉的盒子是什么时候打开的（上）"
-  },
-  {
-    "title": "众魔在人间：华尔街的风云传奇",
-    "author": "贝萨尼·麦克莱恩 / 乔·诺塞拉",
-    "publisher": "中信出版社  2011年12月",
-    "price": "定价：68元",
-    "chapter": 38,
-    "chapter_title": "潘多拉的盒子是什么时候打开的（下）"
-  },
-  {
-    "title": "沸腾的岁月",
-    "author": "[美] 约翰·布鲁克斯",
-    "publisher": "中信出版社  2006年10月",
-    "price": "定价：35元",
-    "chapter": 38,
-    "chapter_title": "潘多拉的盒子是什么时候打开的（下）"
-  },
-  {
+    "id": "67",
     "title": "过度互联：互联网的奇迹与威胁",
     "author": "威廉姆·戴维德",
-    "publisher": "中信出版社  2012年8月",
-    "price": "定价：36元",
-    "chapter": 38,
-    "chapter_title": "潘多拉的盒子是什么时候打开的（下）"
+    "raw": "过度互联：互联网的奇迹与威胁 威廉姆·戴维德",
+    "source": "appendix",
+    "confidence": "high"
   },
   {
+    "id": "68",
+    "title": "最年轻的科学",
+    "author": "刘易斯·托马斯",
+    "raw": "最年轻的科学 刘易斯·托马斯",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "69",
+    "title": "IT不再重要 : 互联网大转换的制高点——云计算",
+    "author": "尼古拉斯·卡尔",
+    "raw": "IT不再重要 : 互联网大转换的制高点——云计算 尼古拉斯·卡尔",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "70",
+    "title": "魔球：逆境中致胜的智慧",
+    "author": "麦可．路易士",
+    "raw": "魔球：逆境中致胜的智慧 麦可．路易士",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "71",
+    "title": "巴里·迪勒：美国娱乐业巨亨沉浮录",
+    "author": "乔治·梅尔",
+    "raw": "巴里·迪勒：美国娱乐业巨亨沉浮录 乔治·梅尔",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "72",
+    "title": "倒带人生",
+    "author": "肯恩·格林伍德",
+    "raw": "倒带人生 肯恩·格林伍德",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "73",
+    "title": "美国创新史 : 从蒸汽机到搜索引擎，美国两个世纪历史上最著名的53位革新者",
+    "author": "哈罗德·埃文斯、盖尔·巴克兰、戴维·列菲",
+    "raw": "美国创新史 : 从蒸汽机到搜索引擎，美国两个世纪历史上最著名的53位革新者 哈罗德·埃文斯、盖尔·巴克兰、戴维·列菲",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "74",
+    "title": "异类：不一样的成功启示录",
+    "author": "马尔科姆·格拉德威尔",
+    "raw": "异类：不一样的成功启示录 马尔科姆·格拉德威尔",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "75",
+    "title": "拯救华尔街：长期资本管理公司的崛起与陨落",
+    "author": "罗杰·洛温斯坦",
+    "raw": "拯救华尔街：长期资本管理公司的崛起与陨落 罗杰·洛温斯坦",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "76",
+    "title": "别对我撒谎：23篇震撼世界的新闻调查报道",
+    "author": "约翰·皮尔格",
+    "raw": "别对我撒谎：23篇震撼世界的新闻调查报道 约翰·皮尔格",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "77",
+    "title": "影响历史的商业七巨头",
+    "author": "理查德·S·泰德罗",
+    "raw": "影响历史的商业七巨头 理查德·S·泰德罗",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "78",
+    "title": "洛克菲勒：一个关于财富的神话",
+    "author": "荣·切尔诺",
+    "raw": "洛克菲勒：一个关于财富的神话 荣·切尔诺",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "79",
+    "title": "江城",
+    "author": "彼得·海斯勒",
+    "raw": "江城 彼得·海斯勒",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "80",
+    "title": "寻路中国：从乡村到工厂的自驾之旅",
+    "author": "彼得·海斯勒",
+    "raw": "寻路中国：从乡村到工厂的自驾之旅 彼得·海斯勒",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "81",
+    "title": "美丽与诅咒：全球化时代的新印度",
+    "author": "戴博",
+    "raw": "美丽与诅咒：全球化时代的新印度 戴博",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "82",
+    "title": "众魔在人间：华尔街的风云传奇",
+    "author": "贝萨尼·麦克莱恩、乔·诺塞拉",
+    "raw": "众魔在人间：华尔街的风云传奇 贝萨尼·麦克莱恩、乔·诺塞拉",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "83",
+    "title": "金融往事",
+    "author": "迈克尔·刘易斯",
+    "raw": "金融往事 迈克尔·刘易斯",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "84",
+    "title": "数字是靠不住的",
+    "author": "查尔斯·塞费",
+    "raw": "数字是靠不住的 查尔斯·塞费",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "85",
+    "title": "沸腾的岁月",
+    "author": "约翰·布鲁克斯",
+    "raw": "沸腾的岁月 约翰·布鲁克斯",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "86",
     "title": "美国种族简史",
-    "author": "[美] 托马斯·索威尔",
-    "publisher": "中信出版社 2011年11月",
-    "price": "定价：35元",
-    "chapter": 39,
-    "chapter_title": "底特律到底发生了什么（上）"
+    "author": "托马斯·索威尔",
+    "raw": "美国种族简史 托马斯·索威尔",
+    "source": "appendix",
+    "confidence": "high"
   },
   {
+    "id": "87",
+    "title": "谁搞垮了美国汽车业",
+    "author": "保罗·英格拉西亚",
+    "raw": "谁搞垮了美国汽车业 保罗·英格拉西亚",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "88",
+    "title": "苹果内幕：后乔布斯时代，苹果还能红多久？",
+    "author": "亚当·拉辛斯基",
+    "raw": "苹果内幕：后乔布斯时代，苹果还能红多久？ 亚当·拉辛斯基",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "89",
     "title": "城市的胜利",
-    "author": "[美] 爱德华·格莱泽",
-    "publisher": "上海社会科学院出版社 2012年12月",
-    "price": "定价：49.80元",
-    "chapter": 39,
-    "chapter_title": "底特律到底发生了什么（上）"
+    "author": "爱德华·格莱泽",
+    "raw": "城市的胜利 爱德华·格莱泽",
+    "source": "appendix",
+    "confidence": "high"
   },
   {
-    "title": "城市的胜利",
-    "author": "【美】爱德华·格莱泽 上海社会科学院出版社 2012年12月",
-    "publisher": "定价： 49.80元",
-    "price": "",
-    "chapter": 40,
-    "chapter_title": "底特律到底发生了什么（下）"
+    "id": "90",
+    "title": "别闹了，费曼先生：科学顽童的故事",
+    "author": "费曼",
+    "raw": "别闹了，费曼先生：科学顽童的故事 费曼",
+    "source": "appendix",
+    "confidence": "high"
   },
   {
-    "title": "π：世界最神秘的数字",
-    "author": "阿尔弗雷德·S. 波沙曼提尔",
-    "publisher": "吉林出版集团有限责任公司 2011年4月",
-    "price": "定价：28.00元",
-    "chapter": 41,
-    "chapter_title": "即使聪明如理查德·费曼……"
+    "id": "91",
+    "title": "π:世界最神秘的数字",
+    "author": "阿尔弗雷德·S·波沙曼提尔",
+    "raw": "π:世界最神秘的数字 阿尔弗雷德·S·波沙曼提尔",
+    "source": "appendix",
+    "confidence": "high"
   },
   {
-    "title": "别闹了，费曼先生",
-    "author": "理查德·费曼",
-    "publisher": "生活·读书·新知三联书店 2005年1月",
-    "price": "定价：15元",
-    "chapter": 41,
-    "chapter_title": "即使聪明如理查德·费曼……"
+    "id": "92",
+    "title": "谁是谷歌想要的人才：破解世界最顶尖公司的面试密码",
+    "author": "威廉·庞德斯通",
+    "raw": "谁是谷歌想要的人才：破解世界最顶尖公司的面试密码 威廉·庞德斯通",
+    "source": "appendix",
+    "confidence": "high"
   },
   {
-    "title": "谁是谷歌想要的人才",
-    "author": "[美] 威廉·庞德斯通",
-    "publisher": "浙江人民出版社 2013年2月",
-    "price": "定价：49.9元",
-    "chapter": 41,
-    "chapter_title": "即使聪明如理查德·费曼……"
-  },
-  {
-    "title": "当大脑遇到金钱",
-    "author": "贾森·茨威格",
-    "publisher": "广东经济出版社   2009年11月",
-    "price": "定价：35元",
-    "chapter": 42,
-    "chapter_title": "听说你打算定制一个伟大习惯？"
-  },
-  {
-    "title": "习惯的力量",
+    "id": "93",
+    "title": "习惯的力量：我们为什么会这样生活，那样工作？",
     "author": "查尔斯·杜希格",
-    "publisher": "中信出版社  2013年3月",
-    "price": "定价：42元",
-    "chapter": 42,
-    "chapter_title": "听说你打算定制一个伟大习惯？"
+    "raw": "习惯的力量：我们为什么会这样生活，那样工作？ 查尔斯·杜希格",
+    "source": "appendix",
+    "confidence": "high"
   },
   {
-    "title": "美国的逻辑",
-    "author": "【美】罗伯特·赖克",
-    "publisher": "中信出版社 2011年4月",
-    "price": "定价：32元",
-    "chapter": 43,
-    "chapter_title": "“这条贪婪的隧道尽头……”"
+    "id": "94",
+    "title": "当大脑遇到金钱：拨开自主投资失策的迷雾，换种思维赚大钱",
+    "author": "贾森·茨威格",
+    "raw": "当大脑遇到金钱：拨开自主投资失策的迷雾，换种思维赚大钱 贾森·茨威格",
+    "source": "appendix",
+    "confidence": "high"
   },
   {
-    "title": "城市之王——纽约市市长朱利安尼",
-    "author": "安德鲁·科兹曼",
-    "publisher": "东方出版社 2004年10月",
-    "price": "定价：28元",
-    "chapter": 44,
-    "chapter_title": "“我知道事情真相啦”"
+    "id": "95",
+    "title": "美国的逻辑：为什么美国的未来如此堪忧",
+    "author": "罗伯特·赖克",
+    "raw": "美国的逻辑：为什么美国的未来如此堪忧 罗伯特·赖克",
+    "source": "appendix",
+    "confidence": "high"
   },
   {
+    "id": "96",
     "title": "死刑台前的告别",
-    "author": "［美］大卫·道",
-    "publisher": "中国人民大学出版社",
-    "price": "定价：32元",
-    "chapter": 44,
-    "chapter_title": "“我知道事情真相啦”"
+    "author": "大卫·道",
+    "raw": "死刑台前的告别 大卫·道",
+    "source": "appendix",
+    "confidence": "high"
+  },
+  {
+    "id": "97",
+    "title": "城市之王：纽约市市长朱利安尼",
+    "author": "",
+    "raw": "城市之王：纽约市市长朱利安尼",
+    "source": "appendix",
+    "confidence": "medium"
   }
 ]

@@ -22,7 +22,7 @@ phase/2014books-modernization-a
 
 ## FINAL_COMMIT
 
-(To be determined after commit)
+56cec4671503a30c25e8af4a093b987ca89b9d06 Phase A: modernize 2014books build and web output
 
 ## FILES_CHANGED
 
