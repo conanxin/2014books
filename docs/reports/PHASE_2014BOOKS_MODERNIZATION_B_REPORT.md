@@ -22,7 +22,7 @@ phase/2014books-modernization-b
 
 ## FINAL_COMMIT
 
-(To be determined after commit)
+8da877ae7511113116ee9e73487de4384abc5fe2 Phase B: harden PDF build and audit book extraction
 
 ## FILES_CHANGED
 
@@ -153,7 +153,7 @@ Original count of 73 was caused by:
 
 ## PUSHED
 
-No (awaiting explicit confirmation)
+Yes — pushed to origin/phase/2014books-modernization-b
 
 ## RECOMMENDED_NEXT_PHASE
 
