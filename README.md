@@ -19,6 +19,16 @@
 - **静态网页**：通过 Python 标准库生成可离线浏览的静态网页，支持搜索和筛选
 - **EPUB**：通过 `pandoc` 生成电子书，兼容主流阅读器
 
+## GitHub Pages 自动部署
+
+仓库已配置 GitHub Actions 工作流，支持 `push` 到 `master` 时自动部署到 GitHub Pages。
+
+- 启用方式：仓库 Settings → Pages → Source: GitHub Actions
+- 手动触发：Actions 标签页 → Deploy to GitHub Pages → Run workflow
+- 预期地址：https://conanxin.github.io/2014books/
+
+详见 [docs/GITHUB_PAGES_DEPLOYMENT.md](docs/GITHUB_PAGES_DEPLOYMENT.md)。
+
 ## 本地构建方法
 
 ### 依赖安装（Ubuntu/Debian）
@@ -39,6 +49,9 @@ make web
 
 # 生成 EPUB
 make epub
+
+# 生成 release package（zip）
+make release
 
 # 同时生成所有输出
 make all
@@ -61,20 +74,28 @@ bash ./mmd2bok
 │   ├── 0-preface*.markdown
 │   ├── 1-chapter*.markdown
 │   └── 2-appendix*.markdown
+├── data/              # 书目元数据增强（人工/半人工入口）
+│   ├── book_metadata_overrides.json
+│   └── missing_book_candidates.json
 ├── template/          # LaTeX 模板文件
 ├── latex/             # LaTeX 构建工作目录
 ├── scripts/           # 现代构建脚本
 │   ├── build_pdf.sh   # PDF 构建入口
 │   ├── build_epub.sh  # EPUB 构建入口
-│   └── generate_web.py # 静态网页生成器
+│   ├── generate_web.py # 静态网页生成器
+│   └── package_release.sh # Release package 打包
 ├── web/               # 生成的静态网页输出
 │   ├── index.html
 │   ├── .nojekyll
 │   ├── assets/style.css
 │   └── data/books.json
-├── dist/              # 生成的 PDF/EPUB 输出
+├── dist/              # 生成的 PDF/EPUB/Release 输出
 │   ├── 2014books.pdf
-│   └── 2014books.epub
+│   ├── 2014books.epub
+│   └── release/
+├── .github/workflows/  # CI/CD 工作流
+│   ├── build.yml
+│   └── pages.yml
 ├── mmd2bok            # 传统 PDF 构建脚本（已修复章节排序）
 ├── Makefile           # 现代构建入口
 └── README.md          # 本文件
@@ -82,19 +103,20 @@ bash ./mmd2bok
 
 ## 已知限制
 
-1. **书单完整性**：当前已从附录结构化整理 **97 本** 书目。项目标题中的"100本"为原始专题名称，实际可验证数量为 97 本，剩余 3 本需对照原始《第一财经周刊》专题进一步核对。
+1. **书单完整性**：当前已从附录结构化整理 **97 本** 书目。项目标题中的"100本"为原始专题名称，实际可验证数量为 97 本，剩余 3 本需对照原始《第一财经周刊》专题进一步核对。缺失候选已单独记录在 `data/missing_book_candidates.json`，不会自动进入正式书单。
 2. **PDF 字体依赖**：需要系统中安装 WenQuanYi 或 Noto CJK 系列中文字体，否则 xelatex 编译可能失败。模板已添加字体回退链。
 3. **封面图片**：模板支持 `img/cover.pdf` 封面；若缺失则自动生成文字封面。
 4. **网页搜索**：静态网页的搜索功能为前端 JavaScript 实现，无需后端服务，但仅支持当前页面已加载的内容。
 5. **章节排序**：已修复原始脚本中 `1-chapter10` 排在 `1-chapter2` 之前的排序问题。
 
-## GitHub Pages 发布
+## 元数据增强
 
-`web/` 目录已准备为可直接发布的静态站点。详见 [docs/GITHUB_PAGES_DEPLOYMENT.md](docs/GITHUB_PAGES_DEPLOYMENT.md)。
+- `data/book_metadata_overrides.json`：人工/半人工增强元数据入口。用 `id` 匹配附录书目，非 null 字段覆盖或补充生成字段。
+- `data/missing_book_candidates.json`：低置信度缺失候选池，不进入正式 `books.json`。
 
 ## 下一阶段路线图
 
-- **Phase D**：完善封面生成和书籍元数据（ISBN、出版社等）结构化；补齐剩余 3 本书目缺口；添加 GitHub Actions 自动部署。
+- **Phase E**：补齐剩余 3 本书目缺口（需外部原始来源核对）；增强书籍元数据（ISBN、出版社等）；优化封面设计。
 
 ---
 

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "《世界是平的》",
+    "chapter": "chapter 2",
+    "reason": "章节中以粗体形式出现，附录中无对应条目",
+    "confidence": "low",
+    "evidence": "章节2中提到的书目，未在附录1-97中找到匹配",
+    "should_add_to_books_json": false
+  },
+  {
+    "title": "《通用汽车的缔造者》",
+    "chapter": "chapter 2",
+    "reason": "章节中以粗体形式出现，附录中无对应条目",
+    "confidence": "low",
+    "evidence": "章节2中提到的书目，未在附录1-97中找到匹配",
+    "should_add_to_books_json": false
+  },
+  {
+    "title": "《总开关—信息帝国的兴衰变迁》",
+    "chapter": "chapter 22",
+    "reason": "章节中以粗体形式出现，附录中无对应条目",
+    "confidence": "low",
+    "evidence": "章节22中提到的书目，未在附录1-97中找到匹配",
+    "should_add_to_books_json": false
+  }
+]

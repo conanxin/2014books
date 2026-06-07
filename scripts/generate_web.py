@@ -162,6 +162,8 @@ def generate_css() -> str:
   --accent: #8b4513;
   --border: #e0dcd3;
   --shadow: rgba(0,0,0,0.06);
+  --warn: #b35900;
+  --info: #2b6cb0;
 }
 
 * { box-sizing: border-box; }
@@ -200,6 +202,64 @@ header p {
   max-width: 800px;
   margin: 0 auto;
   padding: 1.5rem 1rem;
+}
+
+.status-banner {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem 1.2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px var(--shadow);
+}
+
+.status-banner h2 {
+  margin: 0 0 0.6rem;
+  font-size: 1.1rem;
+  color: var(--info);
+}
+
+.status-banner ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.status-banner li {
+  margin-bottom: 0.3rem;
+}
+
+.candidates-banner {
+  background: #fff9f0;
+  border: 1px solid #f0d9b8;
+  border-radius: 8px;
+  padding: 1rem 1.2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px var(--shadow);
+}
+
+.candidates-banner h2 {
+  margin: 0 0 0.6rem;
+  font-size: 1.1rem;
+  color: var(--warn);
+}
+
+.candidates-banner p {
+  margin: 0 0 0.6rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.candidates-banner ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: var(--text);
+  font-size: 0.95rem;
+}
+
+.candidates-banner li {
+  margin-bottom: 0.3rem;
 }
 
 .search-bar {
@@ -329,6 +389,17 @@ header p {
   line-height: 1.5;
 }
 
+.book-tag {
+  display: inline-block;
+  background: #e8e4dc;
+  color: var(--muted);
+  font-size: 0.75rem;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  margin-right: 0.3rem;
+  margin-top: 0.3rem;
+}
+
 .hidden { display: none !important; }
 
 footer {
@@ -348,7 +419,7 @@ footer {
 """
 
 
-def generate_html(preface_html: str, chapters: list[dict], total_books: int) -> str:
+def generate_html(preface_html: str, chapters: list[dict], total_books: int, missing_candidates: list[dict]) -> str:
     nav_items = []
     chapter_sections = []
     all_books = []
@@ -394,6 +465,35 @@ def generate_html(preface_html: str, chapters: list[dict], total_books: int) -> 
     nav_html = "\n".join(nav_items)
     chapters_html = "\n".join(chapter_sections)
 
+    # Build status banner
+    status_banner = f"""
+<div class="status-banner">
+  <h2>项目状态</h2>
+  <ul>
+    <li>当前已结构化整理 {total_books} 本</li>
+    <li>PDF / EPUB / Web 已可生成</li>
+    <li>缺失 3 本需外部原始来源核对</li>
+  </ul>
+</div>
+"""
+
+    # Build missing candidates banner
+    candidates_html = ""
+    if missing_candidates:
+        candidate_items = "\n".join(
+            f'<li>{c["title"]}（{c["chapter"]}）— {c["reason"]}，置信度：{c["confidence"]}</li>'
+            for c in missing_candidates
+        )
+        candidates_html = f"""
+<div class="candidates-banner">
+  <h2>待核实候选（不可直接视为第 98–100 条）</h2>
+  <p>以下书目在章节中以粗体形式出现，但未在附录中找到对应条目。它们可能是缺失的 3 本，但缺乏足够证据直接纳入正式书单。</p>
+  <ul>
+    {candidate_items}
+  </ul>
+</div>
+"""
+
     return f"""<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -410,6 +510,10 @@ def generate_html(preface_html: str, chapters: list[dict], total_books: int) -> 
 </header>
 
 <div class="container">
+  {status_banner}
+
+  {candidates_html}
+
   <div class="search-bar">
     <input type="text" id="searchInput" placeholder="搜索书名或作者…">
     <button onclick="doSearch()">搜索</button>
@@ -527,7 +631,17 @@ def main() -> int:
 
     total_books = len(all_books)
 
-    html = generate_html(preface_html, chapters, total_books)
+    # Load missing book candidates
+    missing_candidates = []
+    candidates_path = repo / "data" / "missing_book_candidates.json"
+    if candidates_path.exists():
+        try:
+            with open(candidates_path, "r", encoding="utf-8") as f:
+                missing_candidates = json.load(f)
+        except Exception as e:
+            print(f"WARNING: Could not load missing_book_candidates.json: {e}", file=sys.stderr)
+
+    html = generate_html(preface_html, chapters, total_books, missing_candidates)
     with open(web_dir / "index.html", "w", encoding="utf-8") as f:
         f.write(html)
 
