@@ -1,0 +1,16 @@
+# LaTeX intermediate files
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+
+# Build directories
+build/
+dist/tmp/
+
+# We intentionally track dist/2014books.pdf if present
+__pycache__/
