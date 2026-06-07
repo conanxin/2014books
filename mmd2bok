@@ -1,23 +1,38 @@
 #!/bin/bash
+set -euo pipefail
+
 cd latex
 cp -rf ../template/* .
 cp -rf ../contents/img .
-#ls -al img
-pandoc -t latex ../contents/0-preface*.markdown -o preface.tex
-pandoc -t latex ../contents/1-chapter*.markdown -o chapters.tex
-pandoc -t latex ../contents/2-appendix*.markdown -o appendix.tex
-if [ "X$OS" == "XWindows_NT" ]; then
+
+# Preface (natural sort if multiple)
+mapfile -t PREFACES < <(find ../contents -maxdepth 1 -name '0-preface*.markdown' | sort -V)
+pandoc -t latex "${PREFACES[@]}" -o preface.tex
+
+# Chapters (natural sort: 1,2,3,...,10,11)
+mapfile -t CHAPTERS < <(find ../contents -maxdepth 1 -name '1-chapter*.markdown' | sort -V)
+pandoc -t latex "${CHAPTERS[@]}" -o chapters.tex
+
+# Appendix (natural sort if multiple)
+mapfile -t APPENDICES < <(find ../contents -maxdepth 1 -name '2-appendix*.markdown' | sort -V)
+pandoc -t latex "${APPENDICES[@]}" -o appendix.tex
+
+if [ "X${OS:-}" == "XWindows_NT" ]; then
 	echo "windows platform"
 	cp template-win.tex 2014books.tex
 else
 	echo "unix platform"
 	cp template.tex 2014books.tex
 fi
-#exit
+
 xelatex 2014books.tex
 xelatex 2014books.tex
 xelatex 2014books.tex
-cp 2014books.pdf ..
+
+mkdir -p ../dist
+cp 2014books.pdf ../dist/2014books.pdf
+cp 2014books.pdf ../2014books.pdf
+
 echo
 echo
-echo "Done!"
+echo "Done! PDF built at dist/2014books.pdf and 2014books.pdf"
